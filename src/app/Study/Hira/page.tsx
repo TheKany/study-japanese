@@ -222,4 +222,5 @@ const Answer = styled.input`
   width: 100%;
   border: 1px solid #171717;
   padding: 8px 16px;
+  touch-action: manipulation;
 `;
