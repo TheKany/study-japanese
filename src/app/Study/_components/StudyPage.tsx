@@ -1,20 +1,11 @@
 "use client";
 
-import { ButtonBox } from "@/components/ButtonBox";
+import Navigation from "@/components/Navigation";
 import Wrapper from "@/components/Wrapper/Wrapper";
-import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
-const StudyPage = ({
-  title,
-  dataPath,
-}: {
-  title: string;
-  dataPath: string;
-}) => {
-  const router = useRouter();
-
+const StudyPage = ({ dataPath }: { dataPath: string }) => {
   const [datas, setDatas] = useState<
     { id: number; word: string; speakWord: string }[]
   >([]);
@@ -109,42 +100,15 @@ const StudyPage = ({
     }
   };
 
-  const onClickLink = (id: string) => {
-    switch (id) {
-      case "hira":
-        router.push("/Study/Hira");
-        break;
-      case "gata":
-        router.push("/Study/Gata");
-        break;
-      case "hi-ga":
-        router.push("/Study/All");
-        break;
-      default:
-        break;
-    }
-  };
-
   useEffect(() => {
     onLoadData();
   }, []);
 
   return (
     <Wrapper>
-      <PageBtnContainer>
-        <ButtonBox height="20px" onClick={() => onClickLink("hira")}>
-          히라가나
-        </ButtonBox>
-        <ButtonBox height="20px" onClick={() => onClickLink("gata")}>
-          가타카나
-        </ButtonBox>
-        <ButtonBox height="20px" onClick={() => onClickLink("hi-ga")}>
-          히라 + 가타
-        </ButtonBox>
-      </PageBtnContainer>
+      <Navigation />
 
       <InfoContainer>
-        <Title>{title}</Title>
         <ScoreBox>
           <p>
             {score.currect}/{score.total}
@@ -191,11 +155,6 @@ const InfoContainer = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-`;
-
-const Title = styled.p`
-  font-size: 18px;
-  font-weight: 700;
 `;
 
 const ScoreBox = styled.div`
@@ -255,14 +214,4 @@ const Word = styled.p<{ $borderColor: string }>`
   display: flex;
   justify-content: center;
   align-items: center;
-`;
-
-const PageBtnContainer = styled.div`
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 16px;
-
-  width: 100%;
-  margin: 0 auto;
-  margin-top: 32px;
 `;

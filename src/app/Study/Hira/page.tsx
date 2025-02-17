@@ -4,7 +4,7 @@ import React from "react";
 import StudyPage from "../_components/StudyPage";
 
 const HiraStudyPage = () => {
-  return <StudyPage title="히라가나" dataPath="/datas/Hiragana.json" />;
+  return <StudyPage dataPath="/datas/Hiragana.json" />;
 };
 
 export default HiraStudyPage;
