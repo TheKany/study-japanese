@@ -109,10 +109,11 @@ const StudyPage = ({
       <AnswerContainer>
         <Answer
           type="text"
+          enterKeyHint="enter"
           placeholder="정답을 적어주세요"
           onChange={onChangeAnswer}
           onKeyPress={onKeyPress}
-          enterKeyHint="enter"
+          onBlur={checkAnswer}
           ref={inputRef}
         />
       </AnswerContainer>
