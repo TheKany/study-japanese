@@ -114,7 +114,7 @@ const AllStudyPage = () => {
       </BtnContainer> */}
 
       <InfoContainer>
-        <Title>히라가나</Title>
+        <Title>히라가나 + 가타카나</Title>
 
         <ScoreBox>
           <p>

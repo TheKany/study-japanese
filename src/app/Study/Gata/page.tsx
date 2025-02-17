@@ -104,7 +104,7 @@ const GataStudyPage = () => {
       </BtnContainer> */}
 
       <InfoContainer>
-        <Title>히라가나</Title>
+        <Title>가타카나</Title>
 
         <ScoreBox>
           <p>
