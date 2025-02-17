@@ -1,6 +1,7 @@
 import { AnimatePresence, motion } from "framer-motion";
 import { usePathname } from "next/navigation";
 import React from "react";
+import styled from "styled-components";
 
 type Props = {
   children: React.ReactNode;
@@ -17,10 +18,16 @@ const Wrapper = ({ children }: Props) => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
-        <section style={{ margin: "0 auto", width: "90%" }}>{children}</section>
+        <Container>{children}</Container>
       </motion.div>
     </AnimatePresence>
   );
 };
 
 export default Wrapper;
+
+const Container = styled.section`
+  margin: 0 auto;
+  width: 90%;
+  padding: 32px 0;
+`;
