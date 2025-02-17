@@ -61,14 +61,14 @@ const GataStudyPage = () => {
       alert("정답입니다! ✅");
       setScore((prev) => ({
         ...prev,
-        currect: prev.currect++,
+        currect: prev.currect + 1,
       }));
     } else {
       alert(`오답입니다! ❌ 정답은 "${currentQuestion.speakWord}" 입니다.`);
     }
     setScore((prev) => ({
       ...prev,
-      total: prev.total++,
+      total: prev.total + 1,
     }));
     getNextQuestion();
   };
