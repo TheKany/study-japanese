@@ -173,7 +173,7 @@ const StudyPage = ({
       <HistoryNote>
         <HistoryNote>
           {history.map((el, index) => (
-            <Word borderColor={el.currect ? "#3065AC" : "#DD1923"} key={index}>
+            <Word key={index} $borderColor={el.currect ? "#3065AC" : "#DD1923"}>
               {el.word}
             </Word>
           ))}
@@ -244,11 +244,11 @@ const HistoryNote = styled.div`
   margin: 8px 0;
 `;
 
-const Word = styled.p<{ borderColor: string }>`
+const Word = styled.p<{ $borderColor: string }>`
   width: 30px;
   height: 30px;
-  border: 1px solid ${({ borderColor }) => borderColor};
-  background-color: ${({ borderColor }) => borderColor};
+  border: 1px solid ${({ $borderColor }) => $borderColor};
+  background-color: ${({ $borderColor }) => $borderColor};
   color: #fff;
   border-radius: 8px;
 
