@@ -65,17 +65,19 @@ const StudyPage = ({
     }));
 
     setUserAnswer("");
-    if (inputRef.current) {
-      inputRef.current.value = "";
-      inputRef.current.focus();
-    }
+    setTimeout(() => {
+      if (inputRef.current) {
+        inputRef.current.value = "";
+        inputRef.current.focus();
+      }
+    }, 0);
 
     getNextQuestion();
   };
 
   const onChangeAnswer = (e: React.ChangeEvent<HTMLInputElement>) => {
     const { value } = e.target;
-    const koreanOnly = value.replace(/[^가-힣]/g, ""); // ✅ 한글만 입력 허용
+    const koreanOnly = value.replace(/[^가-힣]/g, "");
     setUserAnswer(koreanOnly);
   };
 
@@ -172,6 +174,6 @@ const Answer = styled.input`
   width: 100%;
   border: 1px solid #171717;
   padding: 8px 16px;
-  font-size: 16px; // ✅ 모바일 확대 방지
-  touch-action: manipulation; // ✅ 모바일 확대 방지
+  font-size: 16px;
+  touch-action: manipulation;
 `;
