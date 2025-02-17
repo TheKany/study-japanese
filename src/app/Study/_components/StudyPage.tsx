@@ -112,7 +112,8 @@ const StudyPage = ({
           placeholder="정답을 적어주세요"
           onChange={onChangeAnswer}
           onKeyPress={onKeyPress}
-          ref={inputRef} // ✅ Ref 연결
+          enterKeyHint="enter"
+          ref={inputRef}
         />
       </AnswerContainer>
     </Wrapper>
