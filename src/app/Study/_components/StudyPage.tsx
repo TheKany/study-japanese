@@ -24,7 +24,10 @@ const StudyPage = ({
   } | null>(null);
   const [userAnswer, setUserAnswer] = useState("");
   const [score, setScore] = useState({ total: 0, currect: 0 });
-  const inputRef = useRef<HTMLInputElement>(null); // ✅ Ref 추가
+  const [history, setHistory] = useState<{ currect: boolean; word: string }[]>(
+    []
+  );
+  const inputRef = useRef<HTMLInputElement>(null);
 
   const onLoadData = async () => {
     try {
@@ -59,8 +62,23 @@ const StudyPage = ({
         ...prev,
         currect: prev.currect + 1,
       }));
+      setHistory((prev) => [
+        ...prev,
+        {
+          currect: true,
+          word: currentQuestion.word,
+        },
+      ]);
     } else {
       alert(`오답입니다! ❌ 정답은 "${currentQuestion.speakWord}" 입니다.`);
+
+      setHistory((prev) => [
+        ...prev,
+        {
+          currect: false,
+          word: currentQuestion.word,
+        },
+      ]);
     }
 
     setScore((prev) => ({
@@ -113,6 +131,18 @@ const StudyPage = ({
 
   return (
     <Wrapper>
+      <PageBtnContainer>
+        <ButtonBox height="20px" onClick={() => onClickLink("hira")}>
+          히라가나
+        </ButtonBox>
+        <ButtonBox height="20px" onClick={() => onClickLink("gata")}>
+          가타카나
+        </ButtonBox>
+        <ButtonBox height="20px" onClick={() => onClickLink("hi-ga")}>
+          히라 + 가타
+        </ButtonBox>
+      </PageBtnContainer>
+
       <InfoContainer>
         <Title>{title}</Title>
         <ScoreBox>
@@ -139,24 +169,22 @@ const StudyPage = ({
         />
       </AnswerContainer>
 
-      <PageBtnContainer>
-        <ButtonBox height="20px" onClick={() => onClickLink("hira")}>
-          히라가나
-        </ButtonBox>
-        <ButtonBox height="20px" onClick={() => onClickLink("gata")}>
-          가타카나
-        </ButtonBox>
-        <ButtonBox height="20px" onClick={() => onClickLink("hi-ga")}>
-          히라 + 가타
-        </ButtonBox>
-      </PageBtnContainer>
+      <p>오답노트</p>
+      <HistoryNote>
+        <HistoryNote>
+          {history.map((el, index) => (
+            <Word borderColor={el.currect ? "#3065AC" : "#DD1923"} key={index}>
+              {el.word}
+            </Word>
+          ))}
+        </HistoryNote>
+      </HistoryNote>
     </Wrapper>
   );
 };
 
 export default StudyPage;
 
-// ✅ 스타일 그대로 유지
 const InfoContainer = styled.div`
   width: 100%;
   margin: 16px 0;
@@ -207,6 +235,26 @@ const Answer = styled.input`
   padding: 8px 16px;
   font-size: 16px;
   touch-action: manipulation;
+`;
+
+const HistoryNote = styled.div`
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin: 8px 0;
+`;
+
+const Word = styled.p<{ borderColor: string }>`
+  width: 30px;
+  height: 30px;
+  border: 1px solid ${({ borderColor }) => borderColor};
+  background-color: ${({ borderColor }) => borderColor};
+  color: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
 `;
 
 const PageBtnContainer = styled.div`
