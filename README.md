@@ -4,6 +4,11 @@
 - pwa로 만들었음.
 - next.js + ts 프로젝트
 
+## 사용한 스택
+- Next.js
+- Styled-Components
+- next-pwa
+
 ## 해결해야할 것
 
 1. 모든 글자는 100번 이내에 최소 2번은 나와야함
