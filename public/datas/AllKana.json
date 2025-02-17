@@ -1,0 +1,113 @@
+[
+  { "id": 1, "word": "あ", "speakWord": "아" },
+  { "id": 2, "word": "い", "speakWord": "이" },
+  { "id": 3, "word": "う", "speakWord": "우" },
+  { "id": 4, "word": "え", "speakWord": "에" },
+  { "id": 5, "word": "お", "speakWord": "오" },
+
+  { "id": 6, "word": "か", "speakWord": "카" },
+  { "id": 7, "word": "き", "speakWord": "키" },
+  { "id": 8, "word": "く", "speakWord": "쿠" },
+  { "id": 9, "word": "け", "speakWord": "케" },
+  { "id": 10, "word": "こ", "speakWord": "코" },
+
+  { "id": 11, "word": "さ", "speakWord": "사" },
+  { "id": 12, "word": "し", "speakWord": "시" },
+  { "id": 13, "word": "す", "speakWord": "스" },
+  { "id": 14, "word": "せ", "speakWord": "세" },
+  { "id": 15, "word": "そ", "speakWord": "소" },
+
+  { "id": 16, "word": "た", "speakWord": "타" },
+  { "id": 17, "word": "ち", "speakWord": "치" },
+  { "id": 18, "word": "つ", "speakWord": "츠" },
+  { "id": 19, "word": "て", "speakWord": "테" },
+  { "id": 20, "word": "と", "speakWord": "토" },
+
+  { "id": 21, "word": "な", "speakWord": "나" },
+  { "id": 22, "word": "に", "speakWord": "니" },
+  { "id": 23, "word": "ぬ", "speakWord": "누" },
+  { "id": 24, "word": "ね", "speakWord": "네" },
+  { "id": 25, "word": "の", "speakWord": "노" },
+
+  { "id": 26, "word": "は", "speakWord": "하" },
+  { "id": 27, "word": "ひ", "speakWord": "히" },
+  { "id": 28, "word": "ふ", "speakWord": "후" },
+  { "id": 29, "word": "へ", "speakWord": "헤" },
+  { "id": 30, "word": "ほ", "speakWord": "호" },
+
+  { "id": 31, "word": "ま", "speakWord": "마" },
+  { "id": 32, "word": "み", "speakWord": "미" },
+  { "id": 33, "word": "む", "speakWord": "무" },
+  { "id": 34, "word": "め", "speakWord": "메" },
+  { "id": 35, "word": "も", "speakWord": "모" },
+
+  { "id": 36, "word": "や", "speakWord": "야" },
+  { "id": 37, "word": "ゆ", "speakWord": "유" },
+  { "id": 38, "word": "よ", "speakWord": "요" },
+
+  { "id": 39, "word": "ら", "speakWord": "라" },
+  { "id": 40, "word": "り", "speakWord": "리" },
+  { "id": 41, "word": "る", "speakWord": "루" },
+  { "id": 42, "word": "れ", "speakWord": "레" },
+  { "id": 43, "word": "ろ", "speakWord": "로" },
+
+  { "id": 44, "word": "わ", "speakWord": "와" },
+  { "id": 45, "word": "を", "speakWord": "오" },
+  { "id": 46, "word": "ん", "speakWord": "응" },
+
+  { "id": 1, "word": "ア", "speakWord": "아" },
+  { "id": 2, "word": "イ", "speakWord": "이" },
+  { "id": 3, "word": "ウ", "speakWord": "우" },
+  { "id": 4, "word": "エ", "speakWord": "에" },
+  { "id": 5, "word": "オ", "speakWord": "오" },
+
+  { "id": 6, "word": "カ", "speakWord": "카" },
+  { "id": 7, "word": "キ", "speakWord": "키" },
+  { "id": 8, "word": "ク", "speakWord": "쿠" },
+  { "id": 9, "word": "ケ", "speakWord": "케" },
+  { "id": 10, "word": "コ", "speakWord": "코" },
+
+  { "id": 11, "word": "サ", "speakWord": "사" },
+  { "id": 12, "word": "シ", "speakWord": "시" },
+  { "id": 13, "word": "ス", "speakWord": "스" },
+  { "id": 14, "word": "セ", "speakWord": "세" },
+  { "id": 15, "word": "ソ", "speakWord": "소" },
+
+  { "id": 16, "word": "タ", "speakWord": "타" },
+  { "id": 17, "word": "チ", "speakWord": "치" },
+  { "id": 18, "word": "ツ", "speakWord": "츠" },
+  { "id": 19, "word": "テ", "speakWord": "테" },
+  { "id": 20, "word": "ト", "speakWord": "토" },
+
+  { "id": 21, "word": "ナ", "speakWord": "나" },
+  { "id": 22, "word": "ニ", "speakWord": "니" },
+  { "id": 23, "word": "ヌ", "speakWord": "누" },
+  { "id": 24, "word": "ネ", "speakWord": "네" },
+  { "id": 25, "word": "ノ", "speakWord": "노" },
+
+  { "id": 26, "word": "ハ", "speakWord": "하" },
+  { "id": 27, "word": "ヒ", "speakWord": "히" },
+  { "id": 28, "word": "フ", "speakWord": "후" },
+  { "id": 29, "word": "ヘ", "speakWord": "헤" },
+  { "id": 30, "word": "ホ", "speakWord": "호" },
+
+  { "id": 31, "word": "マ", "speakWord": "마" },
+  { "id": 32, "word": "ミ", "speakWord": "미" },
+  { "id": 33, "word": "ム", "speakWord": "무" },
+  { "id": 34, "word": "メ", "speakWord": "메" },
+  { "id": 35, "word": "モ", "speakWord": "모" },
+
+  { "id": 36, "word": "ヤ", "speakWord": "야" },
+  { "id": 37, "word": "ユ", "speakWord": "유" },
+  { "id": 38, "word": "ヨ", "speakWord": "요" },
+
+  { "id": 39, "word": "ラ", "speakWord": "라" },
+  { "id": 40, "word": "リ", "speakWord": "리" },
+  { "id": 41, "word": "ル", "speakWord": "루" },
+  { "id": 42, "word": "レ", "speakWord": "레" },
+  { "id": 43, "word": "ロ", "speakWord": "로" },
+
+  { "id": 44, "word": "ワ", "speakWord": "와" },
+  { "id": 45, "word": "ヲ", "speakWord": "오" },
+  { "id": 46, "word": "ン", "speakWord": "응" }
+]
