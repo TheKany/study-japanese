@@ -1,6 +1,8 @@
 "use client";
 
+import { ButtonBox } from "@/components/ButtonBox";
 import Wrapper from "@/components/Wrapper/Wrapper";
+import { useRouter } from "next/navigation";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
@@ -11,6 +13,8 @@ const StudyPage = ({
   title: string;
   dataPath: string;
 }) => {
+  const router = useRouter();
+
   const [datas, setDatas] = useState<
     { id: number; word: string; speakWord: string }[]
   >([]);
@@ -87,6 +91,22 @@ const StudyPage = ({
     }
   };
 
+  const onClickLink = (id: string) => {
+    switch (id) {
+      case "hira":
+        router.push("/Study/Hira");
+        break;
+      case "gata":
+        router.push("/Study/Gata");
+        break;
+      case "hi-ga":
+        router.push("/Study/All");
+        break;
+      default:
+        break;
+    }
+  };
+
   useEffect(() => {
     onLoadData();
   }, []);
@@ -115,10 +135,21 @@ const StudyPage = ({
           placeholder="정답을 적어주세요"
           onChange={onChangeAnswer}
           onKeyPress={onKeyPress}
-          onBlur={checkAnswer}
           ref={inputRef}
         />
       </AnswerContainer>
+
+      <PageBtnContainer>
+        <ButtonBox height="20px" onClick={() => onClickLink("hira")}>
+          히라가나
+        </ButtonBox>
+        <ButtonBox height="20px" onClick={() => onClickLink("gata")}>
+          가타카나
+        </ButtonBox>
+        <ButtonBox height="20px" onClick={() => onClickLink("hi-ga")}>
+          히라 + 가타
+        </ButtonBox>
+      </PageBtnContainer>
     </Wrapper>
   );
 };
@@ -176,4 +207,14 @@ const Answer = styled.input`
   padding: 8px 16px;
   font-size: 16px;
   touch-action: manipulation;
+`;
+
+const PageBtnContainer = styled.div`
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+
+  width: 100%;
+  margin: 0 auto;
+  margin-top: 32px;
 `;
