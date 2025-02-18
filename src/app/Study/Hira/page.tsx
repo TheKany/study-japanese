@@ -4,7 +4,9 @@ import React from "react";
 import StudyPage from "../_components/StudyPage";
 
 const HiraStudyPage = () => {
-  return <StudyPage dataPath="/datas/Hiragana.json" />;
+  return (
+    <StudyPage dataPath={process.env.NEXT_PUBLIC_HIRAGANA_URL as string} />
+  );
 };
 
 export default HiraStudyPage;
