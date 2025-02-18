@@ -1,0 +1,380 @@
+[
+  {
+    "id": 1,
+    "hanja": "歌",
+    "meanWord": "うた",
+    "meanSpeak": "우타",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "노래 가"
+  },
+  {
+    "id": 2,
+    "hanja": "家",
+    "meanWord": "いえ、や",
+    "meanSpeak": "이에, 야",
+    "soundWord": "か、け",
+    "soundSpeak": "카, 케",
+    "mean": "집 가"
+  },
+  {
+    "id": 3,
+    "hanja": "加",
+    "meanWord": "くわえる、くわわる",
+    "meanSpeak": "쿠와에루, 쿠와와루",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "더할 가"
+  },
+  {
+    "id": 4,
+    "hanja": "街",
+    "meanWord": "まち",
+    "meanSpeak": "마치",
+    "soundWord": "がい、かい",
+    "soundSpeak": "가이, 카이",
+    "mean": "거리 가"
+  },
+  {
+    "id": 5,
+    "hanja": "価",
+    "meanWord": "あたい",
+    "meanSpeak": "아타이",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "값 가"
+  },
+  {
+    "id": 6,
+    "hanja": "可",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "옳을 가"
+  },
+  {
+    "id": 7,
+    "hanja": "仮",
+    "meanWord": "かり",
+    "meanSpeak": "카리",
+    "soundWord": "か、け",
+    "soundSpeak": "카, 케",
+    "mean": "거짓 가"
+  },
+  {
+    "id": 8,
+    "hanja": "佳",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "아름다울 가"
+  },
+  {
+    "id": 9,
+    "hanja": "苛",
+    "meanWord": "いら",
+    "meanSpeak": "이라",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "가혹할 가"
+  },
+  {
+    "id": 10,
+    "hanja": "架",
+    "meanWord": "かける、かかる",
+    "meanSpeak": "카케루, 카카루",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "시렁 가"
+  },
+  {
+    "id": 11,
+    "hanja": "嫁",
+    "meanWord": "よめ、とつぐ",
+    "meanSpeak": "요메, 토츠구",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "시집갈 가"
+  },
+  {
+    "id": 12,
+    "hanja": "暇",
+    "meanWord": "ひま",
+    "meanSpeak": "히마",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "틈/겨를 가"
+  },
+  {
+    "id": 13,
+    "hanja": "稼",
+    "meanWord": "かせぐ",
+    "meanSpeak": "카세구",
+    "soundWord": "か",
+    "soundSpeak": "카",
+    "mean": "심을 가"
+  },
+  {
+    "id": 14,
+    "hanja": "角",
+    "meanWord": "かど、つの",
+    "meanSpeak": "카도, 쓰노",
+    "soundWord": "かく",
+    "soundSpeak": "카쿠",
+    "mean": "뿔 각"
+  },
+  {
+    "id": 15,
+    "hanja": "各",
+    "meanWord": "おの",
+    "meanSpeak": "오노",
+    "soundWord": "かく",
+    "soundSpeak": "카쿠",
+    "mean": "각각 각"
+  },
+  {
+    "id": 16,
+    "hanja": "覚",
+    "meanWord": "おぼえる、さます、さめる",
+    "meanSpeak": "오보에루, 사마스, 사메루",
+    "soundWord": "かく",
+    "soundSpeak": "카쿠",
+    "mean": "깨달을 각"
+  },
+  {
+    "id": 17,
+    "hanja": "刻",
+    "meanWord": "きざむ",
+    "meanSpeak": "키자무",
+    "soundWord": "こく",
+    "soundSpeak": "코쿠",
+    "mean": "새길 각"
+  },
+  {
+    "id": 18,
+    "hanja": "閣",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かく",
+    "soundSpeak": "카쿠",
+    "mean": "집 각"
+  },
+  {
+    "id": 19,
+    "hanja": "却",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "きゃく",
+    "soundSpeak": "캬쿠",
+    "mean": "물리칠 각"
+  },
+  {
+    "id": 20,
+    "hanja": "殻",
+    "meanWord": "から",
+    "meanSpeak": "카라",
+    "soundWord": "かく",
+    "soundSpeak": "카쿠",
+    "mean": "껍질 각"
+  },
+  {
+    "id": 21,
+    "hanja": "脚",
+    "meanWord": "あし",
+    "meanSpeak": "아시",
+    "soundWord": "きゃく、きゃ",
+    "soundSpeak": "캬쿠, 캬",
+    "mean": "다리 각"
+  },
+  {
+    "id": 22,
+    "hanja": "間",
+    "meanWord": "あいだ、ま",
+    "meanSpeak": "아이다, 마",
+    "soundWord": "かん、けん",
+    "soundSpeak": "칸, 켄",
+    "mean": "사이 간"
+  },
+  {
+    "id": 23,
+    "hanja": "刊",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "새길 간"
+  },
+  {
+    "id": 24,
+    "hanja": "幹",
+    "meanWord": "みき",
+    "meanSpeak": "미키",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "줄기 간"
+  },
+  {
+    "id": 25,
+    "hanja": "干",
+    "meanWord": "ほす、ひる",
+    "meanSpeak": "호스, 히루",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "방패 간"
+  },
+  {
+    "id": 26,
+    "hanja": "看",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "볼 간"
+  },
+  {
+    "id": 27,
+    "hanja": "簡",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "대쪽 간"
+  },
+  {
+    "id": 28,
+    "hanja": "肝",
+    "meanWord": "きも",
+    "meanSpeak": "키모",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "간 간"
+  },
+  {
+    "id": 29,
+    "hanja": "墾",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "こん",
+    "soundSpeak": "콘",
+    "mean": "개간할 간"
+  },
+  {
+    "id": 30,
+    "hanja": "懇",
+    "meanWord": "ねんごろ",
+    "meanSpeak": "넨고로",
+    "soundWord": "こん",
+    "soundSpeak": "콘",
+    "mean": "간절할 간"
+  },
+  {
+    "id": 31,
+    "hanja": "喝",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かつ",
+    "soundSpeak": "카츠",
+    "mean": "꾸짖을 갈"
+  },
+  {
+    "id": 32,
+    "hanja": "渇",
+    "meanWord": "かわく",
+    "meanSpeak": "카와쿠",
+    "soundWord": "かつ",
+    "soundSpeak": "카츠",
+    "mean": "목마를 갈"
+  },
+  {
+    "id": 33,
+    "hanja": "葛",
+    "meanWord": "くず",
+    "meanSpeak": "쿠즈",
+    "soundWord": "かつ",
+    "soundSpeak": "카츠",
+    "mean": "칡 갈"
+  },
+  {
+    "id": 34,
+    "hanja": "褐",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かつ",
+    "soundSpeak": "카츠",
+    "mean": "갈색 갈"
+  },
+  {
+    "id": 35,
+    "hanja": "感",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "느낄 감"
+  },
+  {
+    "id": 36,
+    "hanja": "減",
+    "meanWord": "へる、へらす",
+    "meanSpeak": "헤루, 헤라스",
+    "soundWord": "げん",
+    "soundSpeak": "겐",
+    "mean": "덜 감"
+  },
+  {
+    "id": 37,
+    "hanja": "甘",
+    "meanWord": "あまい、あまえる、あまやかす、あまんじる",
+    "meanSpeak": "아마이, 아마에루, 아마야카스, 아만지루",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "달 감"
+  },
+  {
+    "id": 38,
+    "hanja": "勘",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "헤아릴 감"
+  },
+  {
+    "id": 39,
+    "hanja": "紺",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "こん",
+    "soundSpeak": "콘",
+    "mean": "감색 감"
+  },
+  {
+    "id": 40,
+    "hanja": "堪",
+    "meanWord": "たえる",
+    "meanSpeak": "타에루",
+    "soundWord": "かん、たん",
+    "soundSpeak": "칸, 탄",
+    "mean": "견딜 감"
+  },
+  {
+    "id": 41,
+    "hanja": "敢",
+    "meanWord": "あえて",
+    "meanSpeak": "아에테",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "감히 감"
+  },
+  {
+    "id": 42,
+    "hanja": "監",
+    "meanWord": "",
+    "meanSpeak": "",
+    "soundWord": "かん",
+    "soundSpeak": "칸",
+    "mean": "볼 감"
+  }
+]
