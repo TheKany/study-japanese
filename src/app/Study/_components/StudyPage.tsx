@@ -2,13 +2,12 @@
 
 import Navigation from "@/components/Navigation";
 import Wrapper from "@/components/Wrapper/Wrapper";
+import { LangType } from "@/type/types";
 import React, { useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
 const StudyPage = ({ dataPath }: { dataPath: string }) => {
-  const [datas, setDatas] = useState<
-    { id: number; word: string; speakWord: string }[]
-  >([]);
+  const [datas, setDatas] = useState<LangType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<{
     word: string;
     speakWord: string;
