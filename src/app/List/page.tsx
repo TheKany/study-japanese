@@ -17,9 +17,13 @@ const LangListPage = () => {
 
   const onLoadData = async () => {
     try {
-      const hiraRes = await fetch("/datas/Hiragana.json");
+      const hiraRes = await fetch(
+        process.env.NEXT_PUBLIC_HIRAGANA_URL as string
+      );
       const resHira = await hiraRes.json();
-      const gataRes = await fetch("/datas/Gatakana.json");
+      const gataRes = await fetch(
+        process.env.NEXT_PUBLIC_KATAKANA_URL as string
+      );
       const resGata = await gataRes.json();
 
       setHiraDatas(resHira);
