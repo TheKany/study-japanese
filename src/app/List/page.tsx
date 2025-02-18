@@ -34,6 +34,13 @@ const LangListPage = () => {
       ...prev,
       [id]: !prev[id],
     }));
+
+    setTimeout(() => {
+      setFlippedCards((prev) => ({
+        ...prev,
+        [id]: false,
+      }));
+    }, 3000);
   };
 
   const slideLeft = () => {
@@ -49,74 +56,70 @@ const LangListPage = () => {
   }, []);
 
   return (
-    <>
-      <Wrapper>
-        <Navigation />
-        <SlideWrapper>
-          <SlideButton
-            onClick={slideLeft}
-            style={
-              slideIdx === 1
-                ? { visibility: "visible" }
-                : { visibility: "hidden" }
-            }
-          >
-            <SlideArrow />
-          </SlideButton>
+    <Wrapper>
+      <Navigation />
+      <SlideWrapper>
+        <SlideButton
+          onClick={slideLeft}
+          style={
+            slideIdx === 1
+              ? { visibility: "visible" }
+              : { visibility: "hidden" }
+          }
+        >
+          <SlideArrow />
+        </SlideButton>
 
-          <SlickContainer
-            style={{ transform: `translateX(-${slideIdx * 50}%)` }}
-          >
-            <SlickBox>
-              <Title>히라가나</Title>
-              <WordContainer>
-                {hiradatas.map((el) => {
-                  const isFlipped = flippedCards[el.id] || false;
+        <SlickContainer style={{ transform: `translateX(-${slideIdx * 50}%)` }}>
+          <SlickBox>
+            <Title>히라가나</Title>
+            <WordContainer>
+              {hiradatas.map((el) => {
+                const isFlipped = flippedCards[el.id] || false;
 
-                  return (
-                    <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
-                      <WordCard className={isFlipped ? "flipped" : ""}>
-                        <WordCardFront>{el.word}</WordCardFront>
-                        <WordCardBack>{el.speakWord}</WordCardBack>
-                      </WordCard>
-                    </WordBox>
-                  );
-                })}
-              </WordContainer>
-            </SlickBox>
+                return (
+                  <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
+                    <WordCard className={isFlipped ? "flipped" : ""}>
+                      <WordCardFront>{el.word}</WordCardFront>
+                      <WordCardBack>{el.speakWord}</WordCardBack>
+                    </WordCard>
+                  </WordBox>
+                );
+              })}
+            </WordContainer>
+          </SlickBox>
 
-            <SlickBox>
-              <Title>가타카나</Title>
-              <WordContainer>
-                {gataDatas.map((el) => {
-                  const isFlipped = flippedCards[el.id] || false;
+          <SlickBox>
+            <Title>가타카나</Title>
+            <WordContainer>
+              {gataDatas.map((el) => {
+                const isFlipped = flippedCards[el.id] || false;
 
-                  return (
-                    <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
-                      <WordCard className={isFlipped ? "flipped" : ""}>
-                        <WordCardFront>{el.word}</WordCardFront>
-                        <WordCardBack>{el.speakWord}</WordCardBack>
-                      </WordCard>
-                    </WordBox>
-                  );
-                })}
-              </WordContainer>
-            </SlickBox>
-          </SlickContainer>
+                return (
+                  <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
+                    <WordCard className={isFlipped ? "flipped" : ""}>
+                      <WordCardFront>{el.word}</WordCardFront>
+                      <WordCardBack>{el.speakWord}</WordCardBack>
+                    </WordCard>
+                  </WordBox>
+                );
+              })}
+            </WordContainer>
+          </SlickBox>
+        </SlickContainer>
 
-          <SlideButton
-            onClick={slideRight}
-            style={
-              slideIdx === 0
-                ? { visibility: "visible" }
-                : { visibility: "hidden" }
-            }
-          >
-            <SlideArrow />
-          </SlideButton>
-        </SlideWrapper>
-      </Wrapper>
-    </>
+        <SlideButton
+          onClick={slideRight}
+          style={
+            slideIdx === 0
+              ? { visibility: "visible" }
+              : { visibility: "hidden" }
+          }
+        >
+          <SlideArrow />
+        </SlideButton>
+      </SlideWrapper>
+    </Wrapper>
   );
 };
 
@@ -215,11 +218,12 @@ const WordCardFront = styled.div`
   font-size: 20px;
   backface-visibility: hidden;
 
-  border: 1px solid #121212;
+  border: 1px solid #aaa;
   border-radius: 50%;
 `;
 
 const WordCardBack = styled(WordCardFront)`
   transform: rotateY(180deg);
   position: absolute;
+  background-color: #cbe5fb;
 `;
