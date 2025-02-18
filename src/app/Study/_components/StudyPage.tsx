@@ -3,15 +3,13 @@
 import Navigation from "@/components/Navigation";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { LangType } from "@/type/types";
-import React, { useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 
 const StudyPage = ({ dataPath }: { dataPath: string }) => {
   const [datas, setDatas] = useState<LangType[]>([]);
-  const [currentQuestion, setCurrentQuestion] = useState<{
-    word: string;
-    speakWord: string;
-  } | null>(null);
+  const [shuffleDatas, setShuffleDatas] = useState<LangType[]>([]);
+  const [currentQuestion, setCurrentQuestion] = useState<LangType | null>(null);
   const [userAnswer, setUserAnswer] = useState("");
   const [score, setScore] = useState({ total: 0, currect: 0 });
   const [history, setHistory] = useState<{ currect: boolean; word: string }[]>(
@@ -19,30 +17,43 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
   );
   const inputRef = useRef<HTMLInputElement>(null);
 
-  const onLoadData = async () => {
+  const shuffleArray = (array: LangType[]) => {
+    return array.sort(() => Math.random() - 0.5);
+  };
+
+  const onLoadData = useCallback(async () => {
     try {
       const fetchData = await fetch(dataPath);
       const resData = await fetchData.json();
       setDatas(resData);
-      if (resData.length > 0) {
-        setCurrentQuestion(resData[Math.floor(Math.random() * resData.length)]);
-      }
+
+      const shuffledData = shuffleArray(resData);
+      setShuffleDatas(shuffledData);
+      setCurrentQuestion(shuffledData[0]);
     } catch (err) {
       console.error("데이터 로드 중 오류 발생:", err);
     }
-  };
+  }, [dataPath]);
 
   const getNextQuestion = () => {
-    if (datas.length > 0) {
-      setCurrentQuestion(datas[Math.floor(Math.random() * datas.length)]);
-      setUserAnswer("");
-      if (inputRef.current) {
-        inputRef.current.value = "";
-        inputRef.current.focus();
-      }
+    setUserAnswer("");
+    if (inputRef.current) {
+      inputRef.current.value = "";
+      inputRef.current.focus();
     }
-  };
 
+    setShuffleDatas((prev) => {
+      if (prev.length > 1) {
+        const newData = prev.slice(1);
+        setCurrentQuestion(newData[0]);
+        return newData;
+      } else {
+        const reshuffledData = shuffleArray(datas);
+        setCurrentQuestion(reshuffledData[0]);
+        return reshuffledData;
+      }
+    });
+  };
   const checkAnswer = () => {
     if (!currentQuestion) return;
 
@@ -54,36 +65,17 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
       }));
       setHistory((prev) => [
         ...prev,
-        {
-          currect: true,
-          word: currentQuestion.word,
-        },
+        { currect: true, word: currentQuestion.word },
       ]);
     } else {
       alert(`오답입니다! ❌ 정답은 "${currentQuestion.speakWord}" 입니다.`);
-
       setHistory((prev) => [
         ...prev,
-        {
-          currect: false,
-          word: currentQuestion.word,
-        },
+        { currect: false, word: currentQuestion.word },
       ]);
     }
 
-    setScore((prev) => ({
-      ...prev,
-      total: prev.total + 1,
-    }));
-
-    setUserAnswer("");
-    setTimeout(() => {
-      if (inputRef.current) {
-        inputRef.current.value = "";
-        inputRef.current.focus();
-      }
-    }, 0);
-
+    setScore((prev) => ({ total: prev.total + 1, currect: prev.currect }));
     getNextQuestion();
   };
 
@@ -93,7 +85,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
     setUserAnswer(koreanOnly);
   };
 
-  const onKeyPress = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
     if (e.key === "Enter") {
       checkAnswer();
     }
@@ -101,7 +93,13 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
 
   useEffect(() => {
     onLoadData();
-  }, []);
+  }, [onLoadData]);
+
+  useEffect(() => {
+    if (shuffleDatas.length > 0) {
+      setCurrentQuestion(shuffleDatas[0]);
+    }
+  }, [shuffleDatas]);
 
   return (
     <Wrapper>
@@ -127,20 +125,18 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
           enterKeyHint="enter"
           placeholder="정답을 적어주세요"
           onChange={onChangeAnswer}
-          onKeyPress={onKeyPress}
+          onKeyDown={onKeyDown}
           ref={inputRef}
         />
       </AnswerContainer>
 
       <p>오답노트</p>
       <HistoryNote>
-        <HistoryNote>
-          {history.map((el, index) => (
-            <Word key={index} $borderColor={el.currect ? "#3065AC" : "#DD1923"}>
-              {el.word}
-            </Word>
-          ))}
-        </HistoryNote>
+        {history.map((el, index) => (
+          <Word key={index} $borderColor={el.currect ? "#3065AC" : "#DD1923"}>
+            {el.word}
+          </Word>
+        ))}
       </HistoryNote>
     </Wrapper>
   );
