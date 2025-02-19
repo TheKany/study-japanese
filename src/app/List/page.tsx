@@ -10,9 +10,6 @@ import styled from "styled-components";
 const LangListPage = () => {
   const [hiradatas, setHiraDatas] = useState<LangType[]>([]);
   const [gataDatas, setGataDatas] = useState<LangType[]>([]);
-  const [flippedCards, setFlippedCards] = useState<{ [key: number]: boolean }>(
-    {}
-  );
   const [slideIdx, setSlideIdx] = useState(0);
   const [isFlipped, setIsFlipped] = useState<number | null>();
 
@@ -37,16 +34,7 @@ const LangListPage = () => {
   const onClickFlip = (id: number) => {
     setIsFlipped(id);
 
-    setFlippedCards((prev) => ({
-      ...prev,
-      [id]: !prev[id],
-    }));
-
     setTimeout(() => {
-      setFlippedCards((prev) => ({
-        ...prev,
-        [id]: false,
-      }));
       setIsFlipped(null);
     }, 3000);
   };
