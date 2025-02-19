@@ -14,6 +14,7 @@ const LangListPage = () => {
     {}
   );
   const [slideIdx, setSlideIdx] = useState(0);
+  const [isFlipped, setIsFlipped] = useState<number | null>();
 
   const onLoadData = async () => {
     try {
@@ -34,6 +35,8 @@ const LangListPage = () => {
   };
 
   const onClickFlip = (id: number) => {
+    setIsFlipped(id);
+
     setFlippedCards((prev) => ({
       ...prev,
       [id]: !prev[id],
@@ -44,6 +47,7 @@ const LangListPage = () => {
         ...prev,
         [id]: false,
       }));
+      setIsFlipped(null);
     }, 3000);
   };
 
@@ -79,11 +83,9 @@ const LangListPage = () => {
             <Title>히라가나</Title>
             <WordContainer>
               {hiradatas.map((el) => {
-                const isFlipped = flippedCards[el.id] || false;
-
                 return (
                   <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
-                    <WordCard className={isFlipped ? "flipped" : ""}>
+                    <WordCard className={isFlipped === el.id ? "flipped" : ""}>
                       <WordCardFront>{el.word}</WordCardFront>
                       <WordCardBack>{el.speakWord}</WordCardBack>
                     </WordCard>
