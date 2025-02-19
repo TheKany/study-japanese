@@ -5,6 +5,9 @@ import withPWA from "@ducanh2912/next-pwa";
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: false,
+  compiler: {
+    styledComponents: true,
+  },
   images: {
     domains: ["https://image.keynut.co.kr/"],
     deviceSizes: [640, 750, 828, 1080, 1200],

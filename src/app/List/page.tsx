@@ -99,11 +99,9 @@ const LangListPage = () => {
             <Title>가타카나</Title>
             <WordContainer>
               {gataDatas.map((el) => {
-                const isFlipped = flippedCards[el.id] || false;
-
                 return (
                   <WordBox key={el.id} onClick={() => onClickFlip(el.id)}>
-                    <WordCard className={isFlipped ? "flipped" : ""}>
+                    <WordCard className={isFlipped === el.id ? "flipped" : ""}>
                       <WordCardFront>{el.word}</WordCardFront>
                       <WordCardBack>{el.speakWord}</WordCardBack>
                     </WordCard>
