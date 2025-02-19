@@ -8,6 +8,8 @@
 - Next.js
 - Styled-Components
 - next-pwa
+- github + cloud flare (api)
+- vercel (배포)
 
 ## 해결해야할 것
 
