@@ -24,8 +24,8 @@ const Navigation = () => {
           ? "히라가나"
           : pathname.includes("Gata")
           ? "가타카나"
-          : pathname.includes("All")
-          ? "히라 + 가타"
+          : pathname.includes("Words")
+          ? "단어들"
           : pathname.includes("List")
           ? "문자표"
           : null}
