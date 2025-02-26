@@ -21,6 +21,7 @@ const PatternPage = () => {
   const [datas, setDatas] = useState<WordType[]>([]);
   const [shuffleDatas, setShuffleDatas] = useState<WordType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<WordType | null>(null);
+  const [clickedMain, setClickedMain] = useState("");
   const [subButtons, setSubButtons] = useState<string[]>([]);
   const [userInput, setUserInput] = useState("");
   const [showHint, setShowHint] = useState(false);
@@ -54,6 +55,7 @@ const PatternPage = () => {
     if (id === "BACK") {
       setUserInput(userInput.slice(0, -1));
     } else {
+      setClickedMain(id);
       setSubButtons(baseKana[id]);
     }
   };
@@ -208,9 +210,9 @@ const PatternPage = () => {
             if (el === "BACK") {
               return (
                 <MainBtn
-                  $bgColor="#fff"
                   key={el}
                   onClick={() => onClickMain(el)}
+                  isActive={clickedMain === el}
                 >
                   🔙
                 </MainBtn>
@@ -218,9 +220,9 @@ const PatternPage = () => {
             } else {
               return (
                 <MainBtn
-                  $bgColor="#121212"
                   key={el}
                   onClick={() => onClickMain(el)}
+                  isActive={clickedMain === el}
                 >
                   {el}
                 </MainBtn>
@@ -233,7 +235,7 @@ const PatternPage = () => {
           {modifiers.map((el) => {
             return (
               <MainBtn
-                $bgColor="#121212"
+                isActive={clickedMain === el}
                 key={el}
                 onClick={() => onClickModi(el)}
               >
@@ -352,24 +354,28 @@ const InputBtn = styled.button`
 `;
 
 const Main = styled.div`
-  width: 200px;
+  width: 240px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   gap: 8px;
 `;
 
-const MainBtn = styled.button<{ $bgColor: string }>`
-  width: 30px;
-  height: 40px;
+const MainBtn = styled.button.withConfig({
+  shouldForwardProp: (prop) => prop !== "isActive",
+})<{ isActive: boolean }>`
+  width: 40px;
+  height: 50px;
   border: 1px solid #ccc;
-  background-color: ${({ $bgColor }) => $bgColor};
-  color: #fff;
+  font-size: 18px;
+  border-radius: 4px;
+  background-color: ${({ isActive }) => (isActive ? "#ccc" : "#fff")};
+  box-shadow: ${({ isActive }) =>
+    isActive
+      ? "inset 3px 3px 4px rgba(0, 0, 0, 0.25)"
+      : "0px 4px 4px rgba(0, 0, 0, 0.25)"};
+  color: #121212;
   cursor: pointer;
-
-  &:active {
-    opacity: 0.8;
-  }
 `;
 
 const Sub = styled.div`
@@ -381,11 +387,14 @@ const Sub = styled.div`
 `;
 
 const SubBtn = styled.button`
-  width: 30px;
-  height: 40px;
-  border: 1px solid #ccc;
-  background-color: #a28181;
-  color: #fff;
+  width: 50px;
+  height: 50px;
+  background-color: #9be1ff;
+  border-radius: 4px;
+  font-size: 20px;
+  font-weight: 700;
+  color: #121212;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   &:active {
     opacity: 0.8;
