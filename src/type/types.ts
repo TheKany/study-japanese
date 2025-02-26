@@ -3,3 +3,11 @@ export interface LangType {
   word: string;
   speakWord: string;
 }
+
+export interface WordType {
+  id: number;
+  word: string;
+  speakWord: string;
+  mean: string;
+  speakKorean: string;
+}

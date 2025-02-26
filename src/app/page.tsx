@@ -15,8 +15,8 @@ export default function Home() {
       case "gata":
         router.push("/Study/Gata");
         break;
-      case "hi-ga":
-        router.push("/Study/All");
+      case "words":
+        router.push("/Study/Words");
         break;
       case "list":
         router.push("/List");
@@ -32,7 +32,7 @@ export default function Home() {
       <ButtonBox onClick={() => onClickLink("list")}>일본어 문자표</ButtonBox>
       <ButtonBox onClick={() => onClickLink("hira")}>히라가나</ButtonBox>
       <ButtonBox onClick={() => onClickLink("gata")}>가타카나</ButtonBox>
-      <ButtonBox onClick={() => onClickLink("hi-ga")}>히라 + 가타</ButtonBox>
+      <ButtonBox onClick={() => onClickLink("words")}>일본어 단어</ButtonBox>
     </Wrapper>
   );
 }
