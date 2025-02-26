@@ -4,9 +4,7 @@ import React from "react";
 import StudyPage from "../_components/StudyPage";
 
 const GataStudyPage = () => {
-  return (
-    <StudyPage dataPath={process.env.NEXT_PUBLIC_KATAKANA_URL as string} />
-  );
+  return <StudyPage dataPath={"Gatakana.json"} />;
 };
 
 export default GataStudyPage;

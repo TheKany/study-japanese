@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import {
   DakutenKey,
@@ -18,6 +18,7 @@ import Navigation from "@/components/Navigation";
 import { WordType } from "@/type/types";
 
 const PatternPage = () => {
+  const wordRef = useRef<HTMLSpanElement>(null);
   const [datas, setDatas] = useState<WordType[]>([]);
   const [shuffleDatas, setShuffleDatas] = useState<WordType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<WordType | null>(null);
@@ -38,7 +39,7 @@ const PatternPage = () => {
   const onLoadData = useCallback(async () => {
     try {
       const fetchData = await fetch(
-        "https://japanese-word-data.pages.dev/word_one.json"
+        `${process.env.NEXT_PUBLIC_BASE_URL}word_one.json`
       );
       const resData = await fetchData.json();
       setDatas(resData);
@@ -163,6 +164,7 @@ const PatternPage = () => {
       setCurrentQuestion(shuffleDatas[0]);
     }
   }, [shuffleDatas]);
+
   return (
     <Wrapper>
       <Navigation />
@@ -192,7 +194,16 @@ const PatternPage = () => {
       </QuestionContainer>
 
       <InputContainer>
-        A: <InputText>{userInput}</InputText>
+        A:{" "}
+        <InputText>
+          {[...userInput].map((el, idx) => {
+            return (
+              <span ref={wordRef} key={`${el}_${idx}`}>
+                {el}
+              </span>
+            );
+          })}
+        </InputText>
         <InputBtn onClick={checkAnswer}>✔️</InputBtn>
       </InputContainer>
 
