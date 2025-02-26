@@ -25,6 +25,10 @@ const PatternPage = () => {
   const [userInput, setUserInput] = useState("");
   const [showHint, setShowHint] = useState(false);
   const [score, setScore] = useState({ total: 0, currect: 0 });
+  const [corAnswer, setCorAnswer] = useState({
+    spHira: "",
+    spKoren: "",
+  });
 
   const shuffleArray = (array: WordType[]) => {
     return array.sort(() => Math.random() - 0.5);
@@ -100,6 +104,54 @@ const PatternPage = () => {
     setShowHint(!showHint);
   };
 
+  const handleNextQuestion = () => {
+    setCorAnswer((prev) => ({
+      ...prev,
+      spHira: "",
+      spKoren: "",
+    }));
+
+    setShuffleDatas((prev) => {
+      if (prev.length > 1) {
+        const newData = prev.slice(1);
+        setCurrentQuestion(newData[0]);
+        return newData;
+      } else {
+        const reshuffledData = shuffleArray(datas);
+        setCurrentQuestion(reshuffledData[0]);
+        return reshuffledData;
+      }
+    });
+  };
+
+  const checkAnswer = () => {
+    if (userInput === currentQuestion?.speakWord) {
+      setScore((prev) => ({
+        ...prev,
+        total: prev.total + 1,
+        currect: prev.currect + 1,
+      }));
+    } else {
+      setScore((prev) => ({
+        ...prev,
+        total: prev.total + 1,
+      }));
+    }
+
+    setCorAnswer((prev) => ({
+      ...prev,
+      spHira: currentQuestion?.speakWord as string,
+      spKoren: currentQuestion?.speakKorean as string,
+    }));
+
+    setUserInput("");
+    setShowHint(false);
+
+    setTimeout(() => {
+      handleNextQuestion();
+    }, 2000);
+  };
+
   useEffect(() => {
     onLoadData();
   }, [onLoadData]);
@@ -122,6 +174,9 @@ const PatternPage = () => {
       </InfoContainer>
 
       <QuestionContainer>
+        <CorrectAnswer>
+          정답: {corAnswer.spHira} / {corAnswer.spKoren}
+        </CorrectAnswer>
         <Question>{currentQuestion ? currentQuestion.mean : "..."}</Question>
 
         <HintContainer>
@@ -136,6 +191,7 @@ const PatternPage = () => {
 
       <InputContainer>
         A: <InputText>{userInput}</InputText>
+        <InputBtn onClick={checkAnswer}>✔️</InputBtn>
       </InputContainer>
 
       <KeyboardContainer>
@@ -207,6 +263,7 @@ const ScoreBox = styled.div`
 `;
 
 const QuestionContainer = styled.div`
+  position: relative;
   margin: 16px 0;
   border-bottom: 1px solid #121212;
 `;
@@ -222,6 +279,11 @@ const Question = styled.p`
   border: 1px solid #aaa;
   border-radius: 8px;
   margin: 0 auto;
+`;
+
+const CorrectAnswer = styled.p`
+  text-align: center;
+  padding: 16px 0;
 `;
 
 const HintContainer = styled.div`
@@ -247,10 +309,10 @@ const HintBtn = styled.button`
   }
 `;
 
-const HintSub = styled.p`
-  font-size: 10px;
-  color: #fff;
-`;
+// const HintSub = styled.p`
+//   font-size: 10px;
+//   color: #fff;
+// `;
 
 const HintWord = styled.p<{ $show: boolean }>`
   display: ${({ $show }) => ($show ? "block" : "none")};
@@ -264,6 +326,7 @@ const KeyboardContainer = styled.div`
 `;
 
 const InputContainer = styled.div`
+  position: relative;
   width: 90%;
   height: 40px;
   border: 1px solid #ccc;
@@ -278,6 +341,14 @@ const InputContainer = styled.div`
 const InputText = styled.span`
   margin-left: 8px;
   font-size: 14px;
+`;
+
+const InputBtn = styled.button`
+  position: absolute;
+  right: 8px;
+  top: 50%;
+  transform: translate(0%, -60%);
+  font-size: 24px;
 `;
 
 const Main = styled.div`

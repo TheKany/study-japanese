@@ -35,7 +35,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
     }
   }, [dataPath]);
 
-  const getNextQuestion = () => {
+  const handleNextQuestion = () => {
     setUserAnswer("");
     if (inputRef.current) {
       inputRef.current.value = "";
@@ -76,7 +76,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
     }
 
     setScore((prev) => ({ total: prev.total + 1, currect: prev.currect }));
-    getNextQuestion();
+    handleNextQuestion();
   };
 
   const onChangeAnswer = (e: React.ChangeEvent<HTMLInputElement>) => {
