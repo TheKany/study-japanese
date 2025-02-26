@@ -342,7 +342,8 @@ const InputContainer = styled.div`
 
 const InputText = styled.span`
   margin-left: 8px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
 `;
 
 const InputBtn = styled.button`
