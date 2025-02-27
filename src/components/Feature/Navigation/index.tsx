@@ -1,7 +1,7 @@
 "use client";
 
 import React from "react";
-import BackArrow from "../SVG/BackArrow";
+import BackArrow from "../../Style/SVG/BackArrow";
 import styled from "styled-components";
 import { usePathname, useRouter } from "next/navigation";
 

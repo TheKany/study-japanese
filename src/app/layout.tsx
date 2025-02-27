@@ -1,4 +1,4 @@
-import GlobalStyles from "@/components/GlobalStyles";
+import GlobalStyles from "@/components/Style/GlobalStyles";
 import AppProviders from "@/context/AppProviders";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";

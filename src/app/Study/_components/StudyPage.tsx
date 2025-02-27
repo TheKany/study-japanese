@@ -1,12 +1,12 @@
 "use client";
 
-import AnswerBox from "@/components/Answer";
-import Navigation from "@/components/Navigation";
-import QuestionBox from "@/components/Question";
-import Wrapper from "@/components/Wrapper/Wrapper";
+import AnswerBox from "@/components/Style/Answer";
+import Navigation from "@/components/Feature/Navigation";
+import Wrapper from "@/components/Style/Wrapper/Wrapper";
 import { LangType } from "@/type/types";
 import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
+import QuestionBox from "@/components/Style/Question";
 
 const StudyPage = ({ dataPath }: { dataPath: string }) => {
   const [datas, setDatas] = useState<LangType[]>([]);

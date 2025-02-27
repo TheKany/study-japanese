@@ -2,10 +2,10 @@
 
 import React, { useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
-import Wrapper from "@/components/Wrapper/Wrapper";
-import Navigation from "@/components/Navigation";
+import Wrapper from "@/components/Style/Wrapper/Wrapper";
+import Navigation from "@/components/Feature/Navigation";
 import { WordType } from "@/type/types";
-import KanaKeyboard from "@/components/KanaKeyboard";
+import KanaKeyboard from "@/components/Feature/KanaKeyboard";
 import { useUserInput } from "@/context/KanaInputProvider";
 import QuestionBox from "@/components/Question";
 

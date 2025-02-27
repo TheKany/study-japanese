@@ -7,7 +7,7 @@ type Props = {
   height?: string;
 };
 
-export const ButtonBox = styled.button<Props>`
+const Menu = styled.button<Props>`
   width: ${({ width }) => width || "100%"};
   height: ${({ height }) => height || "50px"};
   border-radius: 8px;
@@ -18,3 +18,5 @@ export const ButtonBox = styled.button<Props>`
   font-weight: 700;
   text-decoration: none;
 `;
+
+export default Menu;

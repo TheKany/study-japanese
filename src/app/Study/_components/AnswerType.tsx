@@ -1,4 +1,4 @@
-import { ButtonBox } from "@/components/ButtonBox";
+import { ButtonBox } from "@/components/Style/Menu";
 import React from "react";
 import styled from "styled-components";
 
