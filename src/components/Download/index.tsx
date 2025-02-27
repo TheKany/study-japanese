@@ -10,12 +10,11 @@ interface BeforeInstallPromptEvent extends Event {
 }
 
 const Download = () => {
-  const userAgent = navigator.userAgent;
-
   const [deferredPrompt, setDeferredPrompt] =
     useState<BeforeInstallPromptEvent | null>(null);
   const [isPwaInstalled, setIsPwaInstalled] = useState(false);
   const [isIos, setIsIos] = useState(false);
+  const [userAgent, setUserAgent] = useState("");
 
   const installPWA = async () => {
     if (/iphone|ipad|ipod/.test(userAgent.toLowerCase())) {
@@ -41,6 +40,12 @@ const Download = () => {
   };
 
   useEffect(() => {
+    if (typeof window !== "undefined") {
+      setUserAgent(navigator.userAgent);
+    }
+  }, []);
+
+  useEffect(() => {
     const handler = (e: Event) => {
       e.preventDefault();
       setDeferredPrompt(e as BeforeInstallPromptEvent);
@@ -52,7 +57,7 @@ const Download = () => {
       window.removeEventListener("beforeinstallprompt", handler);
     };
   }, []);
-  console.log(isPwaInstalled);
+
   return (
     <>
       {isPwaInstalled ? null : (
