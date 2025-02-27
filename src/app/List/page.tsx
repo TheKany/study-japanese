@@ -16,11 +16,11 @@ const LangListPage = () => {
   const onLoadData = async () => {
     try {
       const hiraRes = await fetch(
-        process.env.NEXT_PUBLIC_HIRAGANA_URL as string
+        `${process.env.NEXT_PUBLIC_BASE_URL}Hiragana.json`
       );
       const resHira = await hiraRes.json();
       const gataRes = await fetch(
-        process.env.NEXT_PUBLIC_KATAKANA_URL as string
+        `${process.env.NEXT_PUBLIC_BASE_URL}Gatakana.json`
       );
       const resGata = await gataRes.json();
 
