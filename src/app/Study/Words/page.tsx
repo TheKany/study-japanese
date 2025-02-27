@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useEffect, useState } from "react";
+import React, { useCallback, useEffect, useRef, useState } from "react";
 import styled from "styled-components";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import Navigation from "@/components/Navigation";
@@ -27,7 +27,7 @@ const PatternPage = () => {
   const onLoadData = useCallback(async () => {
     try {
       const fetchData = await fetch(
-        "https://japanese-word-data.pages.dev/word_one.json"
+        `${process.env.NEXT_PUBLIC_BASE_URL}word_one.json`
       );
       const resData = await fetchData.json();
       setDatas(resData);
@@ -101,6 +101,7 @@ const PatternPage = () => {
       setCurrentQuestion(shuffleDatas[0]);
     }
   }, [shuffleDatas]);
+
   return (
     <Wrapper>
       <Navigation />
@@ -130,7 +131,16 @@ const PatternPage = () => {
       </QuestionContainer>
 
       <InputContainer>
-        A: <InputText>{userInput}</InputText>
+        A:{" "}
+        <InputText>
+          {[...userInput].map((el, idx) => {
+            return (
+              <span ref={wordRef} key={`${el}_${idx}`}>
+                {el}
+              </span>
+            );
+          })}
+        </InputText>
         <InputBtn onClick={checkAnswer}>✔️</InputBtn>
       </InputContainer>
 
@@ -225,7 +235,8 @@ const InputContainer = styled.div`
 
 const InputText = styled.span`
   margin-left: 8px;
-  font-size: 14px;
+  font-size: 18px;
+  font-weight: 500;
 `;
 
 const InputBtn = styled.button`

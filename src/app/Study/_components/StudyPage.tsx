@@ -23,7 +23,9 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
 
   const onLoadData = useCallback(async () => {
     try {
-      const fetchData = await fetch(dataPath);
+      const fetchData = await fetch(
+        `${process.env.NEXT_PUBLIC_BASE_URL}${dataPath}`
+      );
       const resData = await fetchData.json();
       setDatas(resData);
 
