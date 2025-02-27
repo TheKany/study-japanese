@@ -1,6 +1,7 @@
 "use client";
 
 import { ButtonBox } from "@/components/ButtonBox";
+import Download from "@/components/Download";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { useRouter } from "next/navigation";
 
@@ -27,12 +28,16 @@ export default function Home() {
   };
 
   return (
-    <Wrapper>
-      <p style={{ textAlign: "center", margin: "24px 0" }}>일본어 공부하기</p>
-      <ButtonBox onClick={() => onClickLink("list")}>일본어 문자표</ButtonBox>
-      <ButtonBox onClick={() => onClickLink("hira")}>히라가나</ButtonBox>
-      <ButtonBox onClick={() => onClickLink("gata")}>가타카나</ButtonBox>
-      <ButtonBox onClick={() => onClickLink("words")}>일본어 단어</ButtonBox>
-    </Wrapper>
+    <>
+      <Download />
+
+      <Wrapper>
+        <p style={{ textAlign: "center", margin: "24px 0" }}>일본어 공부하기</p>
+        <ButtonBox onClick={() => onClickLink("list")}>일본어 문자표</ButtonBox>
+        <ButtonBox onClick={() => onClickLink("hira")}>히라가나</ButtonBox>
+        <ButtonBox onClick={() => onClickLink("gata")}>가타카나</ButtonBox>
+        <ButtonBox onClick={() => onClickLink("words")}>일본어 단어</ButtonBox>
+      </Wrapper>
+    </>
   );
 }
