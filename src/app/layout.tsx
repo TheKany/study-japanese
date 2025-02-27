@@ -1,4 +1,5 @@
 import GlobalStyles from "@/components/GlobalStyles";
+import AppProviders from "@/context/AppProviders";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -32,8 +33,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        <GlobalStyles />
-        {children}
+        <AppProviders>
+          <GlobalStyles />
+          {children}
+        </AppProviders>
       </body>
     </html>
   );
