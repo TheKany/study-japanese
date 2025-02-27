@@ -13,5 +13,7 @@ export const ButtonBox = styled.button<Props>`
   border-radius: 8px;
   background-color: #ffd20a;
   margin: 8px 0;
+  font-size: 16px;
   font-weight: 700;
+  text-decoration: none;
 `;

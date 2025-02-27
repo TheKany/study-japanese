@@ -50,13 +50,13 @@ export default function Home() {
 }
 
 const MainTitle = styled.p`
-  font-size: 20px;
+  font-size: 24px;
   font-weight: 700;
   text-align: center;
   margin: 60px 0 80px;
 `;
 
 const MenuTitle = styled.p`
-  margin-top: 16px;
+  margin-top: 20px;
   font-weight: 700;
 `;
