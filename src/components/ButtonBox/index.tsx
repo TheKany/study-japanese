@@ -11,7 +11,7 @@ export const ButtonBox = styled.button<Props>`
   width: ${({ width }) => width || "100%"};
   height: ${({ height }) => height || "50px"};
   border-radius: 8px;
-  border: 1px solid #121212;
-
+  background-color: #ffd20a;
   margin: 8px 0;
+  font-weight: 700;
 `;

@@ -8,7 +8,7 @@ const NormalizeCss = createGlobalStyle`
 
   body {
     margin: 0;
-    font-family: sans-serif;
+    background-color: #c8c4c41c;
   }
 
   h1, h2, h3, h4, h5, h6 {

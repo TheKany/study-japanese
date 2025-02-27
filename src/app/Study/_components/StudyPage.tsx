@@ -1,6 +1,8 @@
 "use client";
 
+import AnswerBox from "@/components/Answer";
 import Navigation from "@/components/Navigation";
+import QuestionBox from "@/components/Question";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { LangType } from "@/type/types";
 import React, { useCallback, useEffect, useRef, useState } from "react";
@@ -116,23 +118,23 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
       </InfoContainer>
 
       {/* 단어 표시 */}
-      <QuestionContainer>
-        <Question>{currentQuestion ? currentQuestion.word : "..."}</Question>
-      </QuestionContainer>
+      <QuestionBox>
+        {currentQuestion ? currentQuestion.word : "..."}
+      </QuestionBox>
 
       {/* 답 입력 */}
-      <AnswerContainer>
+      <AnswerBox>
         <Answer
           type="text"
           enterKeyHint="enter"
-          placeholder="정답을 적어주세요"
+          placeholder="정답을 적어주세요."
           onChange={onChangeAnswer}
           onKeyDown={onKeyDown}
           ref={inputRef}
         />
-      </AnswerContainer>
+      </AnswerBox>
 
-      <p>오답노트</p>
+      <HistoryTitle>오답노트</HistoryTitle>
       <HistoryNote>
         {history.map((el, index) => (
           <Word key={index} $borderColor={el.currect ? "#3065AC" : "#DD1923"}>
@@ -159,40 +161,21 @@ const ScoreBox = styled.div`
   justify-content: end;
 `;
 
-const QuestionContainer = styled.div`
-  margin: 16px 0;
-  border-bottom: 1px solid #121212;
-  padding-bottom: 32px;
-`;
-
-const Question = styled.p`
-  width: 100px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 32px;
-  border: 1px solid #aaa;
-  border-radius: 8px;
-  margin: 0 auto;
-`;
-
-const AnswerContainer = styled.div`
-  width: 50%;
-  margin: 8px auto;
-  display: flex;
-  align-items: center;
-  gap: 8px;
-`;
-
 const Answer = styled.input`
   width: 100%;
-  border: 1px solid #171717;
-  padding: 8px 16px;
+  padding: 8px 14px;
   font-size: 16px;
   touch-action: manipulation;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(167, 167, 170, 0.1) 0px 0px 8px;
 `;
 
+const HistoryTitle = styled.p`
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 8px;
+`;
 const HistoryNote = styled.div`
   display: flex;
   flex-wrap: wrap;

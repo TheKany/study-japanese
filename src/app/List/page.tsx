@@ -118,12 +118,14 @@ const LangListPage = () => {
 export default LangListPage;
 
 const Title = styled.p`
+  margin: 8px 0 28px;
+  padding: 12px 0;
   width: 100%;
   text-align: center;
-  padding: 8px 0;
-  margin-bottom: 8px;
-  font-size: 16px;
+  font-size: 18px;
   font-weight: 700;
+  border-radius: 20px;
+  background-color: #ffd20a;
 `;
 
 const SlideWrapper = styled.div`
@@ -181,15 +183,15 @@ const WordBox = styled.button`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
-
-  width: 40px;
-  height: 40px;
+  background-color: #6db0fd;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
 `;
 
 const WordCard = styled.div`
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   position: relative;
   transform-style: preserve-3d;
   transition: transform 0.6s;
@@ -206,16 +208,13 @@ const WordCardFront = styled.div`
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #fff;
   font-size: 20px;
   backface-visibility: hidden;
-
-  border: 1px solid #aaa;
-  border-radius: 50%;
 `;
 
 const WordCardBack = styled(WordCardFront)`
   transform: rotateY(180deg);
   position: absolute;
   background-color: #cbe5fb;
+  border-radius: 50%;
 `;
