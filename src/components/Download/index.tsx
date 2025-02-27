@@ -62,7 +62,7 @@ const Download = () => {
     <>
       {isPwaInstalled ? null : (
         <DownloadBanner onClick={installPWA}>
-          꾸준히 공부를 하고 싶다면 클릭 다운로드!
+          꾸준히 공부를 하고 싶다면? <SubText>여기 클릭 다운로드!</SubText>
         </DownloadBanner>
       )}
 
@@ -103,9 +103,14 @@ const Dimmed = styled.div`
 const DownloadBanner = styled.button`
   width: 100%;
   padding: 8px 0;
-  font-size: 18px;
-  background-color: #d7adad;
+  font-size: 14px;
+  font-weight: 700;
+  background-color: #6db0fd;
   color: #fff;
+`;
+
+const SubText = styled.span`
+  color: #303bdd;
 `;
 
 const GuidePopupContainer = styled.div`

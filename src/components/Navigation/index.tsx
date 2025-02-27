@@ -42,23 +42,19 @@ const NavContainer = styled.div`
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   align-items: center;
-  margin: 8px 0;
   padding: 8px 0;
-
-  border-bottom: 1px solid #121212;
+  /* border-bottom: 1px solid #ddd; */
 `;
 
 const NAvBackBtn = styled.button`
   width: 100%;
   height: 100%;
-
   display: flex;
-  justify-content: center;
   align-items: center;
 `;
 
 const NavTitle = styled.p`
-  font-size: 24px;
+  font-size: 20px;
   font-weight: 700;
   grid-column: span 3;
   text-align: center;

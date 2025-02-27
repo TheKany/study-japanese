@@ -11,7 +11,6 @@ const ResetCss = createGlobalStyle`
     width: 100%;
     height: 100%;
     font-size: 16px;
-    font-family: sans-serif;
   }
 
   h1, h2, h3, h4, h5, h6, p, ul, ol, li, figure, blockquote {

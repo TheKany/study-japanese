@@ -7,6 +7,7 @@ import Navigation from "@/components/Navigation";
 import { WordType } from "@/type/types";
 import KanaKeyboard from "@/components/KanaKeyboard";
 import { useUserInput } from "@/context/KanaInputProvider";
+import QuestionBox from "@/components/Question";
 
 const PatternPage = () => {
   const { userInput, setUserInput } = useUserInput();
@@ -114,21 +115,19 @@ const PatternPage = () => {
         </ScoreBox>
       </InfoContainer>
 
-      <QuestionContainer>
-        <CorrectAnswer>
-          정답: {corAnswer.spHira} / {corAnswer.spKoren}
-        </CorrectAnswer>
-        <Question>{currentQuestion ? currentQuestion.mean : "..."}</Question>
+      <CorrectAnswer>
+        정답: {corAnswer.spHira} / {corAnswer.spKoren}
+      </CorrectAnswer>
 
-        <HintContainer>
-          <HintBtn onClick={onClickShowHint}>
-            글자힌트
-            {/* <HintSub>* 누르면 점수 없음</HintSub> */}
-          </HintBtn>
+      <QuestionBox>
+        {currentQuestion ? currentQuestion.mean : "..."}
+      </QuestionBox>
 
-          <HintWord $show={showHint}>{currentQuestion?.word}</HintWord>
-        </HintContainer>
-      </QuestionContainer>
+      <HintContainer>
+        <HintBtn onClick={onClickShowHint}>글자힌트</HintBtn>
+
+        <HintWord $show={showHint}>{currentQuestion?.word}</HintWord>
+      </HintContainer>
 
       <InputContainer>
         A:{" "}
@@ -149,7 +148,7 @@ export default PatternPage;
 
 const InfoContainer = styled.div`
   width: 100%;
-  margin: 16px 0;
+  margin-top: 16px;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -160,28 +159,8 @@ const ScoreBox = styled.div`
   justify-content: end;
 `;
 
-const QuestionContainer = styled.div`
-  position: relative;
-  margin: 16px 0;
-  border-bottom: 1px solid #121212;
-`;
-
-const Question = styled.p`
-  width: 200px;
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: 24px;
-  font-size: 700;
-  border: 1px solid #aaa;
-  border-radius: 8px;
-  margin: 0 auto;
-`;
-
 const CorrectAnswer = styled.p`
   text-align: center;
-  padding: 16px 0;
 `;
 
 const HintContainer = styled.div`
@@ -194,7 +173,7 @@ const HintContainer = styled.div`
 
 const HintBtn = styled.button`
   width: 100px;
-  font-size: 16px;
+  font-size: 12px;
 
   border: 1px solid #ccc;
   border-radius: 4px;
@@ -207,26 +186,23 @@ const HintBtn = styled.button`
   }
 `;
 
-// const HintSub = styled.p`
-//   font-size: 10px;
-//   color: #fff;
-// `;
-
 const HintWord = styled.p<{ $show: boolean }>`
   display: ${({ $show }) => ($show ? "block" : "none")};
+  font-size: 24px;
 `;
 
 const InputContainer = styled.div`
   position: relative;
-  width: 90%;
   height: 40px;
-  border: 1px solid #ccc;
-
   margin: 16px auto;
-  padding: 4px;
-
   display: flex;
   align-items: center;
+  width: 100%;
+  padding: 8px 14px;
+  font-size: 16px;
+  touch-action: manipulation;
+  box-shadow: rgba(17, 17, 26, 0.05) 0px 1px 0px,
+    rgba(167, 167, 170, 0.1) 0px 0px 8px;
 `;
 
 const InputText = styled.span`
