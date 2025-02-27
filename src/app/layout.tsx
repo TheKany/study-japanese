@@ -1,5 +1,6 @@
 import GlobalStyles from "@/components/GlobalStyles";
 import AppProviders from "@/context/AppProviders";
+import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 
@@ -38,6 +39,7 @@ export default function RootLayout({
           <GlobalStyles />
           {children}
         </AppProviders>
+        <Analytics />
       </body>
     </html>
   );
