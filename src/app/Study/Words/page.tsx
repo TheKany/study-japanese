@@ -1,6 +1,6 @@
 "use client";
 
-import React, { useCallback, useEffect, useRef, useState } from "react";
+import React, { useCallback, useEffect, useState } from "react";
 import styled from "styled-components";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import Navigation from "@/components/Navigation";
@@ -134,11 +134,7 @@ const PatternPage = () => {
         A:{" "}
         <InputText>
           {[...userInput].map((el, idx) => {
-            return (
-              <span ref={wordRef} key={`${el}_${idx}`}>
-                {el}
-              </span>
-            );
+            return <span key={`${el}_${idx}`}>{el}</span>;
           })}
         </InputText>
         <InputBtn onClick={checkAnswer}>✔️</InputBtn>
