@@ -22,6 +22,9 @@ export default function Home() {
       case "list":
         router.push("/List");
         break;
+      case "mypage":
+        router.push("/Mypage");
+        break;
       default:
         break;
     }
@@ -37,6 +40,7 @@ export default function Home() {
         <ButtonBox onClick={() => onClickLink("hira")}>히라가나</ButtonBox>
         <ButtonBox onClick={() => onClickLink("gata")}>가타카나</ButtonBox>
         <ButtonBox onClick={() => onClickLink("words")}>일본어 단어</ButtonBox>
+        <ButtonBox onClick={() => onClickLink("mypage")}>마이페이지</ButtonBox>
       </Wrapper>
     </>
   );
