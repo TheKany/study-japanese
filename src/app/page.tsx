@@ -2,6 +2,7 @@
 
 import { ButtonBox } from "@/components/ButtonBox";
 import Download from "@/components/Download";
+import PwaUpdate from "@/components/PwaUpdate";
 import Wrapper from "@/components/Wrapper/Wrapper";
 import { useRouter } from "next/navigation";
 
@@ -30,7 +31,7 @@ export default function Home() {
   return (
     <>
       <Download />
-
+      <PwaUpdate />
       <Wrapper>
         <p style={{ textAlign: "center", margin: "24px 0" }}>일본어 공부하기</p>
         <ButtonBox onClick={() => onClickLink("list")}>일본어 문자표</ButtonBox>
