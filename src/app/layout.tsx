@@ -23,6 +23,7 @@ export const viewport: Viewport = {
 export const metadata: Metadata = {
   title: "Study-Japanese",
   description: "Study Japanese word",
+  manifest: "/manifest.json",
 };
 
 export default function RootLayout({
