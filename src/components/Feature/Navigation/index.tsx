@@ -28,6 +28,8 @@ const Navigation = () => {
           ? "단어들"
           : pathname.includes("List")
           ? "문자표"
+          : pathname.includes("Word")
+          ? "단어표"
           : null}
       </NavTitle>
 

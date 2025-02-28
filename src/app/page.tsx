@@ -25,6 +25,9 @@ export default function Home() {
       case "list":
         router.push("/List");
         break;
+      case "word":
+        router.push("/Word");
+        break;
       default:
         break;
     }
@@ -46,6 +49,7 @@ export default function Home() {
         <MainTitle>일본어 공부하기</MainTitle>
         <MenuTitle>일본어 학습 정보</MenuTitle>
         <Menu onClick={() => onClickLink("list")}>일본어 문자표</Menu>
+        <Menu onClick={() => onClickLink("word")}>일본어 단어표</Menu>
 
         <MenuTitle>일본어 퀴즈</MenuTitle>
         <Menu onClick={() => onClickLink("hira")}>히라가나</Menu>

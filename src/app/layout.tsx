@@ -1,8 +1,11 @@
-import GlobalStyles from "@/components/Style/GlobalStyles";
 import AppProviders from "@/context/AppProviders";
 import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_KR } from "next/font/google";
+
+import "./global.css";
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
@@ -33,10 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${notoSansKR.variable}`}>
-        <AppProviders>
-          <GlobalStyles />
-          {children}
-        </AppProviders>
+        <AppProviders>{children}</AppProviders>
         <Analytics />
       </body>
     </html>
