@@ -1,7 +1,7 @@
 "use client";
 
+import StudyPage from "@/components/Feature/StudyPage";
 import React from "react";
-import StudyPage from "../_components/StudyPage";
 
 const GataStudyPage = () => {
   return <StudyPage dataPath={"Gatakana.json"} />;
