@@ -10,4 +10,5 @@ export interface WordType {
   speakWord: string;
   mean: string;
   speakKorean: string;
+  currect?: boolean;
 }

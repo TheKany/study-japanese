@@ -7,19 +7,22 @@ import Navigation from "@/components/Feature/Navigation";
 import { WordType } from "@/type/types";
 import KanaKeyboard from "@/components/Feature/KanaKeyboard";
 import { useUserInput } from "@/context/KanaInputProvider";
-import QuestionBox from "@/components/Question";
+import QuestionBox from "@/components/Style/Question";
 
-const PatternPage = () => {
+const WordPage = () => {
   const { userInput, setUserInput } = useUserInput();
   const [datas, setDatas] = useState<WordType[]>([]);
   const [shuffleDatas, setShuffleDatas] = useState<WordType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<WordType | null>(null);
   const [showHint, setShowHint] = useState(false);
   const [score, setScore] = useState({ total: 0, currect: 0 });
+  const [isCorrect, setIsCorrect] = useState("대기");
   const [corAnswer, setCorAnswer] = useState({
     spHira: "",
     spKoren: "",
   });
+
+  const [history, setHistory] = useState<WordType[]>([]);
 
   const shuffleArray = (array: WordType[]) => {
     return array.sort(() => Math.random() - 0.5);
@@ -66,24 +69,35 @@ const PatternPage = () => {
   };
 
   const checkAnswer = () => {
-    if (userInput === currentQuestion?.speakWord) {
-      setScore((prev) => ({
-        ...prev,
-        total: prev.total + 1,
-        currect: prev.currect + 1,
-      }));
-    } else {
-      setScore((prev) => ({
-        ...prev,
-        total: prev.total + 1,
-      }));
-    }
+    const isCorrectAnswer = userInput === currentQuestion?.speakWord;
+    const correctWord = currentQuestion?.speakWord as string;
+    const correctMeaning = currentQuestion?.speakKorean as string;
+
+    setIsCorrect(isCorrectAnswer ? "정답" : correctWord);
+
+    setScore((prev) => ({
+      ...prev,
+      total: prev.total + 1,
+      currect: isCorrectAnswer ? prev.currect + 1 : prev.currect,
+    }));
 
     setCorAnswer((prev) => ({
       ...prev,
-      spHira: currentQuestion?.speakWord as string,
-      spKoren: currentQuestion?.speakKorean as string,
+      spHira: correctWord,
+      spKoren: correctMeaning,
     }));
+
+    setHistory((prev) => [
+      {
+        id: currentQuestion?.id as number,
+        word: currentQuestion?.word as string,
+        speakWord: correctWord as string,
+        speakKorean: correctMeaning as string,
+        mean: currentQuestion?.mean as string,
+        correct: isCorrectAnswer as boolean,
+      },
+      ...prev,
+    ]);
 
     setUserInput("");
     setShowHint(false);
@@ -119,7 +133,7 @@ const PatternPage = () => {
         정답: {corAnswer.spHira} / {corAnswer.spKoren}
       </CorrectAnswer>
 
-      <QuestionBox>
+      <QuestionBox correct={isCorrect}>
         {currentQuestion ? currentQuestion.mean : "..."}
       </QuestionBox>
 
@@ -140,11 +154,27 @@ const PatternPage = () => {
       </InputContainer>
 
       <KanaKeyboard />
+
+      <HistoryTitle>오답노트</HistoryTitle>
+      <HistoryNote>
+        {history.map((el, idx) => {
+          return (
+            <Word key={idx} $borderColor={el.currect ? "#3065AC" : "#DD1923"}>
+              <p>
+                {el.word}:{el.mean}
+              </p>
+              <p style={{ fontSize: 12 }}>
+                ⟦ {el.speakWord} | {el.speakKorean} ⟧
+              </p>
+            </Word>
+          );
+        })}
+      </HistoryNote>
     </Wrapper>
   );
 };
 
-export default PatternPage;
+export default WordPage;
 
 const InfoContainer = styled.div`
   width: 100%;
@@ -217,4 +247,36 @@ const InputBtn = styled.button`
   top: 50%;
   transform: translate(0%, -60%);
   font-size: 24px;
+`;
+
+const HistoryTitle = styled.p`
+  margin: 0 auto;
+  font-size: 12px;
+  font-weight: 700;
+  padding-top: 8px;
+`;
+
+const HistoryNote = styled.div`
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 4px;
+  width: 100%;
+  margin: 8px 0;
+`;
+
+const Word = styled.div<{ $borderColor: string }>`
+  padding: 8px 0;
+  border: 1px solid ${({ $borderColor }) => $borderColor};
+  background-color: ${({ $borderColor }) => $borderColor};
+  color: #fff;
+  border-radius: 8px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  font-size: 16px;
+
+  width: 100%;
 `;

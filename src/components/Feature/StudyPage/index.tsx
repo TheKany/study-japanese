@@ -13,6 +13,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
   const [shuffleDatas, setShuffleDatas] = useState<LangType[]>([]);
   const [currentQuestion, setCurrentQuestion] = useState<LangType | null>(null);
   const [userAnswer, setUserAnswer] = useState("");
+  const [isCorrect, setIsCorrect] = useState<string>("대기");
   const [score, setScore] = useState({ total: 0, currect: 0 });
   const [history, setHistory] = useState<{ currect: boolean; word: string }[]>(
     []
@@ -58,11 +59,12 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
       }
     });
   };
+
   const checkAnswer = () => {
     if (!currentQuestion) return;
 
     if (userAnswer.trim() === currentQuestion.speakWord) {
-      alert("정답입니다! ✅");
+      setIsCorrect("정답");
       setScore((prev) => ({
         ...prev,
         currect: prev.currect + 1,
@@ -72,7 +74,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
         { currect: true, word: currentQuestion.word },
       ]);
     } else {
-      alert(`오답입니다! ❌ 정답은 "${currentQuestion.speakWord}" 입니다.`);
+      setIsCorrect(currentQuestion.word);
       setHistory((prev) => [
         ...prev,
         { currect: false, word: currentQuestion.word },
@@ -118,7 +120,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
       </InfoContainer>
 
       {/* 단어 표시 */}
-      <QuestionBox>
+      <QuestionBox correct={isCorrect}>
         {currentQuestion ? currentQuestion.word : "..."}
       </QuestionBox>
 
@@ -176,6 +178,7 @@ const HistoryTitle = styled.p`
   font-weight: 700;
   padding-top: 8px;
 `;
+
 const HistoryNote = styled.div`
   display: flex;
   flex-wrap: wrap;
