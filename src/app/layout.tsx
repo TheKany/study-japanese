@@ -20,6 +20,9 @@ export const metadata: Metadata = {
   title: "Study-Japanese",
   description: "Study Japanese word",
   manifest: "/manifest.json",
+  other: {
+    "google-adsense-account": process.env.NEXT_PUBLIC_ADSENSE_PUB as string,
+  },
 };
 
 export default function RootLayout({
