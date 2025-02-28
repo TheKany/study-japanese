@@ -6,6 +6,7 @@ import PwaUpdate from "@/components/Feature/PwaUpdate";
 import Wrapper from "@/components/Style/Wrapper/Wrapper";
 import { useRouter } from "next/navigation";
 import styled from "styled-components";
+import { useEffect } from "react";
 
 export default function Home() {
   const router = useRouter();
@@ -29,6 +30,14 @@ export default function Home() {
     }
   };
 
+  useEffect(() => {
+    const script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src = "//t1.daumcdn.net/kas/static/ba.min.js";
+    script.async = true;
+    document.body.appendChild(script);
+  }, []);
+
   return (
     <>
       <Download />
@@ -45,6 +54,14 @@ export default function Home() {
           단&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 어
         </Menu>
       </Wrapper>
+
+      <ins
+        className="kakao_ad_area"
+        style={{ display: "none" }}
+        data-ad-unit="DAN-VYmIo67TQVN5C0eY"
+        data-ad-width="320"
+        data-ad-height="100"
+      ></ins>
     </>
   );
 }
