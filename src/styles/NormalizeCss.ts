@@ -11,6 +11,13 @@ const NormalizeCss = createGlobalStyle`
     background-color: #c8c4c41c;
   }
 
+  
+  input,
+  textarea {
+    -webkit-appearance: none;
+    appearance: none;
+  }
+
   h1, h2, h3, h4, h5, h6 {
     font-size: inherit;
     font-weight: inherit;
