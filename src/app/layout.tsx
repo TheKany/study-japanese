@@ -1,6 +1,8 @@
+import { Analytics } from "@vercel/analytics/next";
+import { SpeedInsights } from "@vercel/speed-insights/next";
+
 import GlobalStyles from "@/components/Style/GlobalStyles";
 import AppProviders from "@/context/AppProviders";
-import { Analytics } from "@vercel/analytics/next";
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 
@@ -38,6 +40,7 @@ export default function RootLayout({
           {children}
         </AppProviders>
         <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   );
