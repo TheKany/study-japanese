@@ -91,11 +91,11 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
     setUserAnswer(koreanOnly);
   };
 
-  const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
-    if (e.key === "Enter") {
-      checkAnswer();
-    }
-  };
+  // const onKeyDown = (e: React.KeyboardEvent<HTMLInputElement>) => {
+  //   if (e.key === "Enter") {
+  //     checkAnswer();
+  //   }
+  // };
 
   useEffect(() => {
     onLoadData();
@@ -126,14 +126,21 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
 
       {/* 답 입력 */}
       <AnswerBox>
-        <Answer
-          type="text"
-          enterKeyHint="enter"
-          placeholder="정답을 적어주세요."
-          onChange={onChangeAnswer}
-          onKeyDown={onKeyDown}
-          ref={inputRef}
-        />
+        <form
+          onSubmit={(e) => {
+            e.preventDefault();
+            checkAnswer();
+          }}
+        >
+          <Answer
+            type="text"
+            enterKeyHint="enter"
+            placeholder="정답을 적어주세요."
+            onChange={onChangeAnswer}
+            // onKeyDown={onKeyDown}
+            ref={inputRef}
+          />
+        </form>
       </AnswerBox>
 
       <HistoryTitle>오답노트</HistoryTitle>
