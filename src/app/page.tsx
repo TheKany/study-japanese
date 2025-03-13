@@ -183,7 +183,8 @@ const SwiperContainer = styled.div`
 const TopDim = styled.div`
   width: 100%;
   height: 60px;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.5);
+  backdrop-filter: blur(8px);
   opacity: 0.6;
   border-radius: 8px;
 
@@ -194,7 +195,8 @@ const TopDim = styled.div`
 const BottomDim = styled.div`
   width: 100%;
   height: 60px;
-  background-color: #121212;
+  background-color: rgba(18, 18, 18, 0.5);
+  backdrop-filter: blur(8px);
   opacity: 0.6;
   border-radius: 8px;
 
