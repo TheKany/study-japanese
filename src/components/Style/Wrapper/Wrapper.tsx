@@ -20,6 +20,7 @@ const Wrapper = ({ children }: Props) => {
         animate={{ opacity: 1, x: 0 }}
         transition={{ duration: 0.5 }}
       >
+        <Title>일본어 공부하기</Title>
         <Container>{children}</Container>
       </motion.div>
     </AnimatePresence>
@@ -27,6 +28,12 @@ const Wrapper = ({ children }: Props) => {
 };
 
 export default Wrapper;
+
+const Title = styled.p`
+  margin: 8px;
+  font-weight: 700;
+  font-size: 24px;
+`;
 
 const Container = styled.section`
   margin: 0 auto;

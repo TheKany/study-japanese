@@ -6,6 +6,9 @@ import AppProviders from "@/context/AppProviders";
 import type { Metadata, Viewport } from "next";
 import { Noto_Sans_KR } from "next/font/google";
 
+import "swiper/css";
+import "swiper/css/pagination";
+
 const notoSansKR = Noto_Sans_KR({
   variable: "--font-noto-sans-kr",
   subsets: ["latin"],
