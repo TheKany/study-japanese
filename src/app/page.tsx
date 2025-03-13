@@ -214,6 +214,7 @@ const TextBallon = styled.p`
   background-color: #fff;
   width: 100px;
   text-align: center;
+  font-size: 14px;
   padding: 12px 8px;
   position: absolute;
   top: -40px;
