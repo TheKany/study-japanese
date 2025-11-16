@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "word": "食べる",
+    "speakWord": "たべる",
+    "mean": "먹다",
+    "speakKorean": "타베루"
+  },
+  {
+    "id": 2,
+    "word": "飲む",
+    "speakWord": "のむ",
+    "mean": "마시다",
+    "speakKorean": "노무"
+  },
+  {
+    "id": 3,
+    "word": "行く",
+    "speakWord": "いく",
+    "mean": "가다",
+    "speakKorean": "이쿠"
+  },
+  {
+    "id": 4,
+    "word": "来る",
+    "speakWord": "くる",
+    "mean": "오다",
+    "speakKorean": "쿠루"
+  },
+  {
+    "id": 5,
+    "word": "見る",
+    "speakWord": "みる",
+    "mean": "보다",
+    "speakKorean": "미루"
+  },
+  {
+    "id": 6,
+    "word": "聞く",
+    "speakWord": "きく",
+    "mean": "듣다",
+    "speakKorean": "키쿠"
+  },
+  {
+    "id": 7,
+    "word": "話す",
+    "speakWord": "はなす",
+    "mean": "말하다",
+    "speakKorean": "하나스"
+  },
+  {
+    "id": 8,
+    "word": "書く",
+    "speakWord": "かく",
+    "mean": "쓰다",
+    "speakKorean": "카쿠"
+  },
+  {
+    "id": 9,
+    "word": "読む",
+    "speakWord": "よむ",
+    "mean": "읽다",
+    "speakKorean": "요무"
+  },
+  {
+    "id": 10,
+    "word": "買う",
+    "speakWord": "かう",
+    "mean": "사다",
+    "speakKorean": "카우"
+  },
+  {
+    "id": 11,
+    "word": "売る",
+    "speakWord": "うる",
+    "mean": "팔다",
+    "speakKorean": "우루"
+  },
+  {
+    "id": 12,
+    "word": "作る",
+    "speakWord": "つくる",
+    "mean": "만들다",
+    "speakKorean": "츠쿠루"
+  },
+  {
+    "id": 13,
+    "word": "知る",
+    "speakWord": "しる",
+    "mean": "알다",
+    "speakKorean": "시루"
+  },
+  {
+    "id": 14,
+    "word": "忘れる",
+    "speakWord": "わすれる",
+    "mean": "잊다",
+    "speakKorean": "와스레루"
+  },
+  {
+    "id": 15,
+    "word": "覚える",
+    "speakWord": "おぼえる",
+    "mean": "기억하다",
+    "speakKorean": "오보에루"
+  },
+  {
+    "id": 16,
+    "word": "寝る",
+    "speakWord": "ねる",
+    "mean": "자다",
+    "speakKorean": "네루"
+  },
+  {
+    "id": 17,
+    "word": "起きる",
+    "speakWord": "おきる",
+    "mean": "일어나다",
+    "speakKorean": "오키루"
+  },
+  {
+    "id": 18,
+    "word": "歩く",
+    "speakWord": "あるく",
+    "mean": "걷다",
+    "speakKorean": "아루쿠"
+  },
+  {
+    "id": 19,
+    "word": "走る",
+    "speakWord": "はしる",
+    "mean": "달리다",
+    "speakKorean": "하시루"
+  },
+  {
+    "id": 20,
+    "word": "遊ぶ",
+    "speakWord": "あそぶ",
+    "mean": "놀다",
+    "speakKorean": "아소부"
+  },
+  {
+    "id": 21,
+    "word": "働く",
+    "speakWord": "はたらく",
+    "mean": "일하다",
+    "speakKorean": "하타라쿠"
+  },
+  {
+    "id": 22,
+    "word": "勉強する",
+    "speakWord": "べんきょうする",
+    "mean": "공부하다",
+    "speakKorean": "벤쿄우스루"
+  },
+  {
+    "id": 23,
+    "word": "掃除する",
+    "speakWord": "そうじする",
+    "mean": "청소하다",
+    "speakKorean": "소우지스루"
+  },
+  {
+    "id": 24,
+    "word": "料理する",
+    "speakWord": "りょうりする",
+    "mean": "요리하다",
+    "speakKorean": "료우리스루"
+  },
+  {
+    "id": 25,
+    "word": "練習する",
+    "speakWord": "れんしゅうする",
+    "mean": "연습하다",
+    "speakKorean": "렌슈우스루"
+  },
+  {
+    "id": 26,
+    "word": "電話する",
+    "speakWord": "でんわする",
+    "mean": "전화하다",
+    "speakKorean": "덴와스루"
+  },
+  {
+    "id": 27,
+    "word": "運転する",
+    "speakWord": "うんてんする",
+    "mean": "운전하다",
+    "speakKorean": "운텐스루"
+  },
+  {
+    "id": 28,
+    "word": "開ける",
+    "speakWord": "あける",
+    "mean": "열다",
+    "speakKorean": "아케루"
+  },
+  {
+    "id": 29,
+    "word": "閉める",
+    "speakWord": "しめる",
+    "mean": "닫다",
+    "speakKorean": "시메루"
+  },
+  {
+    "id": 30,
+    "word": "入る",
+    "speakWord": "はいる",
+    "mean": "들어가다",
+    "speakKorean": "하이루"
+  },
+  {
+    "id": 31,
+    "word": "出る",
+    "speakWord": "でる",
+    "mean": "나오다",
+    "speakKorean": "데루"
+  },
+  {
+    "id": 32,
+    "word": "持つ",
+    "speakWord": "もつ",
+    "mean": "가지다",
+    "speakKorean": "모츠"
+  },
+  {
+    "id": 33,
+    "word": "使う",
+    "speakWord": "つかう",
+    "mean": "사용하다",
+    "speakKorean": "츠카우"
+  },
+  {
+    "id": 34,
+    "word": "助ける",
+    "speakWord": "たすける",
+    "mean": "돕다",
+    "speakKorean": "타스케루"
+  },
+  {
+    "id": 35,
+    "word": "会う",
+    "speakWord": "あう",
+    "mean": "만나다",
+    "speakKorean": "아우"
+  },
+  {
+    "id": 36,
+    "word": "別れる",
+    "speakWord": "わかれる",
+    "mean": "헤어지다",
+    "speakKorean": "와카레루"
+  },
+  {
+    "id": 37,
+    "word": "愛する",
+    "speakWord": "あいする",
+    "mean": "사랑하다",
+    "speakKorean": "아이스루"
+  },
+  {
+    "id": 38,
+    "word": "考える",
+    "speakWord": "かんがえる",
+    "mean": "생각하다",
+    "speakKorean": "칸가에루"
+  },
+  {
+    "id": 39,
+    "word": "信じる",
+    "speakWord": "しんじる",
+    "mean": "믿다",
+    "speakKorean": "신지루"
+  },
+  {
+    "id": 40,
+    "word": "驚く",
+    "speakWord": "おどろく",
+    "mean": "놀라다",
+    "speakKorean": "오도로쿠"
+  },
+  {
+    "id": 41,
+    "word": "笑う",
+    "speakWord": "わらう",
+    "mean": "웃다",
+    "speakKorean": "와라우"
+  },
+  {
+    "id": 42,
+    "word": "泣く",
+    "speakWord": "なく",
+    "mean": "울다",
+    "speakKorean": "나쿠"
+  },
+  {
+    "id": 43,
+    "word": "怒る",
+    "speakWord": "おこる",
+    "mean": "화내다",
+    "speakKorean": "오코루"
+  },
+  {
+    "id": 44,
+    "word": "疲れる",
+    "speakWord": "つかれる",
+    "mean": "피곤하다",
+    "speakKorean": "츠카레루"
+  },
+  {
+    "id": 45,
+    "word": "待つ",
+    "speakWord": "まつ",
+    "mean": "기다리다",
+    "speakKorean": "마츠"
+  },
+  {
+    "id": 46,
+    "word": "止める",
+    "speakWord": "とめる",
+    "mean": "멈추다",
+    "speakKorean": "토메루"
+  },
+  {
+    "id": 47,
+    "word": "始める",
+    "speakWord": "はじめる",
+    "mean": "시작하다",
+    "speakKorean": "하지메루"
+  },
+  {
+    "id": 48,
+    "word": "終わる",
+    "speakWord": "おわる",
+    "mean": "끝나다",
+    "speakKorean": "오와루"
+  },
+  {
+    "id": 49,
+    "word": "見せる",
+    "speakWord": "みせる",
+    "mean": "보여주다",
+    "speakKorean": "미세루"
+  },
+  {
+    "id": 50,
+    "word": "探す",
+    "speakWord": "さがす",
+    "mean": "찾다",
+    "speakKorean": "사가스"
+  },
+  {
+    "id": 51,
+    "word": "選ぶ",
+    "speakWord": "えらぶ",
+    "mean": "선택하다",
+    "speakKorean": "에라부"
+  },
+  {
+    "id": 52,
+    "word": "決める",
+    "speakWord": "きめる",
+    "mean": "결정하다",
+    "speakKorean": "키메루"
+  },
+  {
+    "id": 53,
+    "word": "感じる",
+    "speakWord": "かんじる",
+    "mean": "느끼다",
+    "speakKorean": "칸지루"
+  },
+  {
+    "id": 54,
+    "word": "落ちる",
+    "speakWord": "おちる",
+    "mean": "떨어지다",
+    "speakKorean": "오치루"
+  },
+  {
+    "id": 55,
+    "word": "拾う",
+    "speakWord": "ひろう",
+    "mean": "줍다",
+    "speakKorean": "히로우"
+  },
+  {
+    "id": 56,
+    "word": "壊れる",
+    "speakWord": "こわれる",
+    "mean": "망가지다",
+    "speakKorean": "코와레루"
+  },
+  {
+    "id": 57,
+    "word": "直す",
+    "speakWord": "なおす",
+    "mean": "고치다",
+    "speakKorean": "나오스"
+  },
+  {
+    "id": 58,
+    "word": "送る",
+    "speakWord": "おくる",
+    "mean": "보내다",
+    "speakKorean": "오쿠루"
+  },
+  {
+    "id": 59,
+    "word": "届く",
+    "speakWord": "とどく",
+    "mean": "도착하다",
+    "speakKorean": "토도쿠"
+  },
+  {
+    "id": 60,
+    "word": "歌う",
+    "speakWord": "うたう",
+    "mean": "노래하다",
+    "speakKorean": "우타우"
+  },
+  {
+    "id": 61,
+    "word": "踊る",
+    "speakWord": "おどる",
+    "mean": "춤추다",
+    "speakKorean": "오도루"
+  },
+  {
+    "id": 62,
+    "word": "試す",
+    "speakWord": "ためす",
+    "mean": "시험하다",
+    "speakKorean": "타메스"
+  },
+  {
+    "id": 63,
+    "word": "許す",
+    "speakWord": "ゆるす",
+    "mean": "허락하다",
+    "speakKorean": "유루스"
+  },
+  {
+    "id": 64,
+    "word": "避ける",
+    "speakWord": "さける",
+    "mean": "피하다",
+    "speakKorean": "사케루"
+  },
+  {
+    "id": 65,
+    "word": "守る",
+    "speakWord": "まもる",
+    "mean": "지키다",
+    "speakKorean": "마모루"
+  },
+  {
+    "id": 66,
+    "word": "増える",
+    "speakWord": "ふえる",
+    "mean": "늘어나다",
+    "speakKorean": "후에루"
+  },
+  {
+    "id": 67,
+    "word": "減る",
+    "speakWord": "へる",
+    "mean": "줄어들다",
+    "speakKorean": "헤루"
+  },
+  {
+    "id": 68,
+    "word": "比べる",
+    "speakWord": "くらべる",
+    "mean": "비교하다",
+    "speakKorean": "쿠라베루"
+  },
+  {
+    "id": 69,
+    "word": "表す",
+    "speakWord": "あらわす",
+    "mean": "나타내다",
+    "speakKorean": "아라와스"
+  },
+  {
+    "id": 70,
+    "word": "試みる",
+    "speakWord": "こころみる",
+    "mean": "시도하다",
+    "speakKorean": "코코로미루"
+  },
+  {
+    "id": 71,
+    "word": "驚かす",
+    "speakWord": "おどろかす",
+    "mean": "놀라게 하다",
+    "speakKorean": "오도로카스"
+  },
+  {
+    "id": 72,
+    "word": "誘う",
+    "speakWord": "さそう",
+    "mean": "초대하다",
+    "speakKorean": "사소우"
+  },
+  {
+    "id": 73,
+    "word": "誇る",
+    "speakWord": "ほこる",
+    "mean": "자랑하다",
+    "speakKorean": "호코루"
+  },
+  {
+    "id": 74,
+    "word": "続ける",
+    "speakWord": "つづける",
+    "mean": "계속하다",
+    "speakKorean": "츠즈케루"
+  },
+  {
+    "id": 75,
+    "word": "成功する",
+    "speakWord": "せいこうする",
+    "mean": "성공하다",
+    "speakKorean": "세이코우스루"
+  },
+  {
+    "id": 76,
+    "word": "失敗する",
+    "speakWord": "しっぱいする",
+    "mean": "실패하다",
+    "speakKorean": "싯파이스루"
+  },
+  {
+    "id": 77,
+    "word": "感謝する",
+    "speakWord": "かんしゃする",
+    "mean": "감사하다",
+    "speakKorean": "칸샤스루"
+  },
+  {
+    "id": 78,
+    "word": "後悔する",
+    "speakWord": "こうかいする",
+    "mean": "후회하다",
+    "speakKorean": "코우카이스루"
+  },
+  {
+    "id": 79,
+    "word": "準備する",
+    "speakWord": "じゅんびする",
+    "mean": "준비하다",
+    "speakKorean": "쥰비스루"
+  },
+  {
+    "id": 80,
+    "word": "約束する",
+    "speakWord": "やくそくする",
+    "mean": "약속하다",
+    "speakKorean": "야쿠소쿠스루"
+  },
+  {
+    "id": 81,
+    "word": "尊敬する",
+    "speakWord": "そんけいする",
+    "mean": "존경하다",
+    "speakKorean": "손케이스루"
+  },
+  {
+    "id": 82,
+    "word": "理解する",
+    "speakWord": "りかいする",
+    "mean": "이해하다",
+    "speakKorean": "리가이스루"
+  },
+  {
+    "id": 83,
+    "word": "連絡する",
+    "speakWord": "れんらくする",
+    "mean": "연락하다",
+    "speakKorean": "렌라쿠스루"
+  },
+  {
+    "id": 84,
+    "word": "考慮する",
+    "speakWord": "こうりょする",
+    "mean": "고려하다",
+    "speakKorean": "코우료스루"
+  },
+  {
+    "id": 85,
+    "word": "確認する",
+    "speakWord": "かくにんする",
+    "mean": "확인하다",
+    "speakKorean": "카쿠닌스루"
+  },
+  {
+    "id": 86,
+    "word": "発表する",
+    "speakWord": "はっぴょうする",
+    "mean": "발표하다",
+    "speakKorean": "핫뵤우스루"
+  },
+  {
+    "id": 87,
+    "word": "説明する",
+    "speakWord": "せつめいする",
+    "mean": "설명하다",
+    "speakKorean": "셋스메이스루"
+  },
+  {
+    "id": 88,
+    "word": "利用する",
+    "speakWord": "りようする",
+    "mean": "이용하다",
+    "speakKorean": "리요우스루"
+  },
+  {
+    "id": 89,
+    "word": "緊張する",
+    "speakWord": "きんちょうする",
+    "mean": "긴장하다",
+    "speakKorean": "킨쵸우스루"
+  },
+  {
+    "id": 90,
+    "word": "満足する",
+    "speakWord": "まんぞくする",
+    "mean": "만족하다",
+    "speakKorean": "만조쿠스루"
+  },
+  {
+    "id": 91,
+    "word": "挑戦する",
+    "speakWord": "ちょうせんする",
+    "mean": "도전하다",
+    "speakKorean": "쵸우센스루"
+  },
+  {
+    "id": 92,
+    "word": "運動する",
+    "speakWord": "うんどうする",
+    "mean": "운동하다",
+    "speakKorean": "운도우스루"
+  },
+  {
+    "id": 93,
+    "word": "放送する",
+    "speakWord": "ほうそうする",
+    "mean": "방송하다",
+    "speakKorean": "호우소우스루"
+  },
+  {
+    "id": 94,
+    "word": "旅行する",
+    "speakWord": "りょこうする",
+    "mean": "여행하다",
+    "speakKorean": "료코우스루"
+  },
+  {
+    "id": 95,
+    "word": "登録する",
+    "speakWord": "とうろくする",
+    "mean": "등록하다",
+    "speakKorean": "토우로쿠스루"
+  },
+  {
+    "id": 96,
+    "word": "退職する",
+    "speakWord": "たいしょくする",
+    "mean": "퇴직하다",
+    "speakKorean": "타이쇼쿠스루"
+  },
+  {
+    "id": 97,
+    "word": "変更する",
+    "speakWord": "へんこうする",
+    "mean": "변경하다",
+    "speakKorean": "헨코우스루"
+  },
+  {
+    "id": 98,
+    "word": "延期する",
+    "speakWord": "えんきする",
+    "mean": "연기하다",
+    "speakKorean": "엔키스루"
+  },
+  {
+    "id": 99,
+    "word": "達成する",
+    "speakWord": "たっせいする",
+    "mean": "달성하다",
+    "speakKorean": "탓세이스루"
+  },
+  {
+    "id": 100,
+    "word": "集中する",
+    "speakWord": "しゅうちゅうする",
+    "mean": "집중하다",
+    "speakKorean": "슈우츄우스루"
+  }
+]

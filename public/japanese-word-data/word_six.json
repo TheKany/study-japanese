@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "word": "犬",
+    "speakWord": "いぬ",
+    "mean": "개",
+    "speakKorean": "이누"
+  },
+  {
+    "id": 2,
+    "word": "猫",
+    "speakWord": "ねこ",
+    "mean": "고양이",
+    "speakKorean": "네코"
+  },
+  {
+    "id": 3,
+    "word": "馬",
+    "speakWord": "うま",
+    "mean": "말",
+    "speakKorean": "우마"
+  },
+  {
+    "id": 4,
+    "word": "牛",
+    "speakWord": "うし",
+    "mean": "소",
+    "speakKorean": "우시"
+  },
+  {
+    "id": 5,
+    "word": "羊",
+    "speakWord": "ひつじ",
+    "mean": "양",
+    "speakKorean": "히츠지"
+  },
+  {
+    "id": 6,
+    "word": "豚",
+    "speakWord": "ぶた",
+    "mean": "돼지",
+    "speakKorean": "부타"
+  },
+  {
+    "id": 7,
+    "word": "猿",
+    "speakWord": "さる",
+    "mean": "원숭이",
+    "speakKorean": "사루"
+  },
+  {
+    "id": 8,
+    "word": "象",
+    "speakWord": "ぞう",
+    "mean": "코끼리",
+    "speakKorean": "조우"
+  },
+  {
+    "id": 9,
+    "word": "鹿",
+    "speakWord": "しか",
+    "mean": "사슴",
+    "speakKorean": "시카"
+  },
+  {
+    "id": 10,
+    "word": "熊",
+    "speakWord": "くま",
+    "mean": "곰",
+    "speakKorean": "쿠마"
+  },
+  {
+    "id": 11,
+    "word": "狐",
+    "speakWord": "きつね",
+    "mean": "여우",
+    "speakKorean": "키츠네"
+  },
+  {
+    "id": 12,
+    "word": "狼",
+    "speakWord": "おおかみ",
+    "mean": "늑대",
+    "speakKorean": "오오카미"
+  },
+  {
+    "id": 13,
+    "word": "兎",
+    "speakWord": "うさぎ",
+    "mean": "토끼",
+    "speakKorean": "우사기"
+  },
+  {
+    "id": 14,
+    "word": "鳥",
+    "speakWord": "とり",
+    "mean": "새",
+    "speakKorean": "토리"
+  },
+  {
+    "id": 15,
+    "word": "鶏",
+    "speakWord": "にわとり",
+    "mean": "닭",
+    "speakKorean": "니와토리"
+  },
+  {
+    "id": 16,
+    "word": "鷲",
+    "speakWord": "わし",
+    "mean": "독수리",
+    "speakKorean": "와시"
+  },
+  {
+    "id": 17,
+    "word": "鷹",
+    "speakWord": "たか",
+    "mean": "매",
+    "speakKorean": "타카"
+  },
+  {
+    "id": 18,
+    "word": "鳩",
+    "speakWord": "はと",
+    "mean": "비둘기",
+    "speakKorean": "하토"
+  },
+  {
+    "id": 19,
+    "word": "燕",
+    "speakWord": "つばめ",
+    "mean": "제비",
+    "speakKorean": "츠바메"
+  },
+  {
+    "id": 20,
+    "word": "蝙蝠",
+    "speakWord": "こうもり",
+    "mean": "박쥐",
+    "speakKorean": "코우모리"
+  },
+  {
+    "id": 21,
+    "word": "魚",
+    "speakWord": "さかな",
+    "mean": "물고기",
+    "speakKorean": "사카나"
+  },
+  {
+    "id": 22,
+    "word": "金魚",
+    "speakWord": "きんぎょ",
+    "mean": "금붕어",
+    "speakKorean": "킹교"
+  },
+  {
+    "id": 23,
+    "word": "鮭",
+    "speakWord": "さけ",
+    "mean": "연어",
+    "speakKorean": "사케"
+  },
+  {
+    "id": 24,
+    "word": "鯉",
+    "speakWord": "こい",
+    "mean": "잉어",
+    "speakKorean": "코이"
+  },
+  {
+    "id": 25,
+    "word": "亀",
+    "speakWord": "かめ",
+    "mean": "거북이",
+    "speakKorean": "카메"
+  },
+  {
+    "id": 26,
+    "word": "蛇",
+    "speakWord": "へび",
+    "mean": "뱀",
+    "speakKorean": "헤비"
+  },
+  {
+    "id": 27,
+    "word": "蛙",
+    "speakWord": "かえる",
+    "mean": "개구리",
+    "speakKorean": "카에루"
+  },
+  {
+    "id": 28,
+    "word": "蟻",
+    "speakWord": "あり",
+    "mean": "개미",
+    "speakKorean": "아리"
+  },
+  {
+    "id": 29,
+    "word": "蜂",
+    "speakWord": "はち",
+    "mean": "벌",
+    "speakKorean": "하치"
+  },
+  {
+    "id": 30,
+    "word": "蝶",
+    "speakWord": "ちょう",
+    "mean": "나비",
+    "speakKorean": "쵸우"
+  },
+  {
+    "id": 31,
+    "word": "蜘蛛",
+    "speakWord": "くも",
+    "mean": "거미",
+    "speakKorean": "쿠모"
+  },
+  {
+    "id": 32,
+    "word": "蛍",
+    "speakWord": "ほたる",
+    "mean": "반딧불",
+    "speakKorean": "호타루"
+  },
+  {
+    "id": 33,
+    "word": "草",
+    "speakWord": "くさ",
+    "mean": "풀",
+    "speakKorean": "쿠사"
+  },
+  {
+    "id": 34,
+    "word": "花",
+    "speakWord": "はな",
+    "mean": "꽃",
+    "speakKorean": "하나"
+  },
+  {
+    "id": 35,
+    "word": "木",
+    "speakWord": "き",
+    "mean": "나무",
+    "speakKorean": "키"
+  },
+  {
+    "id": 36,
+    "word": "森",
+    "speakWord": "もり",
+    "mean": "숲",
+    "speakKorean": "모리"
+  },
+  {
+    "id": 37,
+    "word": "竹",
+    "speakWord": "たけ",
+    "mean": "대나무",
+    "speakKorean": "타케"
+  },
+  {
+    "id": 38,
+    "word": "葉",
+    "speakWord": "は",
+    "mean": "잎",
+    "speakKorean": "하"
+  },
+  {
+    "id": 39,
+    "word": "根",
+    "speakWord": "ね",
+    "mean": "뿌리",
+    "speakKorean": "네"
+  },
+  {
+    "id": 40,
+    "word": "種",
+    "speakWord": "たね",
+    "mean": "씨앗",
+    "speakKorean": "타네"
+  },
+  {
+    "id": 41,
+    "word": "岩",
+    "speakWord": "いわ",
+    "mean": "바위",
+    "speakKorean": "이와"
+  },
+  {
+    "id": 42,
+    "word": "砂",
+    "speakWord": "すな",
+    "mean": "모래",
+    "speakKorean": "스나"
+  },
+  {
+    "id": 43,
+    "word": "土",
+    "speakWord": "つち",
+    "mean": "흙",
+    "speakKorean": "츠치"
+  },
+  {
+    "id": 44,
+    "word": "山",
+    "speakWord": "やま",
+    "mean": "산",
+    "speakKorean": "야마"
+  },
+  {
+    "id": 45,
+    "word": "川",
+    "speakWord": "かわ",
+    "mean": "강",
+    "speakKorean": "카와"
+  },
+  {
+    "id": 46,
+    "word": "湖",
+    "speakWord": "みずうみ",
+    "mean": "호수",
+    "speakKorean": "미즈우미"
+  },
+  {
+    "id": 47,
+    "word": "海",
+    "speakWord": "うみ",
+    "mean": "바다",
+    "speakKorean": "우미"
+  },
+  {
+    "id": 48,
+    "word": "波",
+    "speakWord": "なみ",
+    "mean": "파도",
+    "speakKorean": "나미"
+  },
+  {
+    "id": 49,
+    "word": "泉",
+    "speakWord": "いずみ",
+    "mean": "샘",
+    "speakKorean": "이즈미"
+  },
+  {
+    "id": 50,
+    "word": "滝",
+    "speakWord": "たき",
+    "mean": "폭포",
+    "speakKorean": "타키"
+  },
+  {
+    "id": 51,
+    "word": "空",
+    "speakWord": "そら",
+    "mean": "하늘",
+    "speakKorean": "소라"
+  },
+  {
+    "id": 52,
+    "word": "雲",
+    "speakWord": "くも",
+    "mean": "구름",
+    "speakKorean": "쿠모"
+  },
+  {
+    "id": 53,
+    "word": "風",
+    "speakWord": "かぜ",
+    "mean": "바람",
+    "speakKorean": "카제"
+  },
+  {
+    "id": 54,
+    "word": "雨",
+    "speakWord": "あめ",
+    "mean": "비",
+    "speakKorean": "아메"
+  },
+  {
+    "id": 55,
+    "word": "雪",
+    "speakWord": "ゆき",
+    "mean": "눈",
+    "speakKorean": "유키"
+  },
+  {
+    "id": 56,
+    "word": "雷",
+    "speakWord": "かみなり",
+    "mean": "번개",
+    "speakKorean": "카미나리"
+  },
+  {
+    "id": 57,
+    "word": "霧",
+    "speakWord": "きり",
+    "mean": "안개",
+    "speakKorean": "키리"
+  },
+  {
+    "id": 58,
+    "word": "露",
+    "speakWord": "つゆ",
+    "mean": "이슬",
+    "speakKorean": "츠유"
+  },
+  {
+    "id": 59,
+    "word": "虹",
+    "speakWord": "にじ",
+    "mean": "무지개",
+    "speakKorean": "니지"
+  },
+  {
+    "id": 60,
+    "word": "星",
+    "speakWord": "ほし",
+    "mean": "별",
+    "speakKorean": "호시"
+  },
+  {
+    "id": 61,
+    "word": "月",
+    "speakWord": "つき",
+    "mean": "달",
+    "speakKorean": "츠키"
+  },
+  {
+    "id": 62,
+    "word": "太陽",
+    "speakWord": "たいよう",
+    "mean": "태양",
+    "speakKorean": "타이요우"
+  },
+  {
+    "id": 63,
+    "word": "銀河",
+    "speakWord": "ぎんが",
+    "mean": "은하",
+    "speakKorean": "긴가"
+  },
+  {
+    "id": 64,
+    "word": "宇宙",
+    "speakWord": "うちゅう",
+    "mean": "우주",
+    "speakKorean": "우츄우"
+  },
+  {
+    "id": 65,
+    "word": "火",
+    "speakWord": "ひ",
+    "mean": "불",
+    "speakKorean": "히"
+  },
+  {
+    "id": 66,
+    "word": "氷",
+    "speakWord": "こおり",
+    "mean": "얼음",
+    "speakKorean": "코오리"
+  },
+  {
+    "id": 67,
+    "word": "温度",
+    "speakWord": "おんど",
+    "mean": "온도",
+    "speakKorean": "온도"
+  },
+  {
+    "id": 68,
+    "word": "気温",
+    "speakWord": "きおん",
+    "mean": "기온",
+    "speakKorean": "키온"
+  },
+  {
+    "id": 69,
+    "word": "湿度",
+    "speakWord": "しつど",
+    "mean": "습도",
+    "speakKorean": "시츠도"
+  },
+  {
+    "id": 70,
+    "word": "地震",
+    "speakWord": "じしん",
+    "mean": "지진",
+    "speakKorean": "지신"
+  },
+  {
+    "id": 71,
+    "word": "津波",
+    "speakWord": "つなみ",
+    "mean": "쓰나미",
+    "speakKorean": "츠나미"
+  },
+  {
+    "id": 72,
+    "word": "台風",
+    "speakWord": "たいふう",
+    "mean": "태풍",
+    "speakKorean": "타이후우"
+  },
+  {
+    "id": 73,
+    "word": "気候",
+    "speakWord": "きこう",
+    "mean": "기후",
+    "speakKorean": "키코우"
+  },
+  {
+    "id": 74,
+    "word": "季節",
+    "speakWord": "きせつ",
+    "mean": "계절",
+    "speakKorean": "키세츠"
+  },
+  {
+    "id": 75,
+    "word": "春",
+    "speakWord": "はる",
+    "mean": "봄",
+    "speakKorean": "하루"
+  },
+  {
+    "id": 76,
+    "word": "夏",
+    "speakWord": "なつ",
+    "mean": "여름",
+    "speakKorean": "나츠"
+  },
+  {
+    "id": 77,
+    "word": "秋",
+    "speakWord": "あき",
+    "mean": "가을",
+    "speakKorean": "아키"
+  },
+  {
+    "id": 78,
+    "word": "冬",
+    "speakWord": "ふゆ",
+    "mean": "겨울",
+    "speakKorean": "후유"
+  },
+  {
+    "id": 79,
+    "word": "日の出",
+    "speakWord": "ひので",
+    "mean": "해돋이",
+    "speakKorean": "히노데"
+  },
+  {
+    "id": 80,
+    "word": "日の入り",
+    "speakWord": "ひのいり",
+    "mean": "해넘이",
+    "speakKorean": "히노이리"
+  },
+  {
+    "id": 81,
+    "word": "夕焼け",
+    "speakWord": "ゆうやけ",
+    "mean": "노을",
+    "speakKorean": "유우야케"
+  },
+  {
+    "id": 82,
+    "word": "朝焼け",
+    "speakWord": "あさやけ",
+    "mean": "아침노을",
+    "speakKorean": "아사야케"
+  },
+  {
+    "id": 83,
+    "word": "大地",
+    "speakWord": "だいち",
+    "mean": "대지",
+    "speakKorean": "다이치"
+  },
+  {
+    "id": 84,
+    "word": "平野",
+    "speakWord": "へいや",
+    "mean": "평야",
+    "speakKorean": "헤이야"
+  },
+  {
+    "id": 85,
+    "word": "高原",
+    "speakWord": "こうげん",
+    "mean": "고원",
+    "speakKorean": "코우겐"
+  },
+  {
+    "id": 86,
+    "word": "洞窟",
+    "speakWord": "どうくつ",
+    "mean": "동굴",
+    "speakKorean": "도우쿠츠"
+  },
+  {
+    "id": 87,
+    "word": "砂漠",
+    "speakWord": "さばく",
+    "mean": "사막",
+    "speakKorean": "사바쿠"
+  },
+  {
+    "id": 88,
+    "word": "湿地",
+    "speakWord": "しっち",
+    "mean": "습지",
+    "speakKorean": "싯치"
+  },
+  {
+    "id": 89,
+    "word": "峡谷",
+    "speakWord": "きょうこく",
+    "mean": "협곡",
+    "speakKorean": "쿄우코쿠"
+  },
+  {
+    "id": 90,
+    "word": "火山",
+    "speakWord": "かざん",
+    "mean": "화산",
+    "speakKorean": "카잔"
+  },
+  {
+    "id": 91,
+    "word": "溶岩",
+    "speakWord": "ようがん",
+    "mean": "용암",
+    "speakKorean": "요우간"
+  },
+  {
+    "id": 92,
+    "word": "流星",
+    "speakWord": "りゅうせい",
+    "mean": "유성",
+    "speakKorean": "류우세이"
+  },
+  {
+    "id": 93,
+    "word": "噴火",
+    "speakWord": "ふんか",
+    "mean": "분화",
+    "speakKorean": "훈카"
+  },
+  {
+    "id": 94,
+    "word": "雷雨",
+    "speakWord": "らいう",
+    "mean": "뇌우",
+    "speakKorean": "라이우"
+  },
+  {
+    "id": 95,
+    "word": "猛暑",
+    "speakWord": "もうしょ",
+    "mean": "폭염",
+    "speakKorean": "모우쇼"
+  },
+  {
+    "id": 96,
+    "word": "極寒",
+    "speakWord": "ごっかん",
+    "mean": "혹한",
+    "speakKorean": "곳칸"
+  },
+  {
+    "id": 97,
+    "word": "氾濫",
+    "speakWord": "はんらん",
+    "mean": "범람",
+    "speakKorean": "한란"
+  },
+  {
+    "id": 98,
+    "word": "干ばつ",
+    "speakWord": "かんばつ",
+    "mean": "가뭄",
+    "speakKorean": "칸바츠"
+  },
+  {
+    "id": 99,
+    "word": "潮流",
+    "speakWord": "ちょうりゅう",
+    "mean": "조류",
+    "speakKorean": "쵸우리유우"
+  },
+  {
+    "id": 100,
+    "word": "満潮",
+    "speakWord": "まんちょう",
+    "mean": "만조",
+    "speakKorean": "만쵸우"
+  }
+]

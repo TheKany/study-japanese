@@ -1,0 +1,422 @@
+[
+  {
+    "id": 1,
+    "word": "青い",
+    "speakWord": "あおい",
+    "mean": "파랗다",
+    "speakKorean": "아오이"
+  },
+  {
+    "id": 2,
+    "word": "赤い",
+    "speakWord": "あかい",
+    "mean": "빨갛다",
+    "speakKorean": "아카이"
+  },
+  {
+    "id": 3,
+    "word": "白い",
+    "speakWord": "しろい",
+    "mean": "하얗다",
+    "speakKorean": "시로이"
+  },
+  {
+    "id": 4,
+    "word": "黒い",
+    "speakWord": "くろい",
+    "mean": "검다",
+    "speakKorean": "쿠로이"
+  },
+  {
+    "id": 5,
+    "word": "黄色い",
+    "speakWord": "きいろい",
+    "mean": "노랗다",
+    "speakKorean": "키이로이"
+  },
+  {
+    "id": 6,
+    "word": "大きい",
+    "speakWord": "おおきい",
+    "mean": "크다",
+    "speakKorean": "오오키이"
+  },
+  {
+    "id": 7,
+    "word": "小さい",
+    "speakWord": "ちいさい",
+    "mean": "작다",
+    "speakKorean": "치이사이"
+  },
+  {
+    "id": 8,
+    "word": "長い",
+    "speakWord": "ながい",
+    "mean": "길다",
+    "speakKorean": "나가이"
+  },
+  {
+    "id": 9,
+    "word": "短い",
+    "speakWord": "みじかい",
+    "mean": "짧다",
+    "speakKorean": "미지카이"
+  },
+  {
+    "id": 10,
+    "word": "高い",
+    "speakWord": "たかい",
+    "mean": "높다, 비싸다",
+    "speakKorean": "타카이"
+  },
+  {
+    "id": 11,
+    "word": "安い",
+    "speakWord": "やすい",
+    "mean": "싸다",
+    "speakKorean": "야스이"
+  },
+  {
+    "id": 12,
+    "word": "新しい",
+    "speakWord": "あたらしい",
+    "mean": "새롭다",
+    "speakKorean": "아타라시이"
+  },
+  {
+    "id": 13,
+    "word": "古い",
+    "speakWord": "ふるい",
+    "mean": "오래되다",
+    "speakKorean": "후루이"
+  },
+  {
+    "id": 14,
+    "word": "暑い",
+    "speakWord": "あつい",
+    "mean": "덥다",
+    "speakKorean": "아츠이"
+  },
+  {
+    "id": 15,
+    "word": "寒い",
+    "speakWord": "さむい",
+    "mean": "춥다",
+    "speakKorean": "사무이"
+  },
+  {
+    "id": 16,
+    "word": "涼しい",
+    "speakWord": "すずしい",
+    "mean": "시원하다",
+    "speakKorean": "스즈시이"
+  },
+  {
+    "id": 17,
+    "word": "暖かい",
+    "speakWord": "あたたかい",
+    "mean": "따뜻하다",
+    "speakKorean": "아타타카이"
+  },
+  {
+    "id": 18,
+    "word": "冷たい",
+    "speakWord": "つめたい",
+    "mean": "차갑다",
+    "speakKorean": "츠메타이"
+  },
+  {
+    "id": 19,
+    "word": "甘い",
+    "speakWord": "あまい",
+    "mean": "달다",
+    "speakKorean": "아마이"
+  },
+  {
+    "id": 20,
+    "word": "辛い",
+    "speakWord": "からい",
+    "mean": "맵다",
+    "speakKorean": "카라이"
+  },
+  {
+    "id": 21,
+    "word": "苦い",
+    "speakWord": "にがい",
+    "mean": "쓰다",
+    "speakKorean": "니가이"
+  },
+  {
+    "id": 22,
+    "word": "酸っぱい",
+    "speakWord": "すっぱい",
+    "mean": "시다",
+    "speakKorean": "습파이"
+  },
+  {
+    "id": 23,
+    "word": "美味しい",
+    "speakWord": "おいしい",
+    "mean": "맛있다",
+    "speakKorean": "오이시이"
+  },
+  {
+    "id": 24,
+    "word": "不味い",
+    "speakWord": "まずい",
+    "mean": "맛없다",
+    "speakKorean": "마즈이"
+  },
+  {
+    "id": 25,
+    "word": "強い",
+    "speakWord": "つよい",
+    "mean": "강하다",
+    "speakKorean": "츠요이"
+  },
+  {
+    "id": 26,
+    "word": "弱い",
+    "speakWord": "よわい",
+    "mean": "약하다",
+    "speakKorean": "요와이"
+  },
+  {
+    "id": 27,
+    "word": "速い",
+    "speakWord": "はやい",
+    "mean": "빠르다",
+    "speakKorean": "하야이"
+  },
+  {
+    "id": 28,
+    "word": "遅い",
+    "speakWord": "おそい",
+    "mean": "느리다",
+    "speakKorean": "오소이"
+  },
+  {
+    "id": 29,
+    "word": "広い",
+    "speakWord": "ひろい",
+    "mean": "넓다",
+    "speakKorean": "히로이"
+  },
+  {
+    "id": 30,
+    "word": "狭い",
+    "speakWord": "せまい",
+    "mean": "좁다",
+    "speakKorean": "세마이"
+  },
+  {
+    "id": 31,
+    "word": "明るい",
+    "speakWord": "あかるい",
+    "mean": "밝다",
+    "speakKorean": "아카루이"
+  },
+  {
+    "id": 32,
+    "word": "暗い",
+    "speakWord": "くらい",
+    "mean": "어둡다",
+    "speakKorean": "쿠라이"
+  },
+  {
+    "id": 33,
+    "word": "難しい",
+    "speakWord": "むずかしい",
+    "mean": "어렵다",
+    "speakKorean": "무즈카시이"
+  },
+  {
+    "id": 34,
+    "word": "易しい",
+    "speakWord": "やさしい",
+    "mean": "쉽다",
+    "speakKorean": "야사시이"
+  },
+  {
+    "id": 35,
+    "word": "楽しい",
+    "speakWord": "たのしい",
+    "mean": "즐겁다",
+    "speakKorean": "타노시이"
+  },
+  {
+    "id": 36,
+    "word": "悲しい",
+    "speakWord": "かなしい",
+    "mean": "슬프다",
+    "speakKorean": "카나시이"
+  },
+  {
+    "id": 37,
+    "word": "嬉しい",
+    "speakWord": "うれしい",
+    "mean": "기쁘다",
+    "speakKorean": "우레시이"
+  },
+  {
+    "id": 38,
+    "word": "寂しい",
+    "speakWord": "さびしい",
+    "mean": "외롭다",
+    "speakKorean": "사비시이"
+  },
+  {
+    "id": 39,
+    "word": "面白い",
+    "speakWord": "おもしろい",
+    "mean": "재미있다",
+    "speakKorean": "오모시로이"
+  },
+  {
+    "id": 40,
+    "word": "つまらない",
+    "speakWord": "つまらない",
+    "mean": "지루하다",
+    "speakKorean": "츠마라나이"
+  },
+  {
+    "id": 41,
+    "word": "恥ずかしい",
+    "speakWord": "はずかしい",
+    "mean": "부끄럽다",
+    "speakKorean": "하즈카시이"
+  },
+  {
+    "id": 42,
+    "word": "可愛い",
+    "speakWord": "かわいい",
+    "mean": "귀엽다",
+    "speakKorean": "카와이이"
+  },
+  {
+    "id": 43,
+    "word": "格好いい",
+    "speakWord": "かっこいい",
+    "mean": "멋지다",
+    "speakKorean": "캇코이이"
+  },
+  {
+    "id": 44,
+    "word": "醜い",
+    "speakWord": "みにくい",
+    "mean": "추하다",
+    "speakKorean": "미니쿠이"
+  },
+  {
+    "id": 45,
+    "word": "若い",
+    "speakWord": "わかい",
+    "mean": "젊다",
+    "speakKorean": "와카이"
+  },
+  {
+    "id": 46,
+    "word": "年老いた",
+    "speakWord": "としおいた",
+    "mean": "늙다",
+    "speakKorean": "토시오이타"
+  },
+  {
+    "id": 47,
+    "word": "正しい",
+    "speakWord": "ただしい",
+    "mean": "옳다",
+    "speakKorean": "타다시이"
+  },
+  {
+    "id": 48,
+    "word": "間違っている",
+    "speakWord": "まちがっている",
+    "mean": "틀리다",
+    "speakKorean": "마치갓테이루"
+  },
+  {
+    "id": 49,
+    "word": "静か",
+    "speakWord": "しずか",
+    "mean": "조용하다",
+    "speakKorean": "시즈카"
+  },
+  {
+    "id": 50,
+    "word": "賑やか",
+    "speakWord": "にぎやか",
+    "mean": "번화하다",
+    "speakKorean": "니기야카"
+  },
+  {
+    "id": 51,
+    "word": "便利",
+    "speakWord": "べんり",
+    "mean": "편리하다",
+    "speakKorean": "벤리"
+  },
+  {
+    "id": 52,
+    "word": "不便",
+    "speakWord": "ふべん",
+    "mean": "불편하다",
+    "speakKorean": "후벤"
+  },
+  {
+    "id": 53,
+    "word": "大切",
+    "speakWord": "たいせつ",
+    "mean": "소중하다",
+    "speakKorean": "타이세츠"
+  },
+  {
+    "id": 54,
+    "word": "丁寧",
+    "speakWord": "ていねい",
+    "mean": "정중하다",
+    "speakKorean": "테이네이"
+  },
+  {
+    "id": 55,
+    "word": "簡単",
+    "speakWord": "かんたん",
+    "mean": "간단하다",
+    "speakKorean": "칸탄"
+  },
+  {
+    "id": 56,
+    "word": "危険",
+    "speakWord": "きけん",
+    "mean": "위험하다",
+    "speakKorean": "키켄"
+  },
+  {
+    "id": 57,
+    "word": "安全",
+    "speakWord": "あんぜん",
+    "mean": "안전하다",
+    "speakKorean": "안젠"
+  },
+  {
+    "id": 58,
+    "word": "特別",
+    "speakWord": "とくべつ",
+    "mean": "특별하다",
+    "speakKorean": "토쿠베츠"
+  },
+  {
+    "id": 59,
+    "word": "普通",
+    "speakWord": "ふつう",
+    "mean": "보통이다",
+    "speakKorean": "후츠우"
+  },
+  {
+    "id": 60,
+    "word": "元気",
+    "speakWord": "げんき",
+    "mean": "건강하다",
+    "speakKorean": "겐키"
+  }
+]

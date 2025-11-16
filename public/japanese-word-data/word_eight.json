@@ -1,0 +1,352 @@
+[
+  {
+    "id": 1,
+    "word": "一",
+    "speakWord": "いち",
+    "mean": "일",
+    "speakKorean": "이치"
+  },
+  {
+    "id": 2,
+    "word": "二",
+    "speakWord": "に",
+    "mean": "이",
+    "speakKorean": "니"
+  },
+  {
+    "id": 3,
+    "word": "三",
+    "speakWord": "さん",
+    "mean": "삼",
+    "speakKorean": "산"
+  },
+  {
+    "id": 4,
+    "word": "四",
+    "speakWord": "し/よん",
+    "mean": "사",
+    "speakKorean": "시/욘"
+  },
+  {
+    "id": 5,
+    "word": "五",
+    "speakWord": "ご",
+    "mean": "오",
+    "speakKorean": "고"
+  },
+  {
+    "id": 6,
+    "word": "六",
+    "speakWord": "ろく",
+    "mean": "육",
+    "speakKorean": "로쿠"
+  },
+  {
+    "id": 7,
+    "word": "七",
+    "speakWord": "しち/なな",
+    "mean": "칠",
+    "speakKorean": "시치/나나"
+  },
+  {
+    "id": 8,
+    "word": "八",
+    "speakWord": "はち",
+    "mean": "팔",
+    "speakKorean": "하치"
+  },
+  {
+    "id": 9,
+    "word": "九",
+    "speakWord": "きゅう",
+    "mean": "구",
+    "speakKorean": "큐"
+  },
+  {
+    "id": 10,
+    "word": "十",
+    "speakWord": "じゅう",
+    "mean": "십",
+    "speakKorean": "쥬우"
+  },
+  {
+    "id": 11,
+    "word": "百",
+    "speakWord": "ひゃく",
+    "mean": "백",
+    "speakKorean": "햐쿠"
+  },
+  {
+    "id": 12,
+    "word": "千",
+    "speakWord": "せん",
+    "mean": "천",
+    "speakKorean": "센"
+  },
+  {
+    "id": 13,
+    "word": "万",
+    "speakWord": "まん",
+    "mean": "만",
+    "speakKorean": "만"
+  },
+  {
+    "id": 14,
+    "word": "億",
+    "speakWord": "おく",
+    "mean": "억",
+    "speakKorean": "오쿠"
+  },
+  {
+    "id": 15,
+    "word": "兆",
+    "speakWord": "ちょう",
+    "mean": "조",
+    "speakKorean": "초우"
+  },
+  {
+    "id": 16,
+    "word": "零",
+    "speakWord": "ゼロ",
+    "mean": "영",
+    "speakKorean": "제로"
+  },
+  {
+    "id": 17,
+    "word": "半",
+    "speakWord": "はん",
+    "mean": "반",
+    "speakKorean": "한"
+  },
+  {
+    "id": 18,
+    "word": "分",
+    "speakWord": "ぶん",
+    "mean": "분(부분, 비율)",
+    "speakKorean": "분"
+  },
+  {
+    "id": 19,
+    "word": "数",
+    "speakWord": "かず",
+    "mean": "숫자, 수",
+    "speakKorean": "카즈"
+  },
+  {
+    "id": 20,
+    "word": "合計",
+    "speakWord": "ごうけい",
+    "mean": "합계",
+    "speakKorean": "고우케이"
+  },
+  {
+    "id": 21,
+    "word": "一つ",
+    "speakWord": "ひとつ",
+    "mean": "1개",
+    "speakKorean": "히토츠"
+  },
+  {
+    "id": 22,
+    "word": "二つ",
+    "speakWord": "ふたつ",
+    "mean": "2개",
+    "speakKorean": "후타츠"
+  },
+  {
+    "id": 23,
+    "word": "三つ",
+    "speakWord": "みっつ",
+    "mean": "3개",
+    "speakKorean": "밋츠"
+  },
+  {
+    "id": 24,
+    "word": "四つ",
+    "speakWord": "よっつ",
+    "mean": "4개",
+    "speakKorean": "욧츠"
+  },
+  {
+    "id": 25,
+    "word": "五つ",
+    "speakWord": "いつつ",
+    "mean": "5개",
+    "speakKorean": "이츠츠"
+  },
+  {
+    "id": 26,
+    "word": "六つ",
+    "speakWord": "むっつ",
+    "mean": "6개",
+    "speakKorean": "뭇츠"
+  },
+  {
+    "id": 27,
+    "word": "七つ",
+    "speakWord": "ななつ",
+    "mean": "7개",
+    "speakKorean": "나나츠"
+  },
+  {
+    "id": 28,
+    "word": "八つ",
+    "speakWord": "やっつ",
+    "mean": "8개",
+    "speakKorean": "얏츠"
+  },
+  {
+    "id": 29,
+    "word": "九つ",
+    "speakWord": "ここのつ",
+    "mean": "9개",
+    "speakKorean": "코코노츠"
+  },
+  {
+    "id": 30,
+    "word": "十",
+    "speakWord": "とお",
+    "mean": "10개",
+    "speakKorean": "토오"
+  },
+  {
+    "id": 31,
+    "word": "第一",
+    "speakWord": "だいいち",
+    "mean": "첫 번째",
+    "speakKorean": "다이이치"
+  },
+  {
+    "id": 32,
+    "word": "第二",
+    "speakWord": "だいに",
+    "mean": "두 번째",
+    "speakKorean": "다이니"
+  },
+  {
+    "id": 33,
+    "word": "第三",
+    "speakWord": "だいさん",
+    "mean": "세 번째",
+    "speakKorean": "다이산"
+  },
+  {
+    "id": 34,
+    "word": "第四",
+    "speakWord": "だいよん",
+    "mean": "네 번째",
+    "speakKorean": "다이욘"
+  },
+  {
+    "id": 35,
+    "word": "第五",
+    "speakWord": "だいご",
+    "mean": "다섯 번째",
+    "speakKorean": "다이고"
+  },
+  {
+    "id": 36,
+    "word": "第六",
+    "speakWord": "だいろく",
+    "mean": "여섯 번째",
+    "speakKorean": "다이로쿠"
+  },
+  {
+    "id": 37,
+    "word": "第七",
+    "speakWord": "だいしち",
+    "mean": "일곱 번째",
+    "speakKorean": "다이시치"
+  },
+  {
+    "id": 38,
+    "word": "第八",
+    "speakWord": "だいはち",
+    "mean": "여덟 번째",
+    "speakKorean": "다이하치"
+  },
+  {
+    "id": 39,
+    "word": "第九",
+    "speakWord": "だいきゅう",
+    "mean": "아홉 번째",
+    "speakKorean": "다이큐우"
+  },
+  {
+    "id": 40,
+    "word": "第十",
+    "speakWord": "だいじゅう",
+    "mean": "열 번째",
+    "speakKorean": "다이쥬우"
+  },
+  {
+    "id": 41,
+    "word": "第十一",
+    "speakWord": "だいじゅういち",
+    "mean": "열한 번째",
+    "speakKorean": "다이쥬우이치"
+  },
+  {
+    "id": 42,
+    "word": "第十二",
+    "speakWord": "だいじゅうに",
+    "mean": "열두 번째",
+    "speakKorean": "다이쥬우니"
+  },
+  {
+    "id": 43,
+    "word": "第十三",
+    "speakWord": "だいじゅうさん",
+    "mean": "열세 번째",
+    "speakKorean": "다이쥬우산"
+  },
+  {
+    "id": 44,
+    "word": "第二十",
+    "speakWord": "だいにじゅう",
+    "mean": "스무 번째",
+    "speakKorean": "다이니쥬우"
+  },
+  {
+    "id": 45,
+    "word": "第三十",
+    "speakWord": "だいさんじゅう",
+    "mean": "서른 번째",
+    "speakKorean": "다이산쥬우"
+  },
+  {
+    "id": 46,
+    "word": "第四十",
+    "speakWord": "だいよんじゅう",
+    "mean": "마흔 번째",
+    "speakKorean": "다이욘쥬우"
+  },
+  {
+    "id": 47,
+    "word": "第五十",
+    "speakWord": "だいごじゅう",
+    "mean": "쉰 번째",
+    "speakKorean": "다이고쥬우"
+  },
+  {
+    "id": 48,
+    "word": "第六十",
+    "speakWord": "だいろくじゅう",
+    "mean": "예순 번째",
+    "speakKorean": "다이로쿠쥬우"
+  },
+  {
+    "id": 49,
+    "word": "第七十",
+    "speakWord": "だいしちじゅう",
+    "mean": "일흔 번째",
+    "speakKorean": "다이시치쥬우"
+  },
+  {
+    "id": 50,
+    "word": "第百",
+    "speakWord": "だいひゃく",
+    "mean": "백 번째",
+    "speakKorean": "다이햐쿠"
+  }
+]

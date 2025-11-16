@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "word": "ご飯",
+    "speakWord": "ごはん",
+    "mean": "밥",
+    "speakKorean": "고한"
+  },
+  {
+    "id": 2,
+    "word": "パン",
+    "speakWord": "パン",
+    "mean": "빵",
+    "speakKorean": "빤"
+  },
+  {
+    "id": 3,
+    "word": "麺",
+    "speakWord": "めん",
+    "mean": "면",
+    "speakKorean": "멘"
+  },
+  {
+    "id": 4,
+    "word": "ラーメン",
+    "speakWord": "ラーメン",
+    "mean": "라멘",
+    "speakKorean": "라멘"
+  },
+  {
+    "id": 5,
+    "word": "そば",
+    "speakWord": "そば",
+    "mean": "소바",
+    "speakKorean": "소바"
+  },
+  {
+    "id": 6,
+    "word": "うどん",
+    "speakWord": "うどん",
+    "mean": "우동",
+    "speakKorean": "우동"
+  },
+  {
+    "id": 7,
+    "word": "寿司",
+    "speakWord": "すし",
+    "mean": "초밥",
+    "speakKorean": "스시"
+  },
+  {
+    "id": 8,
+    "word": "刺身",
+    "speakWord": "さしみ",
+    "mean": "사시미",
+    "speakKorean": "사시미"
+  },
+  {
+    "id": 9,
+    "word": "天ぷら",
+    "speakWord": "てんぷら",
+    "mean": "덴푸라",
+    "speakKorean": "텐푸라"
+  },
+  {
+    "id": 10,
+    "word": "焼肉",
+    "speakWord": "やきにく",
+    "mean": "불고기",
+    "speakKorean": "야키니쿠"
+  },
+  {
+    "id": 11,
+    "word": "焼き鳥",
+    "speakWord": "やきとり",
+    "mean": "야키토리",
+    "speakKorean": "야키토리"
+  },
+  {
+    "id": 12,
+    "word": "牛肉",
+    "speakWord": "ぎゅうにく",
+    "mean": "소고기",
+    "speakKorean": "규니쿠"
+  },
+  {
+    "id": 13,
+    "word": "豚肉",
+    "speakWord": "ぶたにく",
+    "mean": "돼지고기",
+    "speakKorean": "부타니쿠"
+  },
+  {
+    "id": 14,
+    "word": "鶏肉",
+    "speakWord": "とりにく",
+    "mean": "닭고기",
+    "speakKorean": "토리니쿠"
+  },
+  {
+    "id": 15,
+    "word": "魚",
+    "speakWord": "さかな",
+    "mean": "생선",
+    "speakKorean": "사카나"
+  },
+  {
+    "id": 16,
+    "word": "エビ",
+    "speakWord": "エビ",
+    "mean": "새우",
+    "speakKorean": "에비"
+  },
+  {
+    "id": 17,
+    "word": "カニ",
+    "speakWord": "カニ",
+    "mean": "게",
+    "speakKorean": "카니"
+  },
+  {
+    "id": 18,
+    "word": "タコ",
+    "speakWord": "タコ",
+    "mean": "문어",
+    "speakKorean": "타코"
+  },
+  {
+    "id": 19,
+    "word": "イカ",
+    "speakWord": "イカ",
+    "mean": "오징어",
+    "speakKorean": "이카"
+  },
+  {
+    "id": 20,
+    "word": "卵",
+    "speakWord": "たまご",
+    "mean": "계란",
+    "speakKorean": "타마고"
+  },
+  {
+    "id": 21,
+    "word": "豆腐",
+    "speakWord": "とうふ",
+    "mean": "두부",
+    "speakKorean": "토우후"
+  },
+  {
+    "id": 22,
+    "word": "野菜",
+    "speakWord": "やさい",
+    "mean": "야채",
+    "speakKorean": "야사이"
+  },
+  {
+    "id": 23,
+    "word": "トマト",
+    "speakWord": "トマト",
+    "mean": "토마토",
+    "speakKorean": "토마토"
+  },
+  {
+    "id": 24,
+    "word": "キュウリ",
+    "speakWord": "キュウリ",
+    "mean": "오이",
+    "speakKorean": "큐우리"
+  },
+  {
+    "id": 25,
+    "word": "キャベツ",
+    "speakWord": "キャベツ",
+    "mean": "양배추",
+    "speakKorean": "캬베츠"
+  },
+  {
+    "id": 26,
+    "word": "レタス",
+    "speakWord": "レタス",
+    "mean": "상추",
+    "speakKorean": "레타스"
+  },
+  {
+    "id": 27,
+    "word": "タマネギ",
+    "speakWord": "タマネギ",
+    "mean": "양파",
+    "speakKorean": "타마네기"
+  },
+  {
+    "id": 28,
+    "word": "ニンジン",
+    "speakWord": "ニンジン",
+    "mean": "당근",
+    "speakKorean": "닌징"
+  },
+  {
+    "id": 29,
+    "word": "ジャガイモ",
+    "speakWord": "ジャガイモ",
+    "mean": "감자",
+    "speakKorean": "자가이모"
+  },
+  {
+    "id": 30,
+    "word": "ナス",
+    "speakWord": "ナス",
+    "mean": "가지",
+    "speakKorean": "나스"
+  },
+  {
+    "id": 31,
+    "word": "果物",
+    "speakWord": "くだもの",
+    "mean": "과일",
+    "speakKorean": "쿠다모노"
+  },
+  {
+    "id": 32,
+    "word": "リンゴ",
+    "speakWord": "リンゴ",
+    "mean": "사과",
+    "speakKorean": "린고"
+  },
+  {
+    "id": 33,
+    "word": "バナナ",
+    "speakWord": "バナナ",
+    "mean": "바나나",
+    "speakKorean": "바나나"
+  },
+  {
+    "id": 34,
+    "word": "イチゴ",
+    "speakWord": "イチゴ",
+    "mean": "딸기",
+    "speakKorean": "이치고"
+  },
+  {
+    "id": 35,
+    "word": "ミカン",
+    "speakWord": "ミカン",
+    "mean": "귤",
+    "speakKorean": "미캉"
+  },
+  {
+    "id": 36,
+    "word": "モモ",
+    "speakWord": "モモ",
+    "mean": "복숭아",
+    "speakKorean": "모모"
+  },
+  {
+    "id": 37,
+    "word": "ブドウ",
+    "speakWord": "ブドウ",
+    "mean": "포도",
+    "speakKorean": "부도우"
+  },
+  {
+    "id": 38,
+    "word": "スイカ",
+    "speakWord": "スイカ",
+    "mean": "수박",
+    "speakKorean": "스이카"
+  },
+  {
+    "id": 39,
+    "word": "メロン",
+    "speakWord": "メロン",
+    "mean": "멜론",
+    "speakKorean": "메론"
+  },
+  {
+    "id": 40,
+    "word": "パイナップル",
+    "speakWord": "パイナップル",
+    "mean": "파인애플",
+    "speakKorean": "파이나풀이"
+  },
+  {
+    "id": 41,
+    "word": "コーヒー",
+    "speakWord": "コーヒー",
+    "mean": "커피",
+    "speakKorean": "코히"
+  },
+  {
+    "id": 42,
+    "word": "お茶",
+    "speakWord": "おちゃ",
+    "mean": "차",
+    "speakKorean": "오차"
+  },
+  {
+    "id": 43,
+    "word": "紅茶",
+    "speakWord": "こうちゃ",
+    "mean": "홍차",
+    "speakKorean": "코우차"
+  },
+  {
+    "id": 44,
+    "word": "緑茶",
+    "speakWord": "りょくちゃ",
+    "mean": "녹차",
+    "speakKorean": "료쿠차"
+  },
+  {
+    "id": 45,
+    "word": "牛乳",
+    "speakWord": "ぎゅうにゅう",
+    "mean": "우유",
+    "speakKorean": "규뉴우"
+  },
+  {
+    "id": 46,
+    "word": "ジュース",
+    "speakWord": "ジュース",
+    "mean": "주스",
+    "speakKorean": "쥬스"
+  },
+  {
+    "id": 47,
+    "word": "ビール",
+    "speakWord": "ビール",
+    "mean": "맥주",
+    "speakKorean": "비루"
+  },
+  {
+    "id": 48,
+    "word": "ワイン",
+    "speakWord": "ワイン",
+    "mean": "와인",
+    "speakKorean": "와인"
+  },
+  {
+    "id": 49,
+    "word": "日本酒",
+    "speakWord": "にほんしゅ",
+    "mean": "일본술",
+    "speakKorean": "니혼슈"
+  },
+  {
+    "id": 50,
+    "word": "焼酎",
+    "speakWord": "しょうちゅう",
+    "mean": "소주",
+    "speakKorean": "쇼츄"
+  },
+  {
+    "id": 51,
+    "word": "アイスクリーム",
+    "speakWord": "アイスクリーム",
+    "mean": "아이스크림",
+    "speakKorean": "아이스쿠리무"
+  },
+  {
+    "id": 52,
+    "word": "チョコレート",
+    "speakWord": "チョコレート",
+    "mean": "초콜릿",
+    "speakKorean": "초코레-토"
+  },
+  {
+    "id": 53,
+    "word": "ケーキ",
+    "speakWord": "ケーキ",
+    "mean": "케이크",
+    "speakKorean": "케-키"
+  },
+  {
+    "id": 54,
+    "word": "クッキー",
+    "speakWord": "クッキー",
+    "mean": "쿠키",
+    "speakKorean": "쿠키-"
+  },
+  {
+    "id": 55,
+    "word": "プリン",
+    "speakWord": "プリン",
+    "mean": "푸딩",
+    "speakKorean": "푸링"
+  },
+  {
+    "id": 56,
+    "word": "キャンディー",
+    "speakWord": "キャンディー",
+    "mean": "사탕",
+    "speakKorean": "캰디-"
+  },
+  {
+    "id": 57,
+    "word": "ドーナツ",
+    "speakWord": "ドーナツ",
+    "mean": "도넛",
+    "speakKorean": "도-나츠"
+  },
+  {
+    "id": 58,
+    "word": "ハチミツ",
+    "speakWord": "ハチミツ",
+    "mean": "꿀",
+    "speakKorean": "하치미츠"
+  },
+  {
+    "id": 59,
+    "word": "ジャム",
+    "speakWord": "ジャム",
+    "mean": "잼",
+    "speakKorean": "자무"
+  },
+  {
+    "id": 60,
+    "word": "バター",
+    "speakWord": "バター",
+    "mean": "버터",
+    "speakKorean": "바타-"
+  },
+  {
+    "id": 61,
+    "word": "マーガリン",
+    "speakWord": "マーガリン",
+    "mean": "마가린",
+    "speakKorean": "마-가린"
+  },
+  {
+    "id": 62,
+    "word": "ヨーグルト",
+    "speakWord": "ヨーグルト",
+    "mean": "요구르트",
+    "speakKorean": "요-구루토"
+  },
+  {
+    "id": 63,
+    "word": "おにぎり",
+    "speakWord": "おにぎり",
+    "mean": "오니기리(주먹밥)",
+    "speakKorean": "오니기리"
+  },
+  {
+    "id": 64,
+    "word": "おでん",
+    "speakWord": "おでん",
+    "mean": "오뎅",
+    "speakKorean": "오뎅"
+  },
+  {
+    "id": 65,
+    "word": "からあげ",
+    "speakWord": "からあげ",
+    "mean": "가라아게(튀김)",
+    "speakKorean": "카라아게"
+  },
+  {
+    "id": 66,
+    "word": "たこ焼き",
+    "speakWord": "たこやき",
+    "mean": "타코야키",
+    "speakKorean": "타코야키"
+  },
+  {
+    "id": 67,
+    "word": "焼きそば",
+    "speakWord": "やきそば",
+    "mean": "야키소바",
+    "speakKorean": "야키소바"
+  },
+  {
+    "id": 68,
+    "word": "カレーライス",
+    "speakWord": "カレーライス",
+    "mean": "카레라이스",
+    "speakKorean": "카레라이스"
+  },
+  {
+    "id": 69,
+    "word": "オムライス",
+    "speakWord": "オムライス",
+    "mean": "오므라이스",
+    "speakKorean": "오무라이스"
+  },
+  {
+    "id": 70,
+    "word": "ナポリタン",
+    "speakWord": "ナポリタン",
+    "mean": "나폴리탄 스파게티",
+    "speakKorean": "나포리탄"
+  },
+  {
+    "id": 71,
+    "word": "グラタン",
+    "speakWord": "グラタン",
+    "mean": "그라탕",
+    "speakKorean": "구라탕"
+  },
+  {
+    "id": 72,
+    "word": "サラダ",
+    "speakWord": "サラダ",
+    "mean": "샐러드",
+    "speakKorean": "사라다"
+  },
+  {
+    "id": 73,
+    "word": "フライドポテト",
+    "speakWord": "フライドポテト",
+    "mean": "감자튀김",
+    "speakKorean": "후라이도포테토"
+  },
+  {
+    "id": 74,
+    "word": "ハンバーガー",
+    "speakWord": "ハンバーガー",
+    "mean": "햄버거",
+    "speakKorean": "한바-가-"
+  },
+  {
+    "id": 75,
+    "word": "ホットドッグ",
+    "speakWord": "ホットドッグ",
+    "mean": "핫도그",
+    "speakKorean": "홋토도구"
+  },
+  {
+    "id": 76,
+    "word": "ステーキ",
+    "speakWord": "ステーキ",
+    "mean": "스테이크",
+    "speakKorean": "스테-키"
+  },
+  {
+    "id": 77,
+    "word": "ソーセージ",
+    "speakWord": "ソーセージ",
+    "mean": "소시지",
+    "speakKorean": "소-세-지"
+  },
+  {
+    "id": 78,
+    "word": "ピザ",
+    "speakWord": "ピザ",
+    "mean": "피자",
+    "speakKorean": "피자"
+  },
+  {
+    "id": 79,
+    "word": "シチュー",
+    "speakWord": "シチュー",
+    "mean": "스튜",
+    "speakKorean": "시츄-"
+  },
+  {
+    "id": 80,
+    "word": "スープ",
+    "speakWord": "スープ",
+    "mean": "수프",
+    "speakKorean": "스-푸"
+  },
+  {
+    "id": 81,
+    "word": "コーン",
+    "speakWord": "コーン",
+    "mean": "옥수수",
+    "speakKorean": "코-ㄴ"
+  },
+  {
+    "id": 82,
+    "word": "豆",
+    "speakWord": "まめ",
+    "mean": "콩",
+    "speakKorean": "마메"
+  },
+  {
+    "id": 83,
+    "word": "醤油",
+    "speakWord": "しょうゆ",
+    "mean": "간장",
+    "speakKorean": "쇼유"
+  },
+  {
+    "id": 84,
+    "word": "味噌",
+    "speakWord": "みそ",
+    "mean": "된장",
+    "speakKorean": "미소"
+  },
+  {
+    "id": 85,
+    "word": "塩",
+    "speakWord": "しお",
+    "mean": "소금",
+    "speakKorean": "시오"
+  },
+  {
+    "id": 86,
+    "word": "砂糖",
+    "speakWord": "さとう",
+    "mean": "설탕",
+    "speakKorean": "사토-"
+  },
+  {
+    "id": 87,
+    "word": "酢",
+    "speakWord": "す",
+    "mean": "식초",
+    "speakKorean": "스"
+  },
+  {
+    "id": 88,
+    "word": "油",
+    "speakWord": "あぶら",
+    "mean": "기름",
+    "speakKorean": "아부라"
+  },
+  {
+    "id": 89,
+    "word": "牛丼",
+    "speakWord": "ぎゅうどん",
+    "mean": "규동",
+    "speakKorean": "규-동"
+  },
+  {
+    "id": 90,
+    "word": "親子丼",
+    "speakWord": "おやこどん",
+    "mean": "오야코동",
+    "speakKorean": "오야코동"
+  },
+  {
+    "id": 91,
+    "word": "天丼",
+    "speakWord": "てんどん",
+    "mean": "텐동",
+    "speakKorean": "텐동"
+  },
+  {
+    "id": 92,
+    "word": "カツ丼",
+    "speakWord": "かつどん",
+    "mean": "가츠동",
+    "speakKorean": "카츠동"
+  },
+  {
+    "id": 93,
+    "word": "そぼろ",
+    "speakWord": "そぼろ",
+    "mean": "소보로",
+    "speakKorean": "소보로"
+  },
+  {
+    "id": 94,
+    "word": "ちらし寿司",
+    "speakWord": "ちらしずし",
+    "mean": "치라시스시",
+    "speakKorean": "치라시즈시"
+  },
+  {
+    "id": 95,
+    "word": "巻き寿司",
+    "speakWord": "まきずし",
+    "mean": "마키스시",
+    "speakKorean": "마키즈시"
+  },
+  {
+    "id": 96,
+    "word": "味噌汁",
+    "speakWord": "みそしる",
+    "mean": "미소된장국",
+    "speakKorean": "미소시루"
+  },
+  {
+    "id": 97,
+    "word": "豚汁",
+    "speakWord": "とんじる",
+    "mean": "돈지루(돼지고기 된장국)",
+    "speakKorean": "톤지루"
+  },
+  {
+    "id": 98,
+    "word": "お粥",
+    "speakWord": "おかゆ",
+    "mean": "죽",
+    "speakKorean": "오카유"
+  },
+  {
+    "id": 99,
+    "word": "茶碗蒸し",
+    "speakWord": "ちゃわんむし",
+    "mean": "자완무시(일본식 계란찜)",
+    "speakKorean": "차완무시"
+  },
+  {
+    "id": 100,
+    "word": "漬物",
+    "speakWord": "つけもの",
+    "mean": "쓰케모노(일본식 절임반찬)",
+    "speakKorean": "츠케모노"
+  }
+]

@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "word": "嬉しい",
+    "speakWord": "うれしい",
+    "mean": "기쁘다",
+    "speakKorean": "우레시이"
+  },
+  {
+    "id": 2,
+    "word": "楽しい",
+    "speakWord": "たのしい",
+    "mean": "즐겁다",
+    "speakKorean": "타노시이"
+  },
+  {
+    "id": 3,
+    "word": "悲しい",
+    "speakWord": "かなしい",
+    "mean": "슬프다",
+    "speakKorean": "카나시이"
+  },
+  {
+    "id": 4,
+    "word": "寂しい",
+    "speakWord": "さびしい",
+    "mean": "외롭다",
+    "speakKorean": "사비시이"
+  },
+  {
+    "id": 5,
+    "word": "恥ずかしい",
+    "speakWord": "はずかしい",
+    "mean": "부끄럽다",
+    "speakKorean": "하즈카시이"
+  },
+  {
+    "id": 6,
+    "word": "悔しい",
+    "speakWord": "くやしい",
+    "mean": "분하다",
+    "speakKorean": "쿠야시이"
+  },
+  {
+    "id": 7,
+    "word": "怒る",
+    "speakWord": "おこる",
+    "mean": "화내다",
+    "speakKorean": "오코루"
+  },
+  {
+    "id": 8,
+    "word": "驚く",
+    "speakWord": "おどろく",
+    "mean": "놀라다",
+    "speakKorean": "오도로쿠"
+  },
+  {
+    "id": 9,
+    "word": "怖い",
+    "speakWord": "こわい",
+    "mean": "무섭다",
+    "speakKorean": "코와이"
+  },
+  {
+    "id": 10,
+    "word": "羨ましい",
+    "speakWord": "うらやましい",
+    "mean": "부럽다",
+    "speakKorean": "우라야마시이"
+  },
+  {
+    "id": 11,
+    "word": "安心する",
+    "speakWord": "あんしんする",
+    "mean": "안심하다",
+    "speakKorean": "안신스루"
+  },
+  {
+    "id": 12,
+    "word": "心配する",
+    "speakWord": "しんぱいする",
+    "mean": "걱정하다",
+    "speakKorean": "신파이스루"
+  },
+  {
+    "id": 13,
+    "word": "不安",
+    "speakWord": "ふあん",
+    "mean": "불안",
+    "speakKorean": "후안"
+  },
+  {
+    "id": 14,
+    "word": "満足する",
+    "speakWord": "まんぞくする",
+    "mean": "만족하다",
+    "speakKorean": "만조쿠스루"
+  },
+  {
+    "id": 15,
+    "word": "感謝する",
+    "speakWord": "かんしゃする",
+    "mean": "감사하다",
+    "speakKorean": "칸샤스루"
+  },
+  {
+    "id": 16,
+    "word": "後悔する",
+    "speakWord": "こうかいする",
+    "mean": "후회하다",
+    "speakKorean": "코우카이스루"
+  },
+  {
+    "id": 17,
+    "word": "緊張する",
+    "speakWord": "きんちょうする",
+    "mean": "긴장하다",
+    "speakKorean": "킨쵸우스루"
+  },
+  {
+    "id": 18,
+    "word": "疲れる",
+    "speakWord": "つかれる",
+    "mean": "피곤하다",
+    "speakKorean": "츠카레루"
+  },
+  {
+    "id": 19,
+    "word": "興奮する",
+    "speakWord": "こうふんする",
+    "mean": "흥분하다",
+    "speakKorean": "코우훈스루"
+  },
+  {
+    "id": 20,
+    "word": "優しい",
+    "speakWord": "やさしい",
+    "mean": "상냥하다",
+    "speakKorean": "야사시이"
+  },
+  {
+    "id": 21,
+    "word": "冷たい",
+    "speakWord": "つめたい",
+    "mean": "차갑다(성격)",
+    "speakKorean": "츠메타이"
+  },
+  {
+    "id": 22,
+    "word": "厳しい",
+    "speakWord": "きびしい",
+    "mean": "엄격하다",
+    "speakKorean": "키비시이"
+  },
+  {
+    "id": 23,
+    "word": "親切",
+    "speakWord": "しんせつ",
+    "mean": "친절",
+    "speakKorean": "신세츠"
+  },
+  {
+    "id": 24,
+    "word": "正直",
+    "speakWord": "しょうじき",
+    "mean": "정직",
+    "speakKorean": "쇼우지키"
+  },
+  {
+    "id": 25,
+    "word": "嘘つき",
+    "speakWord": "うそつき",
+    "mean": "거짓말쟁이",
+    "speakKorean": "우소츠키"
+  },
+  {
+    "id": 26,
+    "word": "賢い",
+    "speakWord": "かしこい",
+    "mean": "영리하다",
+    "speakKorean": "카시코이"
+  },
+  {
+    "id": 27,
+    "word": "愚か",
+    "speakWord": "おろか",
+    "mean": "어리석다",
+    "speakKorean": "오로카"
+  },
+  {
+    "id": 28,
+    "word": "慎重",
+    "speakWord": "しんちょう",
+    "mean": "신중",
+    "speakKorean": "신쵸우"
+  },
+  {
+    "id": 29,
+    "word": "大胆",
+    "speakWord": "だいたん",
+    "mean": "대담",
+    "speakKorean": "다이탄"
+  },
+  {
+    "id": 30,
+    "word": "積極的",
+    "speakWord": "せっきょくてき",
+    "mean": "적극적",
+    "speakKorean": "셋쿄쿠테키"
+  },
+  {
+    "id": 31,
+    "word": "消極的",
+    "speakWord": "しょうきょくてき",
+    "mean": "소극적",
+    "speakKorean": "쇼우쿄쿠테키"
+  },
+  {
+    "id": 32,
+    "word": "勇気",
+    "speakWord": "ゆうき",
+    "mean": "용기",
+    "speakKorean": "유우키"
+  },
+  {
+    "id": 33,
+    "word": "臆病",
+    "speakWord": "おくびょう",
+    "mean": "겁쟁이",
+    "speakKorean": "오쿠뵤우"
+  },
+  {
+    "id": 34,
+    "word": "好奇心",
+    "speakWord": "こうきしん",
+    "mean": "호기심",
+    "speakKorean": "코우키신"
+  },
+  {
+    "id": 35,
+    "word": "几帳面",
+    "speakWord": "きちょうめん",
+    "mean": "꼼꼼한",
+    "speakKorean": "키쵸우멘"
+  },
+  {
+    "id": 36,
+    "word": "怠け者",
+    "speakWord": "なまけもの",
+    "mean": "게으름뱅이",
+    "speakKorean": "나마케모노"
+  },
+  {
+    "id": 37,
+    "word": "頑固",
+    "speakWord": "がんこ",
+    "mean": "완고함, 고집",
+    "speakKorean": "간코"
+  },
+  {
+    "id": 38,
+    "word": "素直",
+    "speakWord": "すなお",
+    "mean": "솔직함",
+    "speakKorean": "스나오"
+  },
+  {
+    "id": 39,
+    "word": "内向的",
+    "speakWord": "ないこうてき",
+    "mean": "내향적",
+    "speakKorean": "나이코우테키"
+  },
+  {
+    "id": 40,
+    "word": "外向的",
+    "speakWord": "がいこうてき",
+    "mean": "외향적",
+    "speakKorean": "가이코우테키"
+  },
+  {
+    "id": 41,
+    "word": "独立心",
+    "speakWord": "どくりつしん",
+    "mean": "독립심",
+    "speakKorean": "도쿠리츠신"
+  },
+  {
+    "id": 42,
+    "word": "協力的",
+    "speakWord": "きょうりょくてき",
+    "mean": "협력적",
+    "speakKorean": "쿄우료쿠테키"
+  },
+  {
+    "id": 43,
+    "word": "忍耐",
+    "speakWord": "にんたい",
+    "mean": "인내",
+    "speakKorean": "닌타이"
+  },
+  {
+    "id": 44,
+    "word": "嫉妬",
+    "speakWord": "しっと",
+    "mean": "질투",
+    "speakKorean": "싯토"
+  },
+  {
+    "id": 45,
+    "word": "恨み",
+    "speakWord": "うらみ",
+    "mean": "원한",
+    "speakKorean": "우라미"
+  },
+  {
+    "id": 46,
+    "word": "恵まれる",
+    "speakWord": "めぐまれる",
+    "mean": "혜택받다",
+    "speakKorean": "메구마레루"
+  },
+  {
+    "id": 47,
+    "word": "頑張る",
+    "speakWord": "がんばる",
+    "mean": "열심히 하다",
+    "speakKorean": "간바루"
+  },
+  {
+    "id": 48,
+    "word": "励ます",
+    "speakWord": "はげます",
+    "mean": "격려하다",
+    "speakKorean": "하게마스"
+  },
+  {
+    "id": 49,
+    "word": "褒める",
+    "speakWord": "ほめる",
+    "mean": "칭찬하다",
+    "speakKorean": "호메루"
+  },
+  {
+    "id": 50,
+    "word": "叱る",
+    "speakWord": "しかる",
+    "mean": "꾸짖다",
+    "speakKorean": "시카루"
+  },
+  {
+    "id": 51,
+    "word": "怒り",
+    "speakWord": "いかり",
+    "mean": "분노",
+    "speakKorean": "이카리"
+  },
+  {
+    "id": 52,
+    "word": "悲観的",
+    "speakWord": "ひかんてき",
+    "mean": "비관적",
+    "speakKorean": "히칸테키"
+  },
+  {
+    "id": 53,
+    "word": "楽観的",
+    "speakWord": "らっかんてき",
+    "mean": "낙관적",
+    "speakKorean": "랏칸테키"
+  },
+  {
+    "id": 54,
+    "word": "野心",
+    "speakWord": "やしん",
+    "mean": "야심",
+    "speakKorean": "야신"
+  },
+  {
+    "id": 55,
+    "word": "慎み深い",
+    "speakWord": "つつしみぶかい",
+    "mean": "신중하다",
+    "speakKorean": "츠츠시미부카이"
+  },
+  {
+    "id": 56,
+    "word": "陽気",
+    "speakWord": "ようき",
+    "mean": "명랑한",
+    "speakKorean": "요우키"
+  },
+  {
+    "id": 57,
+    "word": "陰気",
+    "speakWord": "いんき",
+    "mean": "우울한",
+    "speakKorean": "인키"
+  },
+  {
+    "id": 58,
+    "word": "礼儀正しい",
+    "speakWord": "れいぎただしい",
+    "mean": "예의 바르다",
+    "speakKorean": "레이기타다시이"
+  },
+  {
+    "id": 59,
+    "word": "生意気",
+    "speakWord": "なまいき",
+    "mean": "건방지다",
+    "speakKorean": "나마이키"
+  },
+  {
+    "id": 60,
+    "word": "無邪気",
+    "speakWord": "むじゃき",
+    "mean": "천진난만함",
+    "speakKorean": "무쟈키"
+  },
+  {
+    "id": 61,
+    "word": "神経質",
+    "speakWord": "しんけいしつ",
+    "mean": "신경질적인",
+    "speakKorean": "신케이시츠"
+  },
+  {
+    "id": 62,
+    "word": "誠実",
+    "speakWord": "せいじつ",
+    "mean": "성실함",
+    "speakKorean": "세이짓츠"
+  },
+  {
+    "id": 63,
+    "word": "謙虚",
+    "speakWord": "けんきょ",
+    "mean": "겸손함",
+    "speakKorean": "켄쿄"
+  },
+  {
+    "id": 64,
+    "word": "自信",
+    "speakWord": "じしん",
+    "mean": "자신감",
+    "speakKorean": "지신"
+  },
+  {
+    "id": 65,
+    "word": "勇敢",
+    "speakWord": "ゆうかん",
+    "mean": "용감함",
+    "speakKorean": "유우칸"
+  },
+  {
+    "id": 66,
+    "word": "臆病者",
+    "speakWord": "おくびょうもの",
+    "mean": "겁쟁이",
+    "speakKorean": "오쿠뵤우모노"
+  },
+  {
+    "id": 67,
+    "word": "嫉妬深い",
+    "speakWord": "しっとぶかい",
+    "mean": "질투심이 강한",
+    "speakKorean": "싯토부카이"
+  },
+  {
+    "id": 68,
+    "word": "貪欲",
+    "speakWord": "どんよく",
+    "mean": "탐욕스러움",
+    "speakKorean": "돈요쿠"
+  },
+  {
+    "id": 69,
+    "word": "短気",
+    "speakWord": "たんき",
+    "mean": "성급함",
+    "speakKorean": "탄키"
+  },
+  {
+    "id": 70,
+    "word": "気まぐれ",
+    "speakWord": "きまぐれ",
+    "mean": "변덕스럽다",
+    "speakKorean": "키마구레"
+  },
+  {
+    "id": 71,
+    "word": "誇り",
+    "speakWord": "ほこり",
+    "mean": "자부심",
+    "speakKorean": "호코리"
+  },
+  {
+    "id": 72,
+    "word": "冷静",
+    "speakWord": "れいせい",
+    "mean": "냉정함",
+    "speakKorean": "레이세이"
+  },
+  {
+    "id": 73,
+    "word": "活発",
+    "speakWord": "かっぱつ",
+    "mean": "활발함",
+    "speakKorean": "캇파츠"
+  },
+  {
+    "id": 74,
+    "word": "ぼんやり",
+    "speakWord": "ぼんやり",
+    "mean": "멍하다",
+    "speakKorean": "본야리"
+  },
+  {
+    "id": 75,
+    "word": "真面目",
+    "speakWord": "まじめ",
+    "mean": "성실함",
+    "speakKorean": "마지메"
+  },
+  {
+    "id": 76,
+    "word": "怠惰",
+    "speakWord": "たいだ",
+    "mean": "나태함",
+    "speakKorean": "타이다"
+  },
+  {
+    "id": 77,
+    "word": "楽観主義",
+    "speakWord": "らっかんしゅぎ",
+    "mean": "낙천주의",
+    "speakKorean": "랏칸슈기"
+  },
+  {
+    "id": 78,
+    "word": "悲観主義",
+    "speakWord": "ひかんしゅぎ",
+    "mean": "비관주의",
+    "speakKorean": "히칸슈기"
+  },
+  {
+    "id": 79,
+    "word": "気が短い",
+    "speakWord": "きがみじかい",
+    "mean": "성격이 급하다",
+    "speakKorean": "키가미지카이"
+  },
+  {
+    "id": 80,
+    "word": "温厚",
+    "speakWord": "おんこう",
+    "mean": "온화함",
+    "speakKorean": "온코우"
+  },
+  {
+    "id": 81,
+    "word": "独創的",
+    "speakWord": "どくそうてき",
+    "mean": "독창적",
+    "speakKorean": "도쿠소우테키"
+  },
+  {
+    "id": 82,
+    "word": "理想主義",
+    "speakWord": "りそうしゅぎ",
+    "mean": "이상주의",
+    "speakKorean": "리소우슈기"
+  },
+  {
+    "id": 83,
+    "word": "現実主義",
+    "speakWord": "げんじつしゅぎ",
+    "mean": "현실주의",
+    "speakKorean": "겐지츠슈기"
+  },
+  {
+    "id": 84,
+    "word": "臆する",
+    "speakWord": "おくする",
+    "mean": "주눅 들다",
+    "speakKorean": "오쿠스루"
+  },
+  {
+    "id": 85,
+    "word": "感情的",
+    "speakWord": "かんじょうてき",
+    "mean": "감정적",
+    "speakKorean": "칸죠우테키"
+  },
+  {
+    "id": 86,
+    "word": "冷淡",
+    "speakWord": "れいたん",
+    "mean": "냉담함",
+    "speakKorean": "레이탄"
+  },
+  {
+    "id": 87,
+    "word": "強情",
+    "speakWord": "ごうじょう",
+    "mean": "고집이 셈",
+    "speakKorean": "고우죠우"
+  },
+  {
+    "id": 88,
+    "word": "思いやり",
+    "speakWord": "おもいやり",
+    "mean": "배려심",
+    "speakKorean": "오모이야리"
+  },
+  {
+    "id": 89,
+    "word": "優越感",
+    "speakWord": "ゆうえつかん",
+    "mean": "우월감",
+    "speakKorean": "유우에츠칸"
+  },
+  {
+    "id": 90,
+    "word": "劣等感",
+    "speakWord": "れっとうかん",
+    "mean": "열등감",
+    "speakKorean": "렛토우칸"
+  },
+  {
+    "id": 91,
+    "word": "不機嫌",
+    "speakWord": "ふきげん",
+    "mean": "기분이 나쁨",
+    "speakKorean": "후키겐"
+  },
+  {
+    "id": 92,
+    "word": "のんびり",
+    "speakWord": "のんびり",
+    "mean": "느긋함",
+    "speakKorean": "논비리"
+  },
+  {
+    "id": 93,
+    "word": "無関心",
+    "speakWord": "むかんしん",
+    "mean": "무관심",
+    "speakKorean": "무칸신"
+  },
+  {
+    "id": 94,
+    "word": "気が強い",
+    "speakWord": "きがつよい",
+    "mean": "성격이 강하다",
+    "speakKorean": "키가츠요이"
+  },
+  {
+    "id": 95,
+    "word": "気が弱い",
+    "speakWord": "きがよわい",
+    "mean": "성격이 약하다",
+    "speakKorean": "키가요와이"
+  },
+  {
+    "id": 96,
+    "word": "積み重ねる",
+    "speakWord": "つみかさねる",
+    "mean": "쌓아 올리다",
+    "speakKorean": "츠미카사네루"
+  },
+  {
+    "id": 97,
+    "word": "感情移入",
+    "speakWord": "かんじょういにゅう",
+    "mean": "감정 이입",
+    "speakKorean": "칸죠우이뉴우"
+  },
+  {
+    "id": 98,
+    "word": "自己中心的",
+    "speakWord": "じこちゅうしんてき",
+    "mean": "자기중심적",
+    "speakKorean": "지코츄우신테키"
+  },
+  {
+    "id": 99,
+    "word": "博愛主義",
+    "speakWord": "はくあいしゅぎ",
+    "mean": "박애주의",
+    "speakKorean": "하쿠아이슈기"
+  },
+  {
+    "id": 100,
+    "word": "精神的",
+    "speakWord": "せいしんてき",
+    "mean": "정신적",
+    "speakKorean": "세이신테키"
+  }
+]

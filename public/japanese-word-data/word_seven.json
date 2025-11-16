@@ -1,0 +1,387 @@
+[
+  {
+    "id": 1,
+    "word": "駅",
+    "speakWord": "えき",
+    "mean": "역",
+    "speakKorean": "에키"
+  },
+  {
+    "id": 2,
+    "word": "空港",
+    "speakWord": "くうこう",
+    "mean": "공항",
+    "speakKorean": "쿠우코우"
+  },
+  {
+    "id": 3,
+    "word": "バス停",
+    "speakWord": "バスてい",
+    "mean": "버스 정류장",
+    "speakKorean": "바스테이"
+  },
+  {
+    "id": 4,
+    "word": "道路",
+    "speakWord": "どうろ",
+    "mean": "도로",
+    "speakKorean": "도오로"
+  },
+  {
+    "id": 5,
+    "word": "交差点",
+    "speakWord": "こうさてん",
+    "mean": "교차로",
+    "speakKorean": "코우사텐"
+  },
+  {
+    "id": 6,
+    "word": "横断歩道",
+    "speakWord": "おうだんほどう",
+    "mean": "횡단보도",
+    "speakKorean": "오우단호도우"
+  },
+  {
+    "id": 7,
+    "word": "信号",
+    "speakWord": "しんごう",
+    "mean": "신호등",
+    "speakKorean": "신고우"
+  },
+  {
+    "id": 8,
+    "word": "駐車場",
+    "speakWord": "ちゅうしゃじょう",
+    "mean": "주차장",
+    "speakKorean": "츄우샤죠우"
+  },
+  {
+    "id": 9,
+    "word": "地下鉄",
+    "speakWord": "ちかてつ",
+    "mean": "지하철",
+    "speakKorean": "치카테츠"
+  },
+  {
+    "id": 10,
+    "word": "店",
+    "speakWord": "みせ",
+    "mean": "가게",
+    "speakKorean": "미세"
+  },
+  {
+    "id": 11,
+    "word": "市場",
+    "speakWord": "いちば",
+    "mean": "시장",
+    "speakKorean": "이치바"
+  },
+  {
+    "id": 12,
+    "word": "デパート",
+    "speakWord": "デパート",
+    "mean": "백화점",
+    "speakKorean": "데파-토"
+  },
+  {
+    "id": 13,
+    "word": "スーパー",
+    "speakWord": "スーパ-",
+    "mean": "슈퍼마켓",
+    "speakKorean": "수-파-"
+  },
+  {
+    "id": 14,
+    "word": "コンビニ",
+    "speakWord": "コンビニ",
+    "mean": "편의점",
+    "speakKorean": "콘비니"
+  },
+  {
+    "id": 15,
+    "word": "本屋",
+    "speakWord": "ほんや",
+    "mean": "서점",
+    "speakKorean": "혼야"
+  },
+  {
+    "id": 16,
+    "word": "薬局",
+    "speakWord": "やっきょく",
+    "mean": "약국",
+    "speakKorean": "얏쿄쿠"
+  },
+  {
+    "id": 17,
+    "word": "レストラン",
+    "speakWord": "レストラン",
+    "mean": "레스토랑",
+    "speakKorean": "레스토랑"
+  },
+  {
+    "id": 18,
+    "word": "カフェ",
+    "speakWord": "カフェ",
+    "mean": "카페",
+    "speakKorean": "카페"
+  },
+  {
+    "id": 19,
+    "word": "ファストフード店",
+    "speakWord": "ファストフードてん",
+    "mean": "패스트푸드점",
+    "speakKorean": "후아스토후-도텐"
+  },
+  {
+    "id": 20,
+    "word": "学校",
+    "speakWord": "がっこう",
+    "mean": "학교",
+    "speakKorean": "갓코우"
+  },
+  {
+    "id": 21,
+    "word": "小学校",
+    "speakWord": "しょうがっこう",
+    "mean": "초등학교",
+    "speakKorean": "쇼우갓코우"
+  },
+  {
+    "id": 22,
+    "word": "中学校",
+    "speakWord": "ちゅうがっこう",
+    "mean": "중학교",
+    "speakKorean": "츄우갓코우"
+  },
+  {
+    "id": 23,
+    "word": "高校",
+    "speakWord": "こうこう",
+    "mean": "고등학교",
+    "speakKorean": "코우코우"
+  },
+  {
+    "id": 24,
+    "word": "大学",
+    "speakWord": "だいがく",
+    "mean": "대학교",
+    "speakKorean": "다이가쿠"
+  },
+  {
+    "id": 25,
+    "word": "図書館",
+    "speakWord": "としょかん",
+    "mean": "도서관",
+    "speakKorean": "토쇼칸"
+  },
+  {
+    "id": 26,
+    "word": "教室",
+    "speakWord": "きょうしつ",
+    "mean": "교실",
+    "speakKorean": "쿄우시츠"
+  },
+  {
+    "id": 27,
+    "word": "職員室",
+    "speakWord": "しょくいんしつ",
+    "mean": "교무실",
+    "speakKorean": "쇼쿠인시츠"
+  },
+  {
+    "id": 28,
+    "word": "病院",
+    "speakWord": "びょういん",
+    "mean": "병원",
+    "speakKorean": "뵤우인"
+  },
+  {
+    "id": 29,
+    "word": "歯医者",
+    "speakWord": "はいしゃ",
+    "mean": "치과",
+    "speakKorean": "하이샤"
+  },
+  {
+    "id": 30,
+    "word": "診療所",
+    "speakWord": "しんりょうじょ",
+    "mean": "의원 (작은 병원)",
+    "speakKorean": "신료우죠"
+  },
+  {
+    "id": 31,
+    "word": "救急病院",
+    "speakWord": "きゅうきゅうびょういん",
+    "mean": "응급실",
+    "speakKorean": "큐우큐우뵤우인"
+  },
+  {
+    "id": 32,
+    "word": "薬局",
+    "speakWord": "やっきょく",
+    "mean": "약국",
+    "speakKorean": "얏쿄쿠"
+  },
+  {
+    "id": 33,
+    "word": "整骨院",
+    "speakWord": "せいこついん",
+    "mean": "한의원, 정형외과",
+    "speakKorean": "세이코츠인"
+  },
+  {
+    "id": 34,
+    "word": "会社",
+    "speakWord": "かいしゃ",
+    "mean": "회사",
+    "speakKorean": "카이샤"
+  },
+  {
+    "id": 35,
+    "word": "オフィス",
+    "speakWord": "オフィス",
+    "mean": "사무실",
+    "speakKorean": "오피스"
+  },
+  {
+    "id": 36,
+    "word": "会議室",
+    "speakWord": "かいぎしつ",
+    "mean": "회의실",
+    "speakKorean": "카이기시츠"
+  },
+  {
+    "id": 37,
+    "word": "受付",
+    "speakWord": "うけつけ",
+    "mean": "접수처",
+    "speakKorean": "우케츠케"
+  },
+  {
+    "id": 38,
+    "word": "工場",
+    "speakWord": "こうじょう",
+    "mean": "공장",
+    "speakKorean": "코우죠우"
+  },
+  {
+    "id": 39,
+    "word": "映画館",
+    "speakWord": "えいがかん",
+    "mean": "영화관",
+    "speakKorean": "에이가칸"
+  },
+  {
+    "id": 40,
+    "word": "美術館",
+    "speakWord": "びじゅつかん",
+    "mean": "미술관",
+    "speakKorean": "비쥬츠칸"
+  },
+  {
+    "id": 41,
+    "word": "博物館",
+    "speakWord": "はくぶつかん",
+    "mean": "박물관",
+    "speakKorean": "하쿠부츠칸"
+  },
+  {
+    "id": 42,
+    "word": "動物園",
+    "speakWord": "どうぶつえん",
+    "mean": "동물원",
+    "speakKorean": "도우부츠엔"
+  },
+  {
+    "id": 43,
+    "word": "水族館",
+    "speakWord": "すいぞくかん",
+    "mean": "수족관",
+    "speakKorean": "스이조쿠칸"
+  },
+  {
+    "id": 44,
+    "word": "遊園地",
+    "speakWord": "ゆうえんち",
+    "mean": "놀이공원",
+    "speakKorean": "유우엔치"
+  },
+  {
+    "id": 45,
+    "word": "公園",
+    "speakWord": "こうえん",
+    "mean": "공원",
+    "speakKorean": "코우엔"
+  },
+  {
+    "id": 46,
+    "word": "ホテル",
+    "speakWord": "ホテル",
+    "mean": "호텔",
+    "speakKorean": "호테루"
+  },
+  {
+    "id": 47,
+    "word": "旅館",
+    "speakWord": "りょかん",
+    "mean": "일본식 여관",
+    "speakKorean": "료칸"
+  },
+  {
+    "id": 48,
+    "word": "ゲストハウス",
+    "speakWord": "ゲストハウス",
+    "mean": "게스트하우스",
+    "speakKorean": "게스토하우스"
+  },
+  {
+    "id": 49,
+    "word": "民宿",
+    "speakWord": "みんしゅく",
+    "mean": "민박",
+    "speakKorean": "민슈쿠"
+  },
+  {
+    "id": 50,
+    "word": "キャンプ場",
+    "speakWord": "キャンプじょう",
+    "mean": "캠핑장",
+    "speakKorean": "캰푸죠우"
+  },
+  {
+    "id": 51,
+    "word": "神社",
+    "speakWord": "じんじゃ",
+    "mean": "신사",
+    "speakKorean": "진쟈"
+  },
+  {
+    "id": 52,
+    "word": "寺",
+    "speakWord": "てら",
+    "mean": "절",
+    "speakKorean": "테라"
+  },
+  {
+    "id": 53,
+    "word": "教会",
+    "speakWord": "きょうかい",
+    "mean": "교회",
+    "speakKorean": "쿄우카이"
+  },
+  {
+    "id": 54,
+    "word": "城",
+    "speakWord": "しろ",
+    "mean": "성",
+    "speakKorean": "시로"
+  },
+  {
+    "id": 55,
+    "word": "遺跡",
+    "speakWord": "いせき",
+    "mean": "유적지",
+    "speakKorean": "이세키"
+  }
+]

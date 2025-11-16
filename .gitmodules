@@ -1,0 +1,3 @@
+[submodule "japanese-word-data"]
+	path = japanese-word-data
+	url = https://github.com/TheKany/japanese-word-data.git

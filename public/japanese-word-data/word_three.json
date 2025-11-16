@@ -1,0 +1,702 @@
+[
+  {
+    "id": 1,
+    "word": "学校",
+    "speakWord": "がっこう",
+    "mean": "학교",
+    "speakKorean": "갓코우"
+  },
+  {
+    "id": 2,
+    "word": "先生",
+    "speakWord": "せんせい",
+    "mean": "선생님",
+    "speakKorean": "센세이"
+  },
+  {
+    "id": 3,
+    "word": "学生",
+    "speakWord": "がくせい",
+    "mean": "학생",
+    "speakKorean": "가쿠세이"
+  },
+  {
+    "id": 4,
+    "word": "友達",
+    "speakWord": "ともだち",
+    "mean": "친구",
+    "speakKorean": "토모다치"
+  },
+  {
+    "id": 5,
+    "word": "家族",
+    "speakWord": "かぞく",
+    "mean": "가족",
+    "speakKorean": "카조쿠"
+  },
+  {
+    "id": 6,
+    "word": "母",
+    "speakWord": "はは",
+    "mean": "어머니",
+    "speakKorean": "하하"
+  },
+  {
+    "id": 7,
+    "word": "父",
+    "speakWord": "ちち",
+    "mean": "아버지",
+    "speakKorean": "치치"
+  },
+  {
+    "id": 8,
+    "word": "兄",
+    "speakWord": "あに",
+    "mean": "형, 오빠",
+    "speakKorean": "아니"
+  },
+  {
+    "id": 9,
+    "word": "姉",
+    "speakWord": "あね",
+    "mean": "누나, 언니",
+    "speakKorean": "아네"
+  },
+  {
+    "id": 10,
+    "word": "弟",
+    "speakWord": "おとうと",
+    "mean": "남동생",
+    "speakKorean": "오토우토"
+  },
+  {
+    "id": 11,
+    "word": "妹",
+    "speakWord": "いもうと",
+    "mean": "여동생",
+    "speakKorean": "이모우토"
+  },
+  {
+    "id": 12,
+    "word": "犬",
+    "speakWord": "いぬ",
+    "mean": "개",
+    "speakKorean": "이누"
+  },
+  {
+    "id": 13,
+    "word": "猫",
+    "speakWord": "ねこ",
+    "mean": "고양이",
+    "speakKorean": "네코"
+  },
+  {
+    "id": 14,
+    "word": "鳥",
+    "speakWord": "とり",
+    "mean": "새",
+    "speakKorean": "토리"
+  },
+  {
+    "id": 15,
+    "word": "魚",
+    "speakWord": "さかな",
+    "mean": "물고기",
+    "speakKorean": "사카나"
+  },
+  {
+    "id": 16,
+    "word": "仕事",
+    "speakWord": "しごと",
+    "mean": "일, 직업",
+    "speakKorean": "시고토"
+  },
+  {
+    "id": 17,
+    "word": "会社",
+    "speakWord": "かいしゃ",
+    "mean": "회사",
+    "speakKorean": "카이샤"
+  },
+  {
+    "id": 18,
+    "word": "会議",
+    "speakWord": "かいぎ",
+    "mean": "회의",
+    "speakKorean": "카이기"
+  },
+  {
+    "id": 19,
+    "word": "電話",
+    "speakWord": "でんわ",
+    "mean": "전화",
+    "speakKorean": "덴와"
+  },
+  {
+    "id": 20,
+    "word": "メール",
+    "speakWord": "メール",
+    "mean": "이메일",
+    "speakKorean": "메에루"
+  },
+  {
+    "id": 21,
+    "word": "新聞",
+    "speakWord": "しんぶん",
+    "mean": "신문",
+    "speakKorean": "신분"
+  },
+  {
+    "id": 22,
+    "word": "雑誌",
+    "speakWord": "ざっし",
+    "mean": "잡지",
+    "speakKorean": "잡시"
+  },
+  {
+    "id": 23,
+    "word": "本",
+    "speakWord": "ほん",
+    "mean": "책",
+    "speakKorean": "혼"
+  },
+  {
+    "id": 24,
+    "word": "辞書",
+    "speakWord": "じしょ",
+    "mean": "사전",
+    "speakKorean": "지쇼"
+  },
+  {
+    "id": 25,
+    "word": "映画",
+    "speakWord": "えいが",
+    "mean": "영화",
+    "speakKorean": "에이가"
+  },
+  {
+    "id": 26,
+    "word": "音楽",
+    "speakWord": "おんがく",
+    "mean": "음악",
+    "speakKorean": "온가쿠"
+  },
+  {
+    "id": 27,
+    "word": "歌",
+    "speakWord": "うた",
+    "mean": "노래",
+    "speakKorean": "우타"
+  },
+  {
+    "id": 28,
+    "word": "写真",
+    "speakWord": "しゃしん",
+    "mean": "사진",
+    "speakKorean": "샤신"
+  },
+  {
+    "id": 29,
+    "word": "手紙",
+    "speakWord": "てがみ",
+    "mean": "편지",
+    "speakKorean": "테가미"
+  },
+  {
+    "id": 30,
+    "word": "天気",
+    "speakWord": "てんき",
+    "mean": "날씨",
+    "speakKorean": "텐키"
+  },
+  {
+    "id": 31,
+    "word": "雨",
+    "speakWord": "あめ",
+    "mean": "비",
+    "speakKorean": "아메"
+  },
+  {
+    "id": 32,
+    "word": "雪",
+    "speakWord": "ゆき",
+    "mean": "눈",
+    "speakKorean": "유키"
+  },
+  {
+    "id": 33,
+    "word": "風",
+    "speakWord": "かぜ",
+    "mean": "바람",
+    "speakKorean": "카제"
+  },
+  {
+    "id": 34,
+    "word": "空",
+    "speakWord": "そら",
+    "mean": "하늘",
+    "speakKorean": "소라"
+  },
+  {
+    "id": 35,
+    "word": "海",
+    "speakWord": "うみ",
+    "mean": "바다",
+    "speakKorean": "우미"
+  },
+  {
+    "id": 36,
+    "word": "山",
+    "speakWord": "やま",
+    "mean": "산",
+    "speakKorean": "야마"
+  },
+  {
+    "id": 37,
+    "word": "川",
+    "speakWord": "かわ",
+    "mean": "강",
+    "speakKorean": "카와"
+  },
+  {
+    "id": 38,
+    "word": "道",
+    "speakWord": "みち",
+    "mean": "길",
+    "speakKorean": "미치"
+  },
+  {
+    "id": 39,
+    "word": "橋",
+    "speakWord": "はし",
+    "mean": "다리",
+    "speakKorean": "하시"
+  },
+  {
+    "id": 40,
+    "word": "公園",
+    "speakWord": "こうえん",
+    "mean": "공원",
+    "speakKorean": "코우엔"
+  },
+  {
+    "id": 41,
+    "word": "病院",
+    "speakWord": "びょういん",
+    "mean": "병원",
+    "speakKorean": "뵤우인"
+  },
+  {
+    "id": 42,
+    "word": "薬",
+    "speakWord": "くすり",
+    "mean": "약",
+    "speakKorean": "쿠스리"
+  },
+  {
+    "id": 43,
+    "word": "買い物",
+    "speakWord": "かいもの",
+    "mean": "쇼핑",
+    "speakKorean": "카이모노"
+  },
+  {
+    "id": 44,
+    "word": "店",
+    "speakWord": "みせ",
+    "mean": "가게",
+    "speakKorean": "미세"
+  },
+  {
+    "id": 45,
+    "word": "市場",
+    "speakWord": "いちば",
+    "mean": "시장",
+    "speakKorean": "이치바"
+  },
+  {
+    "id": 46,
+    "word": "車",
+    "speakWord": "くるま",
+    "mean": "자동차",
+    "speakKorean": "쿠루마"
+  },
+  {
+    "id": 47,
+    "word": "電車",
+    "speakWord": "でんしゃ",
+    "mean": "전철",
+    "speakKorean": "덴샤"
+  },
+  {
+    "id": 48,
+    "word": "駅",
+    "speakWord": "えき",
+    "mean": "역",
+    "speakKorean": "에키"
+  },
+  {
+    "id": 49,
+    "word": "飛行機",
+    "speakWord": "ひこうき",
+    "mean": "비행기",
+    "speakKorean": "히코우키"
+  },
+  {
+    "id": 50,
+    "word": "船",
+    "speakWord": "ふね",
+    "mean": "배",
+    "speakKorean": "후네"
+  },
+  {
+    "id": 51,
+    "word": "時計",
+    "speakWord": "とけい",
+    "mean": "시계",
+    "speakKorean": "토케이"
+  },
+  {
+    "id": 52,
+    "word": "机",
+    "speakWord": "つくえ",
+    "mean": "책상",
+    "speakKorean": "츠쿠에"
+  },
+  {
+    "id": 53,
+    "word": "椅子",
+    "speakWord": "いす",
+    "mean": "의자",
+    "speakKorean": "이스"
+  },
+  {
+    "id": 54,
+    "word": "窓",
+    "speakWord": "まど",
+    "mean": "창문",
+    "speakKorean": "마도"
+  },
+  {
+    "id": 55,
+    "word": "扉",
+    "speakWord": "とびら",
+    "mean": "문",
+    "speakKorean": "토비라"
+  },
+  {
+    "id": 56,
+    "word": "靴",
+    "speakWord": "くつ",
+    "mean": "신발",
+    "speakKorean": "쿠츠"
+  },
+  {
+    "id": 57,
+    "word": "服",
+    "speakWord": "ふく",
+    "mean": "옷",
+    "speakKorean": "후쿠"
+  },
+  {
+    "id": 58,
+    "word": "帽子",
+    "speakWord": "ぼうし",
+    "mean": "모자",
+    "speakKorean": "보우시"
+  },
+  {
+    "id": 59,
+    "word": "眼鏡",
+    "speakWord": "めがね",
+    "mean": "안경",
+    "speakKorean": "메가네"
+  },
+  {
+    "id": 60,
+    "word": "鍵",
+    "speakWord": "かぎ",
+    "mean": "열쇠",
+    "speakKorean": "카기"
+  },
+  {
+    "id": 61,
+    "word": "財布",
+    "speakWord": "さいふ",
+    "mean": "지갑",
+    "speakKorean": "사이후"
+  },
+  {
+    "id": 62,
+    "word": "紙",
+    "speakWord": "かみ",
+    "mean": "종이",
+    "speakKorean": "카미"
+  },
+  {
+    "id": 63,
+    "word": "鉛筆",
+    "speakWord": "えんぴつ",
+    "mean": "연필",
+    "speakKorean": "엔피츠"
+  },
+  {
+    "id": 64,
+    "word": "消しゴム",
+    "speakWord": "けしゴム",
+    "mean": "지우개",
+    "speakKorean": "케시고무"
+  },
+  {
+    "id": 65,
+    "word": "筆",
+    "speakWord": "ふで",
+    "mean": "붓",
+    "speakKorean": "후데"
+  },
+  {
+    "id": 66,
+    "word": "絵",
+    "speakWord": "え",
+    "mean": "그림",
+    "speakKorean": "에"
+  },
+  {
+    "id": 67,
+    "word": "箱",
+    "speakWord": "はこ",
+    "mean": "상자",
+    "speakKorean": "하코"
+  },
+  {
+    "id": 68,
+    "word": "花",
+    "speakWord": "はな",
+    "mean": "꽃",
+    "speakKorean": "하나"
+  },
+  {
+    "id": 69,
+    "word": "草",
+    "speakWord": "くさ",
+    "mean": "풀",
+    "speakKorean": "쿠사"
+  },
+  {
+    "id": 70,
+    "word": "木",
+    "speakWord": "き",
+    "mean": "나무",
+    "speakKorean": "키"
+  },
+  {
+    "id": 71,
+    "word": "森",
+    "speakWord": "もり",
+    "mean": "숲",
+    "speakKorean": "모리"
+  },
+  {
+    "id": 72,
+    "word": "畑",
+    "speakWord": "はたけ",
+    "mean": "밭",
+    "speakKorean": "하타케"
+  },
+  {
+    "id": 73,
+    "word": "池",
+    "speakWord": "いけ",
+    "mean": "연못",
+    "speakKorean": "이케"
+  },
+  {
+    "id": 74,
+    "word": "湖",
+    "speakWord": "みずうみ",
+    "mean": "호수",
+    "speakKorean": "미즈우미"
+  },
+  {
+    "id": 75,
+    "word": "田んぼ",
+    "speakWord": "たんぼ",
+    "mean": "논",
+    "speakKorean": "탄보"
+  },
+  {
+    "id": 76,
+    "word": "砂",
+    "speakWord": "すな",
+    "mean": "모래",
+    "speakKorean": "스나"
+  },
+  {
+    "id": 77,
+    "word": "石",
+    "speakWord": "いし",
+    "mean": "돌",
+    "speakKorean": "이시"
+  },
+  {
+    "id": 78,
+    "word": "雲",
+    "speakWord": "くも",
+    "mean": "구름",
+    "speakKorean": "쿠모"
+  },
+  {
+    "id": 79,
+    "word": "星",
+    "speakWord": "ほし",
+    "mean": "별",
+    "speakKorean": "호시"
+  },
+  {
+    "id": 80,
+    "word": "太陽",
+    "speakWord": "たいよう",
+    "mean": "태양",
+    "speakKorean": "타이요우"
+  },
+  {
+    "id": 81,
+    "word": "月",
+    "speakWord": "つき",
+    "mean": "달",
+    "speakKorean": "츠키"
+  },
+  {
+    "id": 82,
+    "word": "夜",
+    "speakWord": "よる",
+    "mean": "밤",
+    "speakKorean": "요루"
+  },
+  {
+    "id": 83,
+    "word": "朝",
+    "speakWord": "あさ",
+    "mean": "아침",
+    "speakKorean": "아사"
+  },
+  {
+    "id": 84,
+    "word": "昼",
+    "speakWord": "ひる",
+    "mean": "낮",
+    "speakKorean": "히루"
+  },
+  {
+    "id": 85,
+    "word": "夕方",
+    "speakWord": "ゆうがた",
+    "mean": "저녁",
+    "speakKorean": "유우가타"
+  },
+  {
+    "id": 86,
+    "word": "時間",
+    "speakWord": "じかん",
+    "mean": "시간",
+    "speakKorean": "지칸"
+  },
+  {
+    "id": 87,
+    "word": "日",
+    "speakWord": "ひ",
+    "mean": "날, 해",
+    "speakKorean": "히"
+  },
+  {
+    "id": 88,
+    "word": "週",
+    "speakWord": "しゅう",
+    "mean": "주",
+    "speakKorean": "슈우"
+  },
+  {
+    "id": 89,
+    "word": "月",
+    "speakWord": "げつ",
+    "mean": "달(월)",
+    "speakKorean": "게츠"
+  },
+  {
+    "id": 90,
+    "word": "年",
+    "speakWord": "ねん",
+    "mean": "년",
+    "speakKorean": "넨"
+  },
+  {
+    "id": 91,
+    "word": "昨日",
+    "speakWord": "きのう",
+    "mean": "어제",
+    "speakKorean": "키노우"
+  },
+  {
+    "id": 92,
+    "word": "今日",
+    "speakWord": "きょう",
+    "mean": "오늘",
+    "speakKorean": "쿄우"
+  },
+  {
+    "id": 93,
+    "word": "明日",
+    "speakWord": "あした",
+    "mean": "내일",
+    "speakKorean": "아시타"
+  },
+  {
+    "id": 94,
+    "word": "今",
+    "speakWord": "いま",
+    "mean": "지금",
+    "speakKorean": "이마"
+  },
+  {
+    "id": 95,
+    "word": "後で",
+    "speakWord": "あとで",
+    "mean": "나중에",
+    "speakKorean": "아토데"
+  },
+  {
+    "id": 96,
+    "word": "早く",
+    "speakWord": "はやく",
+    "mean": "빨리",
+    "speakKorean": "하야쿠"
+  },
+  {
+    "id": 97,
+    "word": "遅く",
+    "speakWord": "おそく",
+    "mean": "늦게",
+    "speakKorean": "오소쿠"
+  },
+  {
+    "id": 98,
+    "word": "時々",
+    "speakWord": "ときどき",
+    "mean": "가끔",
+    "speakKorean": "토키도키"
+  },
+  {
+    "id": 99,
+    "word": "いつも",
+    "speakWord": "いつも",
+    "mean": "항상",
+    "speakKorean": "이츠모"
+  },
+  {
+    "id": 100,
+    "word": "全部",
+    "speakWord": "ぜんぶ",
+    "mean": "전부",
+    "speakKorean": "젠부"
+  }
+]
