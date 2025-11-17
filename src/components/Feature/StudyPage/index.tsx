@@ -14,6 +14,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
   const [currentQuestion, setCurrentQuestion] = useState<LangType | null>(null);
   const [userAnswer, setUserAnswer] = useState("");
   const [isCorrect, setIsCorrect] = useState<string>("대기");
+  const [rightAnswer, setRightAnswer] = useState<string>("");
   const [score, setScore] = useState({ total: 0, currect: 0 });
   const [history, setHistory] = useState<{ currect: boolean; word: string }[]>(
     []
@@ -42,6 +43,7 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
 
   const handleNextQuestion = () => {
     setUserAnswer("");
+
     if (inputRef.current) {
       inputRef.current.value = "";
       inputRef.current.focus();
@@ -75,6 +77,12 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
       ]);
     } else {
       setIsCorrect(currentQuestion.word);
+      setRightAnswer(currentQuestion.speakWord);
+
+      setTimeout(() => {
+        setRightAnswer('');
+      },1000)
+
       setHistory((prev) => [
         ...prev,
         { currect: false, word: currentQuestion.word },
@@ -124,6 +132,11 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
         {currentQuestion ? currentQuestion.word : "..."}
       </QuestionBox>
 
+      <RightAnswerBox>
+        <span>발음: </span>
+        <span>{rightAnswer}</span>
+      </RightAnswerBox>
+
       {/* 답 입력 */}
       <AnswerBox>
         <form
@@ -156,6 +169,18 @@ const StudyPage = ({ dataPath }: { dataPath: string }) => {
 };
 
 export default StudyPage;
+
+const RightAnswerBox = styled.div`
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+
+  & span:nth-child(2) {
+    font-size: 18px;
+    font-weight: 700;
+  }
+`
 
 const InfoContainer = styled.div`
   width: 100%;
